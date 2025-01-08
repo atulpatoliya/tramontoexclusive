@@ -135,6 +135,11 @@
     line-height: 1.4;
 }
 
+.product_offer_content_inner img {
+    min-width: 20px;
+    min-height: 20px;
+}
+
 .product-description-product-template .product-meta-block .product_offer_content+.product_offer_content:not(:empty) {
     margin-top: -10px;
 }
