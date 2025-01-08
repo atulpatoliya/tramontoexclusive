@@ -1815,6 +1815,7 @@ form[class*="shopify-product"] .dT_VProdWishList a.add-wishlist:before { content
         h6, .h6, h6 a { font-size: calc(1 * var(--DTFontSize_H6)); }
 
         .slide-img:not(.mobile-only){ display: none; }
+        .container-fluid.spacing_enabled > .row { margin: 0 calc(var(--DTGutter_Width) * 0.5); }
 
         .push{  position: relative; }
         .hide-mobile{ display:none !important; }
@@ -1880,7 +1881,7 @@ form[class*="shopify-product"] .dT_VProdWishList a.add-wishlist:before { content
 
         form[class*="shopify-product"] > div.product_payments_btns button, 
         form[class*="shopify-product"] > div.product_payments_btns .product-form__item--submit button { width: calc(50% - 20px);}
-        form[class*="shopify-product"] > div.product_payments_btns .dT_VProdWishList { margin-bottom: 25px; }
+        /* form[class*="shopify-product"] > div.product_payments_btns .dT_VProdWishList { margin-bottom: 25px; } */
         .dt-sc-heading .dt-sc-main-heading {font-size: calc(var(--DTFontSize_H2) * 0.85 );} 
         
         .home-product-carousel .dt-sc-swiper-slider.swiper-container[class*="-center"] .swiper-arrows .swiper-button-next{left: -50px;}
@@ -1888,7 +1889,7 @@ form[class*="shopify-product"] .dT_VProdWishList a.add-wishlist:before { content
         .blog-sidebar-panel .recent_article li{grid-template-columns: 1fr;}
         .blog-sidebar-panel .recent_article li .article-image {width: 100%;height: 100%;}
         .has-sidebar.open .sidebar .dt-sc-btn.close-icon:hover{background:transparent;color:var(--DT_Button_BG_Color)}
-        .product-description-product-template{padding:30px;}  
+        .product-description-product-template{padding:0px 0px;}  
         .product-tab .dt-sc-tabs.dt-sc-list-inline button{padding: 20px 20px;}   
         .product-tab{margin:30px 0;}
         .template-customers-addresses  .user-account .dt-sc-btn-group .dt-sc-btn,

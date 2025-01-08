@@ -71,9 +71,9 @@
 <div class="site-header__links dt-sc-flex">
 
  
-   {% if section.settings.show_header_currency %}  
+  {% if section.settings.show_header_currency %}  
   {% form 'currency'%}
-  <div class="select-box">
+  <div class="select-box hide-mobile">
 
     <div class="select-box__current" tabindex="1">
       {% for currency in shop.enabled_currencies %}
@@ -121,7 +121,7 @@
   </a>
   
   {% if shop.customer_accounts_enabled and section.settings.show_account %}
-  <div class="dt-sc-header-toggle">
+  <div class="dt-sc-header-toggle hide-mobile">
      <a href="{{ routes.account_login_url }}" class="site-header__icon site-header__account icon" > {% include 'icon-login' %}</a> 
     {% if customer %}
     <a href="{{ routes.account_login_url }}" class="site-header__icon site-header__account text">{{ 'layout.customer.log_in' | t }}</a>

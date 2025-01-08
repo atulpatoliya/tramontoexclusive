@@ -118,6 +118,21 @@
     .collection-header .collection-view label {
         display: none;
     }
+
+    .product-description-product-template .product-meta-block .product_offer_content+.product_offer_content:not(:empty) {
+        margin-top: -5px;
+    }
+
+    form[class*=shopify-product]>div,
+    .product-meta-block .product-deal-count,
+    form[class*=shopify-product] .dt-sc-qty,
+    div[class*=template-content] .product-label, .product-label,
+    form[class*=shopify-product]>div.product_payments_btns .dT_VProdWishList,
+    .product-description-product-template .product-meta-block>*:not(:empty),
+    .quickview-description .product-meta-block>*:not(:empty),
+    form[class*=shopify-product]>div.product_payments_btns>* {
+        margin-bottom: 15px;
+    }
 }
 
 /* ===========================  */
@@ -138,3 +153,5 @@
 .product-description-product-template .product-meta-block .product_offer_content+.product_offer_content:not(:empty) {
     margin-top: -10px;
 }
+
+/* ============================  */
