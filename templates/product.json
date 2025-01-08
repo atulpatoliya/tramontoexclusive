@@ -41,6 +41,13 @@
             "content": "<p>Get this for <strong>INR 1,189</strong></p><p>Flat 15% Off on minimum purchase of 2999/-<br/>Code: <strong>FLAT15</strong></p>"
           }
         },
+        "offer_content_pLkE4T": {
+          "type": "offer_content",
+          "settings": {
+            "icon": "offer",
+            "content": "<p>Get this for <strong>INR 1,259</strong></p><p>Flat 10% Off on minimum purchase of 1999/-<br/>Code: <strong>FLAT10</strong></p>"
+          }
+        },
         "f14720d8-dc3c-44a3-8bfa-cea5cf644d9d": {
           "type": "text",
           "disabled": true,
@@ -101,6 +108,7 @@
         "offer_content_iQKgPx",
         "offer_content_APt44C",
         "offer_content_z8TXeG",
+        "offer_content_pLkE4T",
         "f14720d8-dc3c-44a3-8bfa-cea5cf644d9d",
         "19be33f4-40db-451a-b5c2-40daa748ac9a",
         "cb874c94-c1ed-44c9-a5d6-a12bc6093239",
