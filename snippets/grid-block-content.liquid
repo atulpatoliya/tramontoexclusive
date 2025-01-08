@@ -1,0 +1,131 @@
+<div class="dt-sc-grid-banner-image-content {{block.type}}-{{block.id}} wow animated {{ block.settings.block_animation_text}} ">
+<div class="dt-sc-grid-banner {{ grid_style}} {{list_style}} {{overlay_style}} {% if block.settings.reverse_column %}dt-sc-reverse-columns{% endif %} {{block.type}}-{{block.id}} {% if block.settings.grid_banner_type == 'video' %}{{block.settings.video_icon_position}}{% endif %}">      
+  
+  {% if block.settings.show_image %}
+  <div class="dt-sc-grid-banner-image {{ overlay_class}} wow animated fadeInUp">
+    {% if block.settings.show_image_title %}
+    <h6 class="dt-sc-image-title">{{block.settings.block_image_title}}</h6>
+    {% endif%}
+    {% if block.settings.grid_banner_type == 'video' %}
+    {% if block.settings.block_video != blank %}
+    
+    <video width="1920" height="740"  muted loop  {% if block.settings.block_image != blank %}poster="{{ block.settings.block_image | img_url: 'master' }}"{% endif%}>
+      <source src="{{block.settings.block_video}}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    
+    {% unless block.settings.content_with_icon %}
+    <div class="video_icon">
+      <a class="gridPlay" style="display: flex">
+        {% if block.settings.block_play_video_icon %}
+        <img src="{{ block.settings.block_play_video_icon | img_url: 'master' }}" alt="" >
+        {% else %}       
+        {% render 'play-icon' %}
+        {% endif %}
+      </a>
+      <a class="gridPause" style="display: none">
+        {% if block.settings.block_pause_video_icon %}
+        <img src="{{ block.settings.block_pause_video_icon | img_url: 'master' }}" alt="" >
+        {% else %}       
+        {% render 'pause-icon' %}
+        {% endif %}
+      </a>
+    </div>
+    {% endunless %}
+    
+    {% endif%}  
+    {% elsif block.settings.grid_banner_type == 'image' %}
+    {% if block.settings.block_image != blank %}
+    {%- assign block_img_url = block.settings.block_image | img_url: 'master' | replace: '_1x1.', '_{width}x.' -%}
+    <img class="lazyload"
+         src="{{ 'loading.gif' | asset_url }}"
+         data-src="{{ block_img_url }}"
+         data-widths="[180, 360, 470, 600, 770, 970, 1060, 1280, 1512, 1728, 2048]"
+         data-aspectratio="{{ block.settings.block_image.aspect_ratio }}"
+         data-sizes="auto"            
+         alt="{{ block.settings.block_title }}">            
+    <noscript>
+      {{ block.settings.block_image | img_url: '480x480', scale: 2 | img_tag: block.settings.block_image.alt, 'dt-sc-noscript-image' }}
+    </noscript>
+    {% else %}
+    {{ 'image' | placeholder_svg_tag: 'placeholder_svg' }}
+    {% endif%}  
+    {% endif  %}
+    
+  </div>  
+  {% endif%}         
+
+
+  {% if block.settings.block_video != blank or  block.settings.grid_banner_type == 'video'  or  block.settings.block_title != blank or  block.settings.block_sub_title != blank or  block.settings.block_description != blank or  block.settings.block_button_link != blank %}
+  <div class="dt-sc-grid-banner-content {% unless block.settings.show_content != blank  %} hidden {% endunless %}
+              {% unless section.settings.block_banner_style == 'grid' %} {{ block.settings.content_position }}{% endunless%}
+              {% if section.settings.block_banner_style == 'grid' %}{{ block.settings.block_text_align}}{% endif %}">
+
+    {% unless section.settings.block_banner_style == 'grid' %}
+    
+    <div class="dt-sc-grid-banner-inner {{ block.settings.block_text_align}} ">
+      {% endunless %}
+
+      {% if section.settings.block_banner_style == 'overlay' %}
+      {% if block.settings.content_with_icon %}
+
+      <div class="video_icon">
+        <a class="gridPlay" style="display: flex">
+          {% if block.settings.block_play_video_icon %}
+          <img src="{{ block.settings.block_play_video_icon | img_url: 'master' }}" alt="" >
+          {% else %}       
+          {% render 'play-icon' %}
+          {% endif %}
+        </a>
+        <a class="gridPause" style="display: none">
+          {% if block.settings.block_pause_video_icon %}
+          <img src="{{ block.settings.block_pause_video_icon | img_url: 'master' }}" alt="" >
+          {% else %}       
+          {% render 'pause-icon' %}
+          {% endif %}
+        </a>
+      </div>
+      {% endif %}
+      {% endif %}
+      {% if block.settings.block_sub_title != blank %}
+      <h6 class="dt-sc-sub-title wow animated fadeInUp">{{block.settings.block_sub_title}}</h6>
+      {% endif %}
+      {% if block.settings.block_title != blank %}
+      <h4 class="dt-sc-main-title wow animated fadeInUp"><a href="{{block.settings.block_title_link}}" class="dt-sc-main-title">{{block.settings.block_title}}</a></h4>
+      {% endif %}
+      {% if block.settings.block_description != blank %}
+      <p class="dt-sc-description wow animated fadeInUp">{{block.settings.block_description}}</p>
+      {% endif %}
+      {% if block.settings.block_button_link != blank %}
+      <a href="{{block.settings.block_button_link}}" class="dt-sc-btn wow animated fadeInUp"><span class="dt-sc-btn-text">{{block.settings.block_button_text}}</span><span class="dt-sc-btn-icon"></span></a>
+      {% endif %}
+
+      {% unless section.settings.block_banner_style == 'grid' %}
+    </div>
+  
+    {% endunless %}
+
+  </div>
+  {% endif%}  
+
+</div>
+
+{% if block.settings.addtional_block_image != blank and block.settings.enable_addtional_block_image %}
+  <a href="{{block.settings.addtional_block_link}}" class="dt-sc-addtional-grid-banner-image">
+  <div class="dt-sc-addtional-grid-banner-images">
+    {%- assign block_img_url = block.settings.addtional_block_image | img_url: 'master' | replace: '_1x1.', '_{width}x.' -%}
+    <img class="lazyload"
+         src="{{ 'loading.gif' | asset_url }}"
+         data-src="{{ block_img_url }}"
+         data-widths="[180, 360, 470, 600, 770, 970, 1060, 1280, 1512, 1728, 2048]"
+         data-aspectratio="{{ block.settings.addtional_block_image.aspect_ratio }}"
+         data-sizes="auto"            
+         alt="{{ block.settings.block_title }}">            
+    <noscript>
+      {{ block.settings.addtional_block_image | img_url: '480x480', scale: 2 | img_tag: block.settings.addtional_block_image.alt, 'dt-sc-noscript-image' }}
+    </noscript>
+   </div>
+  <div class="dt-sc-addtional-grid-banner-content"><h2 class="dt-sc-addtional-grid-banner-heading">{{block.settings.addtional_grid_heading}}</h2></div>
+  </a>
+    {% endif%}  
+</div>

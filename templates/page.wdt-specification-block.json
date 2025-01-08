@@ -1,0 +1,649 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,0",
+        "margin": "0,0"
+      }
+    },
+    "1649662854c3cd901e": {
+      "type": "home-specification-block",
+      "blocks": {
+        "16496628547f77a9b8-0": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "Heading",
+            "desc": "Lorem ipsum dolor sit amet",
+            "link_text": "View More",
+            "link": "",
+            "reverse_column": false
+          }
+        },
+        "16496628547f77a9b8-1": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "Heading",
+            "desc": "Lorem ipsum dolor sit amet",
+            "link_text": "View More",
+            "link": "",
+            "reverse_column": false
+          }
+        },
+        "16496628547f77a9b8-2": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "Heading",
+            "desc": "Lorem ipsum dolor sit amet",
+            "link_text": "View More",
+            "link": "",
+            "reverse_column": false
+          }
+        },
+        "16496628547f77a9b8-3": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "Heading",
+            "desc": "Lorem ipsum dolor sit amet",
+            "link_text": "View More",
+            "link": "",
+            "reverse_column": false
+          }
+        },
+        "16496628547f77a9b8-4": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "Heading",
+            "desc": "Lorem ipsum dolor sit amet",
+            "link_text": "View More",
+            "link": "",
+            "reverse_column": false
+          }
+        },
+        "16496628547f77a9b8-5": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "Heading",
+            "desc": "Lorem ipsum dolor sit amet",
+            "link_text": "View More",
+            "link": "",
+            "reverse_column": false
+          }
+        }
+      },
+      "block_order": [
+        "16496628547f77a9b8-0",
+        "16496628547f77a9b8-1",
+        "16496628547f77a9b8-2",
+        "16496628547f77a9b8-3",
+        "16496628547f77a9b8-4",
+        "16496628547f77a9b8-5"
+      ],
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,80",
+        "margin": "0,0",
+        "show_background_image": false,
+        "background_style": "none",
+        "background_size": "auto",
+        "enable_overlay": false,
+        "background_color": "",
+        "overlay_transparency": "0.5",
+        "section_heading": "Specification Section (Style-1) Icon Style",
+        "section_sub_heading": "",
+        "section_description": "",
+        "section_button_text": "",
+        "section_button_link": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_button_bg_color": "",
+        "section_button_text_color": "",
+        "section_button_hover_bg_color": "",
+        "section_button_hover_text_color": "",
+        "heading_position": "text-center",
+        "column_gap": "30px",
+        "vertical_position": "position-vertical-center",
+        "content_width": "50/50",
+        "content_width_lap": "40/60",
+        "content_width_tab": "35/65",
+        "enable_image": true,
+        "primary_image": "shopify://shop_images/notice-board-with-a-motivational-phrase.jpg",
+        "primary_title": "Title",
+        "primary_sub_title": "Sub title",
+        "primary_description": "Short description",
+        "primary_button_text": "",
+        "primary_button_link": "",
+        "main_banner_style": "overlay",
+        "primary_text_align": "text-center",
+        "primary_position": "center",
+        "overlay_style_height": "600",
+        "border_radius": "0",
+        "enable_box_shadow": false,
+        "overlay_style": "use_overlay",
+        "overlay_color": "",
+        "overlay_opacity": "0",
+        "rotation_degree": "180",
+        "primary_banner_bg": "",
+        "primary_heading_color": "",
+        "primary_sub_heading_color": "",
+        "primary_description_color": "",
+        "primary_button_bg_color": "",
+        "primary_button_text_color": "",
+        "primary_button_hover_bg_color": "",
+        "primary_button_hover_text_color": "",
+        "specification_block_style": "default",
+        "block_icon_size": "24px",
+        "icon_border_radius": "0px",
+        "specification_style": "style1",
+        "block_icon_outer_size": "50px",
+        "additional_heading": "Additional Block Headng",
+        "additional_sub_heading": "Sub Heading",
+        "additional_description": "Use this text to share the information which you like!.",
+        "additional_heading_position": "text-start",
+        "block_icon_bg": "",
+        "block_icon_color": "",
+        "block_heading_color": "",
+        "block_description_color": "",
+        "block_button_bg_color": "",
+        "block_button_text_color": "",
+        "block_button_hover_bg_color": "",
+        "block_button_hover_text_color": "",
+        "additional_heading_color": "",
+        "additional_sub_heading_color": "",
+        "additional_description_color": "",
+        "custom_class_name": ""
+      }
+    },
+    "1649663494c18b0177": {
+      "type": "home-specification-block",
+      "blocks": {
+        "b45f895c-0144-4d9f-8a50-e7f236703ddc": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify://shop_images/fruit.png",
+            "title": "Heading",
+            "desc": "Lorem ipsum dolor sit amet",
+            "link_text": "View More",
+            "link": "",
+            "reverse_column": false
+          }
+        },
+        "21e90fc3-29a7-40f9-aa23-468274df97ab": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify://shop_images/fruit.png",
+            "title": "Heading",
+            "desc": "Lorem ipsum dolor sit amet",
+            "link_text": "View More",
+            "link": "",
+            "reverse_column": false
+          }
+        },
+        "f6571f86-17db-4474-9a86-0e7b020e6927": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify://shop_images/fruit.png",
+            "title": "Heading",
+            "desc": "Lorem ipsum dolor sit amet",
+            "link_text": "View More",
+            "link": "",
+            "reverse_column": false
+          }
+        },
+        "8139c526-55bf-4771-a26d-8d8656027508": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify://shop_images/fruit.png",
+            "title": "Heading",
+            "desc": "Lorem ipsum dolor sit amet",
+            "link_text": "View More",
+            "link": "",
+            "reverse_column": false
+          }
+        },
+        "bd66d35c-2f3b-4684-87c3-a1a85311856e": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify://shop_images/fruit.png",
+            "title": "Heading",
+            "desc": "Lorem ipsum dolor sit amet",
+            "link_text": "View More",
+            "link": "",
+            "reverse_column": false
+          }
+        },
+        "1b62a43d-679e-4b9c-9838-4535f48db2bd": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify://shop_images/fruit.png",
+            "title": "Heading",
+            "desc": "Lorem ipsum dolor sit amet",
+            "link_text": "View More",
+            "link": "",
+            "reverse_column": false
+          }
+        }
+      },
+      "block_order": [
+        "b45f895c-0144-4d9f-8a50-e7f236703ddc",
+        "21e90fc3-29a7-40f9-aa23-468274df97ab",
+        "f6571f86-17db-4474-9a86-0e7b020e6927",
+        "8139c526-55bf-4771-a26d-8d8656027508",
+        "bd66d35c-2f3b-4684-87c3-a1a85311856e",
+        "1b62a43d-679e-4b9c-9838-4535f48db2bd"
+      ],
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,80",
+        "margin": "0,0",
+        "show_background_image": false,
+        "background_style": "none",
+        "background_size": "auto",
+        "enable_overlay": false,
+        "background_color": "",
+        "overlay_transparency": "0.5",
+        "section_heading": "Specification Section (Style-1) Image Style",
+        "section_sub_heading": "",
+        "section_description": "",
+        "section_button_text": "",
+        "section_button_link": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_button_bg_color": "",
+        "section_button_text_color": "",
+        "section_button_hover_bg_color": "",
+        "section_button_hover_text_color": "",
+        "heading_position": "text-center",
+        "column_gap": "30px",
+        "vertical_position": "position-vertical-center",
+        "content_width": "50/50",
+        "content_width_lap": "40/60",
+        "content_width_tab": "35/65",
+        "enable_image": true,
+        "primary_image": "shopify://shop_images/confident-young-woman.jpg",
+        "primary_title": "Title",
+        "primary_sub_title": "Sub title",
+        "primary_description": "Short description",
+        "primary_button_text": "",
+        "primary_button_link": "",
+        "main_banner_style": "grid",
+        "primary_text_align": "text-center",
+        "primary_position": "top-left",
+        "overlay_style_height": "600",
+        "border_radius": "0",
+        "enable_box_shadow": false,
+        "overlay_style": "use_overlay",
+        "overlay_color": "",
+        "overlay_opacity": "0",
+        "rotation_degree": "180",
+        "primary_banner_bg": "",
+        "primary_heading_color": "",
+        "primary_sub_heading_color": "",
+        "primary_description_color": "",
+        "primary_button_bg_color": "",
+        "primary_button_text_color": "",
+        "primary_button_hover_bg_color": "",
+        "primary_button_hover_text_color": "",
+        "specification_block_style": "style2",
+        "block_icon_size": "56px",
+        "icon_border_radius": "0px",
+        "specification_style": "style1",
+        "block_icon_outer_size": "60px",
+        "additional_heading": "Additional Block Headng",
+        "additional_sub_heading": "Sub Heading",
+        "additional_description": "Use this text to share the information which you like!.",
+        "additional_heading_position": "text-start",
+        "block_icon_bg": "rgba(0,0,0,0)",
+        "block_icon_color": "",
+        "block_heading_color": "",
+        "block_description_color": "",
+        "block_button_bg_color": "",
+        "block_button_text_color": "",
+        "block_button_hover_bg_color": "",
+        "block_button_hover_text_color": "",
+        "additional_heading_color": "",
+        "additional_sub_heading_color": "",
+        "additional_description_color": "",
+        "custom_class_name": ""
+      }
+    },
+    "16496686096ae3b42e": {
+      "type": "home-specification-block",
+      "blocks": {
+        "1649668608d862591a-0": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "Heading",
+            "desc": "Lorem ipsum dolor sit amet",
+            "link_text": "View More",
+            "link": "",
+            "reverse_column": false
+          }
+        },
+        "1649668608d862591a-1": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "Heading",
+            "desc": "Lorem ipsum dolor sit amet",
+            "link_text": "View More",
+            "link": "",
+            "reverse_column": false
+          }
+        },
+        "1649668608d862591a-2": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "Heading",
+            "desc": "Lorem ipsum dolor sit amet",
+            "link_text": "View More",
+            "link": "",
+            "reverse_column": false
+          }
+        },
+        "1649668608d862591a-3": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "Heading",
+            "desc": "Lorem ipsum dolor sit amet",
+            "link_text": "View More",
+            "link": "",
+            "reverse_column": false
+          }
+        },
+        "1649668608d862591a-4": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "Heading",
+            "desc": "Lorem ipsum dolor sit amet",
+            "link_text": "View More",
+            "link": "",
+            "reverse_column": false
+          }
+        },
+        "1649668608d862591a-5": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "Heading",
+            "desc": "Lorem ipsum dolor sit amet",
+            "link_text": "View More",
+            "link": "",
+            "reverse_column": false
+          }
+        }
+      },
+      "block_order": [
+        "1649668608d862591a-0",
+        "1649668608d862591a-1",
+        "1649668608d862591a-2",
+        "1649668608d862591a-3",
+        "1649668608d862591a-4",
+        "1649668608d862591a-5"
+      ],
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,80",
+        "margin": "0,0",
+        "show_background_image": false,
+        "background_style": "none",
+        "background_size": "auto",
+        "enable_overlay": false,
+        "background_color": "",
+        "overlay_transparency": "0.5",
+        "section_heading": "Specification Section (Style-2)",
+        "section_sub_heading": "",
+        "section_description": "",
+        "section_button_text": "",
+        "section_button_link": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_button_bg_color": "",
+        "section_button_text_color": "",
+        "section_button_hover_bg_color": "",
+        "section_button_hover_text_color": "",
+        "heading_position": "text-center",
+        "column_gap": "30px",
+        "vertical_position": "position-vertical-center",
+        "content_width": "50/50",
+        "content_width_lap": "40/60",
+        "content_width_tab": "35/65",
+        "enable_image": true,
+        "primary_image": "shopify://shop_images/notice-board-with-a-motivational-phrase.jpg",
+        "primary_title": "What is Lorem Ipsum?",
+        "primary_sub_title": "",
+        "primary_description": "",
+        "primary_button_text": "",
+        "primary_button_link": "",
+        "main_banner_style": "overlay",
+        "primary_text_align": "text-start",
+        "primary_position": "top-left",
+        "overlay_style_height": "600",
+        "border_radius": "0",
+        "enable_box_shadow": false,
+        "overlay_style": "use_overlay",
+        "overlay_color": "",
+        "overlay_opacity": "0",
+        "rotation_degree": "180",
+        "primary_banner_bg": "rgba(0,0,0,0)",
+        "primary_heading_color": "",
+        "primary_sub_heading_color": "",
+        "primary_description_color": "",
+        "primary_button_bg_color": "",
+        "primary_button_text_color": "",
+        "primary_button_hover_bg_color": "",
+        "primary_button_hover_text_color": "",
+        "specification_block_style": "default",
+        "block_icon_size": "24px",
+        "icon_border_radius": "0px",
+        "specification_style": "style2",
+        "block_icon_outer_size": "50px",
+        "additional_heading": "Additional Block Headng",
+        "additional_sub_heading": "Sub Heading",
+        "additional_description": "Use this text to share the information which you like!.",
+        "additional_heading_position": "text-start",
+        "block_icon_bg": "",
+        "block_icon_color": "",
+        "block_heading_color": "",
+        "block_description_color": "",
+        "block_button_bg_color": "",
+        "block_button_text_color": "",
+        "block_button_hover_bg_color": "",
+        "block_button_hover_text_color": "",
+        "additional_heading_color": "",
+        "additional_sub_heading_color": "",
+        "additional_description_color": "",
+        "custom_class_name": ""
+      }
+    },
+    "1649670035f3343b45": {
+      "type": "home-specification-block",
+      "blocks": {
+        "1649670035b3b90fe2-0": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "Heading",
+            "desc": "Lorem ipsum dolor sit amet",
+            "link_text": "View More",
+            "link": "",
+            "reverse_column": false
+          }
+        },
+        "1649670035b3b90fe2-1": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "Heading",
+            "desc": "Lorem ipsum dolor sit amet",
+            "link_text": "View More",
+            "link": "",
+            "reverse_column": false
+          }
+        },
+        "1649670035b3b90fe2-2": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "Heading",
+            "desc": "Lorem ipsum dolor sit amet",
+            "link_text": "View More",
+            "link": "",
+            "reverse_column": false
+          }
+        },
+        "1649670035b3b90fe2-3": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "Heading",
+            "desc": "Lorem ipsum dolor sit amet",
+            "link_text": "View More",
+            "link": "",
+            "reverse_column": false
+          }
+        },
+        "1649670035b3b90fe2-4": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "Heading",
+            "desc": "Lorem ipsum dolor sit amet",
+            "link_text": "View More",
+            "link": "",
+            "reverse_column": false
+          }
+        },
+        "1649670035b3b90fe2-5": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "Heading",
+            "desc": "Lorem ipsum dolor sit amet",
+            "link_text": "View More",
+            "link": "",
+            "reverse_column": false
+          }
+        }
+      },
+      "block_order": [
+        "1649670035b3b90fe2-0",
+        "1649670035b3b90fe2-1",
+        "1649670035b3b90fe2-2",
+        "1649670035b3b90fe2-3",
+        "1649670035b3b90fe2-4",
+        "1649670035b3b90fe2-5"
+      ],
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,0",
+        "margin": "0,0",
+        "show_background_image": false,
+        "background_style": "none",
+        "background_size": "auto",
+        "enable_overlay": false,
+        "background_color": "",
+        "overlay_transparency": "0.5",
+        "section_heading": "Specification Section (Style-3)",
+        "section_sub_heading": "",
+        "section_description": "",
+        "section_button_text": "",
+        "section_button_link": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_button_bg_color": "",
+        "section_button_text_color": "",
+        "section_button_hover_bg_color": "",
+        "section_button_hover_text_color": "",
+        "heading_position": "text-center",
+        "column_gap": "30px",
+        "vertical_position": "position-vertical-center",
+        "content_width": "50/50",
+        "content_width_lap": "40/60",
+        "content_width_tab": "35/65",
+        "enable_image": true,
+        "primary_image": "shopify://shop_images/colored-pencils-piled-up-on-a-black-background.jpg",
+        "primary_title": "What is Lorem Ipsum?",
+        "primary_sub_title": "Why do we use it?",
+        "primary_description": "",
+        "primary_button_text": "",
+        "primary_button_link": "",
+        "main_banner_style": "overlay",
+        "primary_text_align": "text-start",
+        "primary_position": "bottom-left",
+        "overlay_style_height": "700",
+        "border_radius": "0",
+        "enable_box_shadow": false,
+        "overlay_style": "use_overlay",
+        "overlay_color": "",
+        "overlay_opacity": "0",
+        "rotation_degree": "180",
+        "primary_banner_bg": "rgba(0,0,0,0)",
+        "primary_heading_color": "#ffffff",
+        "primary_sub_heading_color": "#ffffff",
+        "primary_description_color": "",
+        "primary_button_bg_color": "",
+        "primary_button_text_color": "",
+        "primary_button_hover_bg_color": "",
+        "primary_button_hover_text_color": "",
+        "specification_block_style": "default",
+        "block_icon_size": "24px",
+        "icon_border_radius": "0px",
+        "specification_style": "style3",
+        "block_icon_outer_size": "50px",
+        "additional_heading": "Additional Block Headng",
+        "additional_sub_heading": "Sub Heading",
+        "additional_description": "Use this text to share the information which you like!.",
+        "additional_heading_position": "text-start",
+        "block_icon_bg": "",
+        "block_icon_color": "",
+        "block_heading_color": "",
+        "block_description_color": "",
+        "block_button_bg_color": "",
+        "block_button_text_color": "",
+        "block_button_hover_bg_color": "",
+        "block_button_hover_text_color": "",
+        "additional_heading_color": "",
+        "additional_sub_heading_color": "",
+        "additional_description_color": "",
+        "custom_class_name": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1649662854c3cd901e",
+    "1649663494c18b0177",
+    "16496686096ae3b42e",
+    "1649670035f3343b45"
+  ]
+}

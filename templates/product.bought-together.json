@@ -1,0 +1,99 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "product-template-bought-together",
+      "blocks": {
+        "bd5fe641-75f6-4c13-999c-d0be32e3bc87": {
+          "type": "title",
+          "settings": {}
+        },
+        "7c9c1efb-83bb-46b0-abe9-7c4951265cf4": {
+          "type": "price",
+          "settings": {}
+        },
+        "19be33f4-40db-451a-b5c2-40daa748ac9a": {
+          "type": "fbt",
+          "settings": {}
+        },
+        "f9c96d80-5ab7-4354-839a-07c60d24aabc": {
+          "type": "badge",
+          "settings": {
+            "image": "shopify://shop_images/trust_img2_360x_2d128093-d67c-4f1e-821d-f74cc97cfb86.png",
+            "badge_label": "100% Secured Payment"
+          }
+        },
+        "cad3ad3e-6913-4865-a804-9c9d16146aca": {
+          "type": "social-sharing",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "bd5fe641-75f6-4c13-999c-d0be32e3bc87",
+        "7c9c1efb-83bb-46b0-abe9-7c4951265cf4",
+        "19be33f4-40db-451a-b5c2-40daa748ac9a",
+        "f9c96d80-5ab7-4354-839a-07c60d24aabc",
+        "cad3ad3e-6913-4865-a804-9c9d16146aca"
+      ],
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,0",
+        "margin": "0,0",
+        "gallery_type": "thumbnails_horizontal",
+        "vertical_style": "dt-sc-product-vertical-thumb-right",
+        "enable_zoom": true,
+        "zoom_type": "inner",
+        "enable_video_looping": true,
+        "meta-lable-style": "one-half",
+        "reviews": false,
+        "show_variants_swatches": true,
+        "swatch_as": "color",
+        "show_product_quantity": true,
+        "display_back_in_stock": true,
+        "show_quantity_selector": true,
+        "show_checkout": true,
+        "hide_addtocart": false,
+        "show_wishlist": true,
+        "show_share_buttons": true,
+        "tab_position": "bottom",
+        "tab_style": "tab",
+        "product_tab1": true,
+        "product_tab1_heading": "Description",
+        "product_tab2": true,
+        "product_tab2_heading": "Shipping Infomation",
+        "page_content": "shipping-infomation",
+        "product_tab3": true,
+        "product_tab3_heading": "Reviews",
+        "enable_enquiry": true,
+        "enable_sticky_cart": true,
+        "show_adv_product": false,
+        "choose_label": "Choose style",
+        "collection": "advanced-product-tagging"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,0",
+        "margin": "0,0",
+        "heading": "Recommended products",
+        "heading_position": "text-center"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations"
+  ]
+}

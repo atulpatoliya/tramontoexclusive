@@ -1,0 +1,83 @@
+{% assign link_path = block.settings.link.t | split: shop.url | last | remove: '/' %}
+{% assign canonical_path = canonical_url | split: shop.url | last | remove: '/' %}
+
+<div class="mobile-sticky-menu">
+  <div class="mobilelist-container">
+    {% for block in section.blocks %}
+      {% if block.settings.link != blank %}
+        <a
+          id="{{ block.settings.text | remove:'' }}"
+          href="{{ block.settings.link }}"
+          data-href="{{ block.settings.link }}"
+          class="            mobilelist-item"
+        >
+          <span class="mobilist-icon_cont moblelist-present">
+            <div class="mobilelist-icon ">
+              {%- render 'theme-icon', icon: block.settings.icon -%}
+            </div>
+          </span>
+          {% if block.settings.text != blank %}
+            <div class="mobilelist-text">{{ block.settings.text }}</div>
+          {% endif %}
+        </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Mobile Sticky menu",
+  "tag": "section",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "menu",
+      "name": "Menu",
+      "settings": [
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text"
+        },
+        {
+          "type": "select",
+          "id": "icon",
+          "label": "Icon",
+          "options": [
+            {
+              "value": "home",
+              "label": "Home"
+            },
+            {
+              "value": "new",
+              "label": "New"
+            },
+            {
+              "value": "shop",
+              "label": "Shop"
+            },
+            {
+              "value": "wishlist",
+              "label": "Wishlist"
+            },
+            {
+              "value": "bag",
+              "label": "Bag"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Mobile Sticky menu"
+    }
+  ]
+}
+{% endschema %}

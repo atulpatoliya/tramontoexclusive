@@ -1,0 +1,129 @@
+{% assign main_current_variant = product.selected_or_first_available_variant %}
+{%- assign buy_together_metafields =  product.metafields.my_fields.buy_together | split: ',' -%}
+{% if buy_together_metafields != blank %}
+<div class="product-attributes fbt">
+  <div class="fbt-wrapper">
+    <div  class="fbt-product" id="dT_fbt-product-{{ main_current_variant.id }}" data-fbt-product-id="{{ main_current_variant.id }}" data-fbt-product-handle="{{ product.handle  }}">
+      {% assign featured_media = main_current_variant.featured_media %}
+      <div class="product-fbt__media"  data-fb-media-id="{{ featured_media.id }}">
+        {{ featured_media | image_url: width: 250 | image_tag }}
+      </div> 
+      <div class="price">
+        <span class="price-reg">{{ main_current_variant.price | money }}</span>  
+      </div>
+
+      <!--       <select name="id">
+{% for variant in product.variants %}
+<option value="{{ variant.id }}"
+{% if variant == main_current_variant %}selected="selected"{% endif %}>
+{{ variant.title }} - {{ variant.price | money }}
+</option>
+{% endfor %}
+</select> -->
+    </div> 
+
+    {% for bt_handle in buy_together_metafields %}
+    {% assign bt_array = bt_handle | strip %}
+    {%- assign pro = all_products[bt_array] -%}
+    <div class="fbt-product" id="dT_fbt-product-{{ pro.id }}" data-fbt-product-id="{{ pro.id }}" data-fbt-product-handle="{{ pro.handle  }}">
+      {%- assign current_variant = pro.selected_or_first_available_variant -%}
+      {%- assign featured_media = current_variant.featured_media -%}
+      <div class="product-fbt__media"  data-fb-media-id="{{ featured_media.id }}">
+        {{ featured_media | image_url: width: 250 | image_tag }}
+      </div> 
+      <div class="price">
+        <span class="price-reg">{{ current_variant.price | money }}</span>  
+      </div>
+      <!--       <select name="id" style="display:none">
+{%- for variant in pro.variants -%}
+<option value="{{ variant.id }}"
+{% if variant == current_variant %}selected="selected"{% endif %}>
+{{ variant.title }} - {{ variant.price | money }}
+</option>
+{%- endfor -%}
+</select> -->
+    </div> 
+    {%- endfor -%}
+  </div>
+
+  <button type="submit" id="add-frequently-bought" onclick="addAllItems('{{- main_current_variant.id -}},{%- for bt_handle in buy_together_metafields -%}{%- assign bt_array = bt_handle | strip -%}{%- assign pro = all_products[bt_array] -%}{{- pro.selected_or_first_available_variant.id -}}{%- unless forloop.last -%},{%- endunless -%}{%- endfor -%}'); return false;">{{ 'products.product.bought_together' | t }}</button>
+</div>
+
+
+
+<script type="text/javascript">
+
+
+  function addAllItems(array){
+    Shopify.queue = [];
+    var quantity = 1 ;
+    var newArray = array.split(',');
+    for (var i = 0; i < newArray.length; i++) {
+      product = newArray[i]
+      Shopify.queue.push({
+        variantId: product,
+      });  
+    }
+
+
+    Shopify.moveAlong = function() {	  
+      if (Shopify.queue.length) {
+        var request = Shopify.queue.shift();
+        var data = 'id='+ request.variantId + '&quantity=1'       
+        $.ajax({
+          type: 'POST',
+          url: '/cart/add.js',
+          dataType: 'json',
+          data: data,
+          success: function(res){            
+            Shopify.moveAlong();
+            quantity += 1;           
+          },
+          error: function(){	    
+            if (Shopify.queue.length){
+              Shopify.moveAlong();             
+            } else {		   
+              ajaxCart.init({
+                formSelector: '[data-product-form]',
+                cartContainer: '#CartContainer',
+                addToCartSelector: '.dT_AddToCart',
+                cartCountSelector: '.CartCount',
+                cartCostSelector: '.CartCost',
+                moneyFormat: DT_THEME.moneyFormat
+              });
+              $('.dT_MiniCartModelBtn').trigger('click');
+            }
+          }
+        });
+      }	 
+      else {
+        quantity += 1;
+        addToCartOk(quantity);
+      }
+    };
+    Shopify.moveAlong();
+  };
+
+  function addToCartOk(quantity){  	
+    ajaxCart.init({
+      formSelector: '[data-product-form]',
+      cartContainer: '#CartContainer',
+      addToCartSelector: '.dT_AddToCart',
+      cartCountSelector: '.CartCount',
+      cartCostSelector: '.CartCost',
+      moneyFormat: DT_THEME.moneyFormat
+    });
+    $('.dT_MiniCartModelBtn').trigger('click');
+  } 
+</script>
+{% endif %}
+
+<style type="text/css">
+  form[class*=shopify-product] .product-attributes.fbt { border: 1px solid var(--DTColor_Border); padding: 10px;}
+  form[class*=shopify-product] .product-attributes.fbt .fbt-wrapper { display: flex; flex-direction: row; margin:0; padding: 0; justify-content: flex-start; }
+  form[class*=shopify-product] .product-attributes.fbt .fbt-wrapper .select2  {display:none;}
+  form[class*=shopify-product] .product-attributes.fbt .fbt-wrapper .fbt-product {margin:10px; text-align: center; color: var(--DTPrimaryColor);}
+  form[class*=shopify-product] .product-attributes.fbt .fbt-wrapper .fbt-product .price { padding:10px; }
+  form[class*=shopify-product] .product-attributes.fbt .fbt-wrapper .fbt-product img { aspect-ratio: 1/1; object-fit: contain;}
+  form[class*=shopify-product] .product-attributes.fbt #add-frequently-bought { margin:10px auto; }
+</style>

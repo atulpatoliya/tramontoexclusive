@@ -1,0 +1,84 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-collection-template",
+      "blocks": {
+        "4afe737c-35ed-432f-9c8a-f944ac644d37": {
+          "type": "menu",
+          "disabled": true,
+          "settings": {
+            "filter_title": "Custom Menu",
+            "linklist": ""
+          }
+        },
+        "c1f14e69-83d1-4c5d-b400-b6466f295358": {
+          "type": "collection_filter",
+          "settings": {}
+        },
+        "d8c06ad2-b5c4-4ce8-a3b5-06f9c9bf52fb": {
+          "type": "carousel",
+          "disabled": true,
+          "settings": {
+            "title": "Best Seller",
+            "collection": "demo1-men-jeans",
+            "limit": 5
+          }
+        },
+        "60c67fb4-1b02-48cc-b0af-c02e2c0c18c2": {
+          "type": "collection",
+          "settings": {
+            "title": "Best Seller's",
+            "collection": "best-sellers-demo-3",
+            "limit": 2
+          }
+        },
+        "092d8a62-d51f-4ede-8c05-af1b468c517c": {
+          "type": "image",
+          "settings": {
+            "title": "Today's Trends",
+            "link_text": "Shop Now",
+            "link": "shopify://collections/hot-deals-demo-3"
+          }
+        }
+      },
+      "block_order": [
+        "4afe737c-35ed-432f-9c8a-f944ac644d37",
+        "c1f14e69-83d1-4c5d-b400-b6466f295358",
+        "d8c06ad2-b5c4-4ce8-a3b5-06f9c9bf52fb",
+        "60c67fb4-1b02-48cc-b0af-c02e2c0c18c2",
+        "092d8a62-d51f-4ede-8c05-af1b468c517c"
+      ],
+      "settings": {
+        "full": true,
+        "spacing_both_ends": true,
+        "padding": "0,0",
+        "margin": "0,0",
+        "show_collection_image": true,
+        "banner_position": "with-in-container",
+        "show_excerpt": false,
+        "show_sub_collection": false,
+        "items": "2",
+        "collections_sort_enable": true,
+        "collections_view_enable": true,
+        "enable_items_per_page": false,
+        "collections_custom_cols": false,
+        "pagination": "loadmore_btn",
+        "grid": "4",
+        "rows": "4",
+        "filter_type": "vertical"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

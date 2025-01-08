@@ -1,0 +1,110 @@
+{% if section.settings.tab_style == 'tab' %}
+<div class="dt-sc-tabs-container">
+  <div class="dt-sc-tabs dt-sc-list-inline">       
+    {% if section.settings.product_tab1 %}<button class="tablinks" onclick="openTab(event, 'tab-description')">{{ section.settings.product_tab1_heading }}</button>{% endif %}
+    {%- for block in section.blocks -%}
+    {%- case block.type -%}            
+    {%- when 'CMS' -%}                
+    <button class="tablinks" onclick="openTab(event, 'customTab{{- forloop.index -}}')">{{ block.settings.title }}</button>    
+    {% endcase %}
+    {% endfor %} 
+  </div>
+  {% if section.settings.product_tab1 %}
+  <div class="dt-sc-tabs-content  product-single__description rte" id="tab-description" style="display:block;">
+    {{ product.description }}
+  </div>
+  {% endif %}
+
+  {%- for block in section.blocks -%}
+  {%- case block.type -%}            
+  {%- when 'CMS' -%}    
+  <div class="dt-sc-tabs-content"  id="customTab{{- forloop.index -}}">
+    {{ pages[block.settings.page_content].content }}
+  </div>
+  {% endcase %}
+  {% endfor %}
+</div>
+{% endif %} 
+
+{% if section.settings.tab_style == 'toggle' %}
+
+<div class="dt-sc-accordion-container text-start">
+  {% if section.settings.product_tab1 %}<div class="dt-sc-accordion-btn open"><h5>{{ section.settings.product_tab1_heading }}</h5></div>{% endif %}
+
+
+  {% if section.settings.product_tab1 %}
+  <div class="dt-sc-accordion-content open">
+    <div class="dt-sc-accordion-content-inner">
+      {{ product.description }}
+    </div>
+  </div>
+  {% endif %}
+  {%- for block in section.blocks -%}
+  {%- case block.type -%}            
+  {%- when 'CMS' -%}    
+  <div class="dt-sc-accordion-btn"><h5>{{ block.settings.title }}</h5></div>
+
+  <div class="dt-sc-accordion-content">
+    <div class="dt-sc-accordion-content-inner">
+      {{ pages[block.settings.page_content].content }}
+    </div>
+  </div>
+  {% endcase %}
+  {% endfor %}
+</div>
+{% endif %} 
+
+
+
+ 
+
+
+<script>
+  function openTab(evt, TabName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("dt-sc-tabs-content");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(TabName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  $( ".tablinks" ).first().addClass( "active" );
+  $( ".dt-sc-tabs-content" ).first().css( "display", "block" );
+
+</script>
+
+
+
+
+{% style %}
+.dt-sc-accordion-container .dt-sc-accordion-btn h5{ position: relative; }
+.dt-sc-accordion-container .dt-sc-accordion-btn h5:after { 
+content: "\f067"; display: block; position: absolute; font-family: FontAwesome; top: 0; right: -35px; transition: var(--DTBaseTransition);  }
+
+#shopify-section-{{section.id}}.home-faq-block .dt-sc-accordion-container.text-start .dt-sc-accordion-btn h5::after {right: -35px; left: auto; }
+
+.dt-sc-accordion-container .dt-sc-accordion-btn.open h5.active:after { transform: rotate(180deg); content: "\f068"; }
+.dt-sc-accordion-container .dt-sc-accordion-content { height: 0px; width: 100%; margin: 0 auto; overflow: hidden; }
+
+.dt-sc-accordion-container.segmented-layout { box-shadow: none; border-radius: 0; overflow: visible; }
+
+.dt-sc-accordion-container .dt-sc-accordion-content-inner { padding: 30px; }
+.dt-sc-accordion-container .dt-sc-accordion-content-inner p:last-child { margin-bottom: 0; }
+
+.dt-sc-accordion-container .dt-sc-accordion-content.open { height: auto; }
+
+.dt-sc-accordion-container[class*="style-"] { counter-reset: dt-sc-accordion-counter; }
+.dt-sc-accordion-container[class*="style-"] .dt-sc-accordion-btn { counter-increment: dt-sc-accordion-counter; }
+.dt-sc-accordion-container[class*="style-"] .dt-sc-accordion-btn h5 { display: flex; align-items: center; flex-wrap: wrap;  position: relative; }
+.dt-sc-accordion-container[class*="style-"] .dt-sc-accordion-btn h5:before { display: block !important; position: relative; }
+
+.dt-sc-accordion-container[class*="style-2"] .dt-sc-accordion-btn h5:before { content: counter(dt-sc-accordion-counter, decimal)'.'; }
+.dt-sc-accordion-container[class*="style-3"] .dt-sc-accordion-btn h5:before { content: 'Q'counter(dt-sc-accordion-counter, decimal)'.'; }
+.dt-sc-accordion-container[class*="style-4"] .dt-sc-accordion-btn h5:before { content: counter(dt-sc-accordion-counter, upper-alpha)'.'; }
+
+{% endstyle %}

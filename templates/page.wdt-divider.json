@@ -1,0 +1,214 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,0",
+        "margin": "0,0"
+      }
+    },
+    "1649161873fc947fdf": {
+      "type": "divider",
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,30",
+        "margin": "0,0",
+        "divider_style": "solid",
+        "divider_alignment": "text-center",
+        "section_heading": "Heading",
+        "heading_typography": "h3",
+        "divider_bottom_width": 40,
+        "divider_height": 3,
+        "divider_arrow_alignment": -17,
+        "divider_bottom_alignment": -10,
+        "section_heading_color": "",
+        "divider_color": "#ba8d69",
+        "custom_class_name": ""
+      }
+    },
+    "1649161921c296ddb8": {
+      "type": "divider",
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,30",
+        "margin": "0,0",
+        "divider_style": "dotted",
+        "divider_alignment": "text-center",
+        "section_heading": "Dotted Border",
+        "heading_typography": "h3",
+        "divider_bottom_width": 45,
+        "divider_height": 4,
+        "divider_arrow_alignment": -17,
+        "divider_bottom_alignment": -10,
+        "section_heading_color": "",
+        "divider_color": "#ba8d69",
+        "custom_class_name": ""
+      }
+    },
+    "16491619679ea7efe9": {
+      "type": "divider",
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,30",
+        "margin": "0,0",
+        "divider_style": "dashed",
+        "divider_alignment": "text-center",
+        "section_heading": "Dashed Border",
+        "heading_typography": "h3",
+        "divider_bottom_width": 50,
+        "divider_height": 3,
+        "divider_arrow_alignment": -17,
+        "divider_bottom_alignment": -10,
+        "section_heading_color": "",
+        "divider_color": "#ba8d69",
+        "custom_class_name": ""
+      }
+    },
+    "1649161989e812adee": {
+      "type": "divider",
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,30",
+        "margin": "0,0",
+        "divider_style": "shadow",
+        "divider_alignment": "text-center",
+        "section_heading": "shadow",
+        "heading_typography": "h3",
+        "divider_bottom_width": 55,
+        "divider_height": 3,
+        "divider_arrow_alignment": -11,
+        "divider_bottom_alignment": -17,
+        "section_heading_color": "",
+        "divider_color": "#ba8d69",
+        "custom_class_name": ""
+      }
+    },
+    "164916200404ea5657": {
+      "type": "divider",
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,30",
+        "margin": "0,0",
+        "divider_style": "gradient",
+        "divider_alignment": "text-center",
+        "section_heading": "Gradient",
+        "heading_typography": "h3",
+        "divider_bottom_width": 60,
+        "divider_height": 4,
+        "divider_arrow_alignment": -17,
+        "divider_bottom_alignment": -10,
+        "section_heading_color": "",
+        "divider_color": "",
+        "custom_class_name": ""
+      }
+    },
+    "1649162028d47e1610": {
+      "type": "divider",
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,30",
+        "margin": "0,0",
+        "divider_style": "bottom-arrow",
+        "divider_alignment": "text-center",
+        "section_heading": "Bottom Arrow",
+        "heading_typography": "h3",
+        "divider_bottom_width": 65,
+        "divider_height": 3,
+        "divider_arrow_alignment": -17,
+        "divider_bottom_alignment": -11,
+        "section_heading_color": "",
+        "divider_color": "#ba8d69",
+        "custom_class_name": ""
+      }
+    },
+    "16491620458f24d066": {
+      "type": "divider",
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,30",
+        "margin": "0,0",
+        "divider_style": "center-dot",
+        "divider_alignment": "text-center",
+        "section_heading": "Center dot",
+        "heading_typography": "h3",
+        "divider_bottom_width": 70,
+        "divider_height": 3,
+        "divider_arrow_alignment": -17,
+        "divider_bottom_alignment": -10,
+        "section_heading_color": "",
+        "divider_color": "#ba8d69",
+        "custom_class_name": ""
+      }
+    },
+    "16491620622ac7b2df": {
+      "type": "divider",
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,30",
+        "margin": "0,0",
+        "divider_style": "running-lines",
+        "divider_alignment": "text-center",
+        "section_heading": "Running Lines",
+        "heading_typography": "h3",
+        "divider_bottom_width": 75,
+        "divider_height": 3,
+        "divider_arrow_alignment": -17,
+        "divider_bottom_alignment": -10,
+        "section_heading_color": "",
+        "divider_color": "#ba8d69",
+        "custom_class_name": ""
+      }
+    },
+    "164916207824507c45": {
+      "type": "divider",
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,30",
+        "margin": "0,0",
+        "divider_style": "partial-separator",
+        "divider_alignment": "text-center",
+        "section_heading": "Partial Separator",
+        "heading_typography": "h3",
+        "divider_bottom_width": 70,
+        "divider_height": 3,
+        "divider_arrow_alignment": -17,
+        "divider_bottom_alignment": -10,
+        "section_heading_color": "",
+        "divider_color": "",
+        "custom_class_name": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1649161873fc947fdf",
+    "1649161921c296ddb8",
+    "16491619679ea7efe9",
+    "1649161989e812adee",
+    "164916200404ea5657",
+    "1649162028d47e1610",
+    "16491620458f24d066",
+    "16491620622ac7b2df",
+    "164916207824507c45"
+  ]
+}

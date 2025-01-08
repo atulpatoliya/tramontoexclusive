@@ -1,0 +1,1025 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,0",
+        "margin": "0,0"
+      }
+    },
+    "1649418015a95ce706": {
+      "type": "home-number-counter",
+      "blocks": {
+        "1649418015a35cf085-3": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        },
+        "1649418015a35cf085-0": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-gift",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        },
+        "1649418015a35cf085-1": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-heart",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        },
+        "1649418015a35cf085-2": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-share",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        }
+      },
+      "block_order": [
+        "1649418015a35cf085-3",
+        "1649418015a35cf085-0",
+        "1649418015a35cf085-1",
+        "1649418015a35cf085-2"
+      ],
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,80",
+        "margin": "0,0",
+        "show_background_image": false,
+        "background_style": "none",
+        "background_size": "auto",
+        "enable_overlay": false,
+        "background_color": "",
+        "overlay_transparency": "0.5",
+        "section_heading": "Number Counter(Grid)",
+        "section_sub_heading": "",
+        "section_description": "",
+        "section_button_text": "",
+        "section_button_link": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_button_bg_color": "",
+        "section_button_text_color": "",
+        "section_button_hover_bg_color": "",
+        "section_button_hover_text_color": "",
+        "heading_position": "text-center",
+        "grid": "4",
+        "column_gap": "30",
+        "counter_style": "grid",
+        "vertical_position": "vertical-top",
+        "block_text_align": "text-start",
+        "reverse_column": false,
+        "enable_boxed": false,
+        "enable_overall_border": false,
+        "border_radius": "0",
+        "icon_border_radius": "0px",
+        "block_icon_outer_size": "100",
+        "block_icon_size": "50",
+        "enable_box_shadow": true,
+        "block_bg_color": "",
+        "block_icon_border_color": "rgba(0,0,0,0)",
+        "block_icon_bg_color": "",
+        "block_icon_color": "",
+        "block_title_color": "",
+        "block_text_color": "",
+        "block_value_color": "",
+        "block_value_text_color": "",
+        "block_border_color": "",
+        "custom_class_name": ""
+      }
+    },
+    "1649418780b4a18daa": {
+      "type": "home-number-counter",
+      "blocks": {
+        "78f17861-89a3-4456-bffc-8624dbf8ec37": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify://shop_images/icon-3.png",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        },
+        "cfc77db0-2fb7-45fc-8ff4-1f093e0e1e1d": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify://shop_images/icon-2.png",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        },
+        "a6cda6ec-43a8-440c-a3a2-036ecaab02a1": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify://shop_images/icon-1.png",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        },
+        "69aee67d-c53c-4512-a2be-9201be7e3a41": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify://shop_images/icon-4.png",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        }
+      },
+      "block_order": [
+        "78f17861-89a3-4456-bffc-8624dbf8ec37",
+        "cfc77db0-2fb7-45fc-8ff4-1f093e0e1e1d",
+        "a6cda6ec-43a8-440c-a3a2-036ecaab02a1",
+        "69aee67d-c53c-4512-a2be-9201be7e3a41"
+      ],
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,80",
+        "margin": "0,0",
+        "show_background_image": false,
+        "background_style": "none",
+        "background_size": "auto",
+        "enable_overlay": false,
+        "background_color": "",
+        "overlay_transparency": "0.5",
+        "section_heading": "Number Counter(Grid -Image Type)",
+        "section_sub_heading": "",
+        "section_description": "",
+        "section_button_text": "",
+        "section_button_link": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_button_bg_color": "",
+        "section_button_text_color": "",
+        "section_button_hover_bg_color": "",
+        "section_button_hover_text_color": "",
+        "heading_position": "text-center",
+        "grid": "4",
+        "column_gap": "30",
+        "counter_style": "grid",
+        "vertical_position": "vertical-top",
+        "block_text_align": "text-start",
+        "reverse_column": false,
+        "enable_boxed": false,
+        "enable_overall_border": false,
+        "border_radius": "0",
+        "icon_border_radius": "0px",
+        "block_icon_outer_size": "100",
+        "block_icon_size": "86",
+        "enable_box_shadow": false,
+        "block_bg_color": "",
+        "block_icon_border_color": "rgba(0,0,0,0)",
+        "block_icon_bg_color": "rgba(0,0,0,0)",
+        "block_icon_color": "",
+        "block_title_color": "",
+        "block_text_color": "",
+        "block_value_color": "",
+        "block_value_text_color": "",
+        "block_border_color": "",
+        "custom_class_name": ""
+      }
+    },
+    "1649419148fcd7498f": {
+      "type": "home-number-counter",
+      "blocks": {
+        "1649419148e1dd8740-0": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        },
+        "1649419148e1dd8740-1": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-camera",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        },
+        "1649419148e1dd8740-2": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-apple",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        },
+        "1649419148e1dd8740-3": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-gift",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        }
+      },
+      "block_order": [
+        "1649419148e1dd8740-0",
+        "1649419148e1dd8740-1",
+        "1649419148e1dd8740-2",
+        "1649419148e1dd8740-3"
+      ],
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,80",
+        "margin": "0,0",
+        "show_background_image": false,
+        "background_style": "none",
+        "background_size": "auto",
+        "enable_overlay": false,
+        "background_color": "",
+        "overlay_transparency": "0.5",
+        "section_heading": "Number Counter(List)",
+        "section_sub_heading": "",
+        "section_description": "",
+        "section_button_text": "",
+        "section_button_link": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_button_bg_color": "",
+        "section_button_text_color": "",
+        "section_button_hover_bg_color": "",
+        "section_button_hover_text_color": "",
+        "heading_position": "text-center",
+        "grid": "4",
+        "column_gap": "30",
+        "counter_style": "list",
+        "vertical_position": "vertical-top",
+        "block_text_align": "text-start",
+        "reverse_column": false,
+        "enable_boxed": false,
+        "enable_overall_border": false,
+        "border_radius": "0",
+        "icon_border_radius": "0px",
+        "block_icon_outer_size": "100",
+        "block_icon_size": "50",
+        "enable_box_shadow": false,
+        "block_bg_color": "",
+        "block_icon_border_color": "",
+        "block_icon_bg_color": "",
+        "block_icon_color": "",
+        "block_title_color": "",
+        "block_text_color": "",
+        "block_value_color": "",
+        "block_value_text_color": "",
+        "block_border_color": "",
+        "custom_class_name": ""
+      }
+    },
+    "1649419286ba2cf176": {
+      "type": "home-number-counter",
+      "blocks": {
+        "61d572eb-adf4-452d-82f8-7339cd77e4c5": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify://shop_images/icon-3.png",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        },
+        "91210b6b-8481-4721-b715-d0c53ee8ea7d": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify://shop_images/icon-2.png",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        },
+        "fa526b59-14ca-40a8-9c9f-4004cc951941": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify://shop_images/icon-1.png",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        },
+        "e472d736-f84d-4965-b97e-45693697b5b7": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify://shop_images/icon-4.png",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        }
+      },
+      "block_order": [
+        "61d572eb-adf4-452d-82f8-7339cd77e4c5",
+        "91210b6b-8481-4721-b715-d0c53ee8ea7d",
+        "fa526b59-14ca-40a8-9c9f-4004cc951941",
+        "e472d736-f84d-4965-b97e-45693697b5b7"
+      ],
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,80",
+        "margin": "0,0",
+        "show_background_image": false,
+        "background_style": "none",
+        "background_size": "auto",
+        "enable_overlay": false,
+        "background_color": "",
+        "overlay_transparency": "0.5",
+        "section_heading": "Number Counter(List - Image Type)",
+        "section_sub_heading": "",
+        "section_description": "",
+        "section_button_text": "",
+        "section_button_link": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_button_bg_color": "",
+        "section_button_text_color": "",
+        "section_button_hover_bg_color": "",
+        "section_button_hover_text_color": "",
+        "heading_position": "text-center",
+        "grid": "4",
+        "column_gap": "30",
+        "counter_style": "list",
+        "vertical_position": "vertical-top",
+        "block_text_align": "text-start",
+        "reverse_column": false,
+        "enable_boxed": false,
+        "enable_overall_border": false,
+        "border_radius": "0",
+        "icon_border_radius": "0px",
+        "block_icon_outer_size": "100",
+        "block_icon_size": "86",
+        "enable_box_shadow": false,
+        "block_bg_color": "",
+        "block_icon_border_color": "#e9e9e9",
+        "block_icon_bg_color": "#e9e9e9",
+        "block_icon_color": "",
+        "block_title_color": "",
+        "block_text_color": "",
+        "block_value_color": "",
+        "block_value_text_color": "",
+        "block_border_color": "",
+        "custom_class_name": ""
+      }
+    },
+    "1649422160ae86aff0": {
+      "type": "home-number-counter",
+      "blocks": {
+        "1649422160d3506ec3-0": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        },
+        "1649422160d3506ec3-1": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-share",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        },
+        "1649422160d3506ec3-2": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-gift",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        },
+        "1649422160d3506ec3-3": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-heart",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        }
+      },
+      "block_order": [
+        "1649422160d3506ec3-0",
+        "1649422160d3506ec3-1",
+        "1649422160d3506ec3-2",
+        "1649422160d3506ec3-3"
+      ],
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,80",
+        "margin": "0,0",
+        "show_background_image": false,
+        "background_style": "none",
+        "background_size": "auto",
+        "enable_overlay": false,
+        "background_color": "",
+        "overlay_transparency": "0.5",
+        "section_heading": "Number Counter(Reverse)",
+        "section_sub_heading": "",
+        "section_description": "",
+        "section_button_text": "",
+        "section_button_link": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_button_bg_color": "",
+        "section_button_text_color": "",
+        "section_button_hover_bg_color": "",
+        "section_button_hover_text_color": "",
+        "heading_position": "text-center",
+        "grid": "4",
+        "column_gap": "30",
+        "counter_style": "grid",
+        "vertical_position": "vertical-top",
+        "block_text_align": "text-start",
+        "reverse_column": true,
+        "enable_boxed": false,
+        "enable_overall_border": false,
+        "border_radius": "0",
+        "icon_border_radius": "0px",
+        "block_icon_outer_size": "100",
+        "block_icon_size": "50",
+        "enable_box_shadow": false,
+        "block_bg_color": "",
+        "block_icon_border_color": "",
+        "block_icon_bg_color": "",
+        "block_icon_color": "",
+        "block_title_color": "",
+        "block_text_color": "",
+        "block_value_color": "",
+        "block_value_text_color": "",
+        "block_border_color": "",
+        "custom_class_name": ""
+      }
+    },
+    "164942232807b3dea2": {
+      "type": "home-number-counter",
+      "blocks": {
+        "6739809c-2306-4a27-a5ed-0be5184ad09d": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify://shop_images/icon-3.png",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        },
+        "877e9869-2e28-4a44-9e8b-e4d8a5e57f5b": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify://shop_images/icon-2.png",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        },
+        "55858a42-8a86-438c-9812-57e6ef98429e": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify://shop_images/icon-1.png",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        },
+        "6ff0ca84-bce5-4d32-b229-370ab07e7a49": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify://shop_images/icon-4.png",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        }
+      },
+      "block_order": [
+        "6739809c-2306-4a27-a5ed-0be5184ad09d",
+        "877e9869-2e28-4a44-9e8b-e4d8a5e57f5b",
+        "55858a42-8a86-438c-9812-57e6ef98429e",
+        "6ff0ca84-bce5-4d32-b229-370ab07e7a49"
+      ],
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,80",
+        "margin": "0,0",
+        "show_background_image": false,
+        "background_style": "none",
+        "background_size": "auto",
+        "enable_overlay": false,
+        "background_color": "",
+        "overlay_transparency": "0.5",
+        "section_heading": "Number Counter(Reverse - Image Type)",
+        "section_sub_heading": "",
+        "section_description": "",
+        "section_button_text": "",
+        "section_button_link": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_button_bg_color": "",
+        "section_button_text_color": "",
+        "section_button_hover_bg_color": "",
+        "section_button_hover_text_color": "",
+        "heading_position": "text-center",
+        "grid": "4",
+        "column_gap": "30",
+        "counter_style": "grid",
+        "vertical_position": "vertical-top",
+        "block_text_align": "text-start",
+        "reverse_column": true,
+        "enable_boxed": false,
+        "enable_overall_border": false,
+        "border_radius": "0",
+        "icon_border_radius": "0px",
+        "block_icon_outer_size": "100",
+        "block_icon_size": "86",
+        "enable_box_shadow": true,
+        "block_bg_color": "",
+        "block_icon_border_color": "#e9e9e9",
+        "block_icon_bg_color": "rgba(0,0,0,0)",
+        "block_icon_color": "",
+        "block_title_color": "",
+        "block_text_color": "",
+        "block_value_color": "",
+        "block_value_text_color": "",
+        "block_border_color": "",
+        "custom_class_name": ""
+      }
+    },
+    "1649422601433322dd": {
+      "type": "home-number-counter",
+      "blocks": {
+        "1649422600c5ab78e8-0": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        },
+        "1649422600c5ab78e8-1": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-heart",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        },
+        "1649422600c5ab78e8-2": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-share",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        },
+        "1649422600c5ab78e8-3": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-plus",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        }
+      },
+      "block_order": [
+        "1649422600c5ab78e8-0",
+        "1649422600c5ab78e8-1",
+        "1649422600c5ab78e8-2",
+        "1649422600c5ab78e8-3"
+      ],
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,80",
+        "margin": "0,0",
+        "show_background_image": false,
+        "background_style": "none",
+        "background_size": "auto",
+        "enable_overlay": false,
+        "background_color": "",
+        "overlay_transparency": "0.5",
+        "section_heading": "Number Counter(Box Style)",
+        "section_sub_heading": "",
+        "section_description": "",
+        "section_button_text": "",
+        "section_button_link": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_button_bg_color": "",
+        "section_button_text_color": "",
+        "section_button_hover_bg_color": "",
+        "section_button_hover_text_color": "",
+        "heading_position": "text-center",
+        "grid": "4",
+        "column_gap": "30",
+        "counter_style": "list",
+        "vertical_position": "vertical-center",
+        "block_text_align": "text-end",
+        "reverse_column": false,
+        "enable_boxed": true,
+        "enable_overall_border": false,
+        "border_radius": "0",
+        "icon_border_radius": "0px",
+        "block_icon_outer_size": "75",
+        "block_icon_size": "50",
+        "enable_box_shadow": false,
+        "block_bg_color": "",
+        "block_icon_border_color": "#e9e9e9",
+        "block_icon_bg_color": "",
+        "block_icon_color": "",
+        "block_title_color": "",
+        "block_text_color": "",
+        "block_value_color": "",
+        "block_value_text_color": "",
+        "block_border_color": "#e9e9e9",
+        "custom_class_name": ""
+      }
+    },
+    "16494227835e98d9fd": {
+      "type": "home-number-counter",
+      "blocks": {
+        "07454069-4a69-4a64-8511-c5fc880da2df": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify://shop_images/icon-3.png",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        },
+        "f6f3806c-10dd-47ee-b96a-8935c4644b53": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify://shop_images/icon-2.png",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        },
+        "b1759605-273d-455d-982e-50c813d0c163": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify://shop_images/icon-1.png",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        },
+        "39196dfb-0d97-496e-b52e-cc4bcacbef5a": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify://shop_images/icon-4.png",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        }
+      },
+      "block_order": [
+        "07454069-4a69-4a64-8511-c5fc880da2df",
+        "f6f3806c-10dd-47ee-b96a-8935c4644b53",
+        "b1759605-273d-455d-982e-50c813d0c163",
+        "39196dfb-0d97-496e-b52e-cc4bcacbef5a"
+      ],
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,80",
+        "margin": "0,0",
+        "show_background_image": false,
+        "background_style": "none",
+        "background_size": "auto",
+        "enable_overlay": false,
+        "background_color": "",
+        "overlay_transparency": "0.5",
+        "section_heading": "Number Counter(Box Style -Image Type)",
+        "section_sub_heading": "",
+        "section_description": "",
+        "section_button_text": "",
+        "section_button_link": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_button_bg_color": "",
+        "section_button_text_color": "",
+        "section_button_hover_bg_color": "",
+        "section_button_hover_text_color": "",
+        "heading_position": "text-center",
+        "grid": "4",
+        "column_gap": "30",
+        "counter_style": "grid",
+        "vertical_position": "vertical-top",
+        "block_text_align": "text-start",
+        "reverse_column": false,
+        "enable_boxed": true,
+        "enable_overall_border": false,
+        "border_radius": "0",
+        "icon_border_radius": "0px",
+        "block_icon_outer_size": "95",
+        "block_icon_size": "86",
+        "enable_box_shadow": true,
+        "block_bg_color": "",
+        "block_icon_border_color": "rgba(0,0,0,0)",
+        "block_icon_bg_color": "#e9e9e9",
+        "block_icon_color": "",
+        "block_title_color": "",
+        "block_text_color": "",
+        "block_value_color": "",
+        "block_value_text_color": "",
+        "block_border_color": "#e9e9e9",
+        "custom_class_name": ""
+      }
+    },
+    "164942407110b910f9": {
+      "type": "home-number-counter",
+      "blocks": {
+        "1649424071327e024c-0": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        },
+        "1649424071327e024c-1": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-apple",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        },
+        "1649424071327e024c-2": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-share",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        },
+        "1649424071327e024c-3": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-heart",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        }
+      },
+      "block_order": [
+        "1649424071327e024c-0",
+        "1649424071327e024c-1",
+        "1649424071327e024c-2",
+        "1649424071327e024c-3"
+      ],
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,80",
+        "margin": "0,0",
+        "show_background_image": false,
+        "background_style": "none",
+        "background_size": "auto",
+        "enable_overlay": false,
+        "background_color": "",
+        "overlay_transparency": "0.5",
+        "section_heading": "Number Counter(Over All Border)",
+        "section_sub_heading": "",
+        "section_description": "",
+        "section_button_text": "",
+        "section_button_link": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_button_bg_color": "",
+        "section_button_text_color": "",
+        "section_button_hover_bg_color": "",
+        "section_button_hover_text_color": "",
+        "heading_position": "text-center",
+        "grid": "4",
+        "column_gap": "30",
+        "counter_style": "grid",
+        "vertical_position": "vertical-top",
+        "block_text_align": "text-center",
+        "reverse_column": false,
+        "enable_boxed": false,
+        "enable_overall_border": true,
+        "border_radius": "0",
+        "icon_border_radius": "0px",
+        "block_icon_outer_size": "90",
+        "block_icon_size": "50",
+        "enable_box_shadow": false,
+        "block_bg_color": "",
+        "block_icon_border_color": "",
+        "block_icon_bg_color": "",
+        "block_icon_color": "",
+        "block_title_color": "",
+        "block_text_color": "",
+        "block_value_color": "",
+        "block_value_text_color": "",
+        "block_border_color": "#e9e9e9",
+        "custom_class_name": ""
+      }
+    },
+    "1649424221a3b30ecf": {
+      "type": "home-number-counter",
+      "blocks": {
+        "406211c0-99b0-45a7-a8f4-865cde20c389": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify://shop_images/icon-3.png",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        },
+        "72db4d71-eb6c-42af-a1d0-cecde7b6dbee": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify://shop_images/icon-2.png",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        },
+        "8443bd88-6b03-42b5-baf6-aa8a3dec9296": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify://shop_images/icon-1.png",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        },
+        "205e2bea-1a30-49d6-947d-a755eabef653": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify://shop_images/icon-4.png",
+            "title": "Title",
+            "text": "Lorem ipsum dolor sit amet",
+            "value": "50",
+            "value_text": "K"
+          }
+        }
+      },
+      "block_order": [
+        "406211c0-99b0-45a7-a8f4-865cde20c389",
+        "72db4d71-eb6c-42af-a1d0-cecde7b6dbee",
+        "8443bd88-6b03-42b5-baf6-aa8a3dec9296",
+        "205e2bea-1a30-49d6-947d-a755eabef653"
+      ],
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,0",
+        "margin": "0,0",
+        "show_background_image": false,
+        "background_style": "none",
+        "background_size": "auto",
+        "enable_overlay": false,
+        "background_color": "",
+        "overlay_transparency": "0.5",
+        "section_heading": "Number Counter(Over All Border-Image Type)",
+        "section_sub_heading": "",
+        "section_description": "",
+        "section_button_text": "",
+        "section_button_link": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_button_bg_color": "",
+        "section_button_text_color": "",
+        "section_button_hover_bg_color": "",
+        "section_button_hover_text_color": "",
+        "heading_position": "text-center",
+        "grid": "4",
+        "column_gap": "30",
+        "counter_style": "grid",
+        "vertical_position": "vertical-top",
+        "block_text_align": "text-start",
+        "reverse_column": false,
+        "enable_boxed": false,
+        "enable_overall_border": true,
+        "border_radius": "0",
+        "icon_border_radius": "0px",
+        "block_icon_outer_size": "100",
+        "block_icon_size": "86",
+        "enable_box_shadow": false,
+        "block_bg_color": "rgba(0,0,0,0)",
+        "block_icon_border_color": "#e9e9e9",
+        "block_icon_bg_color": "#e9e9e9",
+        "block_icon_color": "",
+        "block_title_color": "",
+        "block_text_color": "",
+        "block_value_color": "",
+        "block_value_text_color": "",
+        "block_border_color": "#e9e9e9",
+        "custom_class_name": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1649418015a95ce706",
+    "1649418780b4a18daa",
+    "1649419148fcd7498f",
+    "1649419286ba2cf176",
+    "1649422160ae86aff0",
+    "164942232807b3dea2",
+    "1649422601433322dd",
+    "16494227835e98d9fd",
+    "164942407110b910f9",
+    "1649424221a3b30ecf"
+  ]
+}

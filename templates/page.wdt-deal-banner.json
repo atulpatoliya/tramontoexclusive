@@ -1,0 +1,76 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,0",
+        "margin": "0,0"
+      }
+    },
+    "1649160124cee781c1": {
+      "type": "home-deal-banner",
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "100,100",
+        "margin": "-80,-80",
+        "show_background_image": false,
+        "background_image": "shopify://shop_images/hole-of-golf-course-surrounded-by-yellow-trees.jpg",
+        "background_style": "none",
+        "background_size": "auto",
+        "enable_overlay": true,
+        "background_color": "#f3eeeb",
+        "overlay_transparency": "1",
+        "section_heading": "",
+        "section_sub_heading": "",
+        "section_description": "",
+        "section_button_text": "",
+        "section_button_link": "",
+        "heading_position": "text-center",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_button_bg_color": "",
+        "section_button_text_color": "",
+        "section_button_hover_bg_color": "",
+        "section_button_hover_text_color": "",
+        "block_image": "shopify://shop_images/hotspot-image_247545f2-6cfe-4078-ba3d-dd0a2d52e0b2.jpg",
+        "show_image": true,
+        "block_title": "Deal End Soon",
+        "block_sub_title": "",
+        "block_description": "",
+        "deal_end_date": "25 JAN 2025",
+        "deals_border_radius": "0",
+        "block_button_text": "",
+        "block_button_link": "",
+        "block_text_align": "text-center",
+        "title_color": "",
+        "sub_title_color": "",
+        "description_color": "",
+        "button_bg_color": "",
+        "button_text_color": "",
+        "button_hover_bg_color": "",
+        "button_hover_text_color": "",
+        "deals_section_bg_color": "",
+        "deals_section_timer_color": "",
+        "deals_section_timer_duration_color": "",
+        "custom_class_name": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1649160124cee781c1"
+  ]
+}

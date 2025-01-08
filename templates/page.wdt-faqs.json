@@ -1,0 +1,869 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,0",
+        "margin": "0,0"
+      }
+    },
+    "164916312412e1decb": {
+      "type": "faq-template-1",
+      "blocks": {
+        "1649163124a45168eb-4": {
+          "type": "icon",
+          "settings": {
+            "title": "Where can I get some?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+          }
+        },
+        "1649163124a45168eb-0": {
+          "type": "icon",
+          "settings": {
+            "title": "Why do we use it?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+          }
+        },
+        "1649163124a45168eb-2": {
+          "type": "icon",
+          "settings": {
+            "title": "Where can I get some?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+          }
+        },
+        "1649163124a45168eb-1": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "Why do we use it?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+          }
+        },
+        "1649163124a45168eb-3": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "Where can I get some?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+          }
+        }
+      },
+      "block_order": [
+        "1649163124a45168eb-4",
+        "1649163124a45168eb-0",
+        "1649163124a45168eb-2",
+        "1649163124a45168eb-1",
+        "1649163124a45168eb-3"
+      ],
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,100",
+        "margin": "0,0",
+        "show_background_image": false,
+        "background_style": "none",
+        "background_size": "auto",
+        "enable_overlay": false,
+        "background_color": "#f5f5f5",
+        "overlay_transparency": "0.5",
+        "section_heading": "FAQ Block(Style -1)",
+        "section_sub_heading": "",
+        "section_description": "",
+        "section_button_text": "",
+        "section_button_link": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_button_bg_color": "",
+        "section_button_text_color": "",
+        "section_button_hover_bg_color": "",
+        "section_button_hover_text_color": "",
+        "heading_position": "text-center",
+        "block_style": "default-style",
+        "text_position": "text-start",
+        "border_radius": "0",
+        "grid_gap": "30",
+        "enable_box_shadow": false,
+        "enable_heading_icons": false,
+        "faq_icon_size": "30",
+        "enable_segmented_layout": false,
+        "segmented_layout_gap": "15",
+        "faq_border_color": "",
+        "faq_heading_color": "",
+        "faq_heading_bg_color": "",
+        "faq_content_color": "",
+        "faq_content_bg_color": "",
+        "custom_class_name": ""
+      }
+    },
+    "1649166458f8791e56": {
+      "type": "faq-template-1",
+      "blocks": {
+        "1649166458d9390744-2": {
+          "type": "icon",
+          "settings": {
+            "title": "Where does it come from?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+          }
+        },
+        "1649166458d9390744-0": {
+          "type": "icon",
+          "settings": {
+            "title": "Where can I get some?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+          }
+        },
+        "1649166458d9390744-3": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "Where does it come from?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+          }
+        },
+        "1649166458d9390744-1": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "Where can I get some?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+          }
+        },
+        "1649166458d9390744-4": {
+          "type": "icon",
+          "settings": {
+            "title": "Where does it come from?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+          }
+        }
+      },
+      "block_order": [
+        "1649166458d9390744-2",
+        "1649166458d9390744-0",
+        "1649166458d9390744-3",
+        "1649166458d9390744-1",
+        "1649166458d9390744-4"
+      ],
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,100",
+        "margin": "0,0",
+        "show_background_image": false,
+        "background_style": "none",
+        "background_size": "auto",
+        "enable_overlay": false,
+        "background_color": "#f5f5f5",
+        "overlay_transparency": "0.5",
+        "section_heading": "FAQs Block(Style -2)",
+        "section_sub_heading": "",
+        "section_description": "",
+        "section_button_text": "",
+        "section_button_link": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_button_bg_color": "",
+        "section_button_text_color": "",
+        "section_button_hover_bg_color": "",
+        "section_button_hover_text_color": "",
+        "heading_position": "text-center",
+        "block_style": "style-2",
+        "text_position": "text-start",
+        "border_radius": "0",
+        "grid_gap": "30",
+        "enable_box_shadow": false,
+        "enable_heading_icons": false,
+        "faq_icon_size": "30",
+        "enable_segmented_layout": false,
+        "segmented_layout_gap": "15",
+        "faq_border_color": "",
+        "faq_heading_color": "",
+        "faq_heading_bg_color": "",
+        "faq_content_color": "",
+        "faq_content_bg_color": "",
+        "custom_class_name": ""
+      }
+    },
+    "16491665119c35e586": {
+      "type": "faq-template-1",
+      "blocks": {
+        "1649166511f37fa379-0": {
+          "type": "icon",
+          "settings": {
+            "title": "Where does it come from?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+          }
+        },
+        "1649166511f37fa379-3": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "What is Lorem Ipsum?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+          }
+        },
+        "1649166511f37fa379-1": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "Where does it come from?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+          }
+        },
+        "1649166511f37fa379-4": {
+          "type": "icon",
+          "settings": {
+            "title": "What is Lorem Ipsum?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+          }
+        },
+        "1649166511f37fa379-2": {
+          "type": "icon",
+          "settings": {
+            "title": "Where does it come from?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+          }
+        }
+      },
+      "block_order": [
+        "1649166511f37fa379-0",
+        "1649166511f37fa379-3",
+        "1649166511f37fa379-1",
+        "1649166511f37fa379-4",
+        "1649166511f37fa379-2"
+      ],
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,100",
+        "margin": "0,0",
+        "show_background_image": false,
+        "background_style": "none",
+        "background_size": "auto",
+        "enable_overlay": false,
+        "background_color": "#f5f5f5",
+        "overlay_transparency": "0.5",
+        "section_heading": "FAQs Block(Style -3)",
+        "section_sub_heading": "",
+        "section_description": "",
+        "section_button_text": "",
+        "section_button_link": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_button_bg_color": "",
+        "section_button_text_color": "",
+        "section_button_hover_bg_color": "",
+        "section_button_hover_text_color": "",
+        "heading_position": "text-center",
+        "block_style": "style-3",
+        "text_position": "text-start",
+        "border_radius": "0",
+        "grid_gap": "30",
+        "enable_box_shadow": false,
+        "enable_heading_icons": false,
+        "faq_icon_size": "30",
+        "enable_segmented_layout": false,
+        "segmented_layout_gap": "15",
+        "faq_border_color": "",
+        "faq_heading_color": "",
+        "faq_heading_bg_color": "",
+        "faq_content_color": "",
+        "faq_content_bg_color": "",
+        "custom_class_name": ""
+      }
+    },
+    "16491666679c3f5ba0": {
+      "type": "faq-template-1",
+      "blocks": {
+        "16491666673ca610c3-0": {
+          "type": "icon",
+          "settings": {
+            "title": "What is Lorem Ipsum?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+          }
+        },
+        "16491666673ca610c3-4": {
+          "type": "icon",
+          "settings": {
+            "title": "Why do we use it?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+          }
+        },
+        "16491666673ca610c3-1": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "What is Lorem Ipsum?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+          }
+        },
+        "16491666673ca610c3-3": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "Why do we use it?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+          }
+        },
+        "16491666673ca610c3-2": {
+          "type": "icon",
+          "settings": {
+            "title": "What is Lorem Ipsum?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+          }
+        }
+      },
+      "block_order": [
+        "16491666673ca610c3-0",
+        "16491666673ca610c3-4",
+        "16491666673ca610c3-1",
+        "16491666673ca610c3-3",
+        "16491666673ca610c3-2"
+      ],
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,100",
+        "margin": "0,0",
+        "show_background_image": false,
+        "background_style": "none",
+        "background_size": "auto",
+        "enable_overlay": false,
+        "background_color": "#f5f5f5",
+        "overlay_transparency": "0.5",
+        "section_heading": "FAQs Block(Style -4)",
+        "section_sub_heading": "",
+        "section_description": "",
+        "section_button_text": "",
+        "section_button_link": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_button_bg_color": "",
+        "section_button_text_color": "",
+        "section_button_hover_bg_color": "",
+        "section_button_hover_text_color": "",
+        "heading_position": "text-center",
+        "block_style": "style-4",
+        "text_position": "text-start",
+        "border_radius": "0",
+        "grid_gap": "30",
+        "enable_box_shadow": false,
+        "enable_heading_icons": false,
+        "faq_icon_size": "30",
+        "enable_segmented_layout": false,
+        "segmented_layout_gap": "15",
+        "faq_border_color": "",
+        "faq_heading_color": "",
+        "faq_heading_bg_color": "",
+        "faq_content_color": "",
+        "faq_content_bg_color": "",
+        "custom_class_name": ""
+      }
+    },
+    "1649166737467d6664": {
+      "type": "faq-template-1",
+      "blocks": {
+        "16491667375c26737d-0": {
+          "type": "icon",
+          "settings": {
+            "title": "Why do we use it?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+          }
+        },
+        "16491667375c26737d-3": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "Where can I get some?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+          }
+        },
+        "16491667375c26737d-1": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "Why do we use it?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+          }
+        },
+        "16491667375c26737d-4": {
+          "type": "icon",
+          "settings": {
+            "title": "Where can I get some?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+          }
+        },
+        "16491667375c26737d-2": {
+          "type": "icon",
+          "settings": {
+            "title": "Why do we use it?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+          }
+        }
+      },
+      "block_order": [
+        "16491667375c26737d-0",
+        "16491667375c26737d-3",
+        "16491667375c26737d-1",
+        "16491667375c26737d-4",
+        "16491667375c26737d-2"
+      ],
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,80",
+        "margin": "0,0",
+        "show_background_image": false,
+        "background_style": "none",
+        "background_size": "auto",
+        "enable_overlay": false,
+        "background_color": "#f5f5f5",
+        "overlay_transparency": "0.5",
+        "section_heading": "FAQ Segmented Layout",
+        "section_sub_heading": "",
+        "section_description": "",
+        "section_button_text": "",
+        "section_button_link": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_button_bg_color": "",
+        "section_button_text_color": "",
+        "section_button_hover_bg_color": "",
+        "section_button_hover_text_color": "",
+        "heading_position": "text-center",
+        "block_style": "default-style",
+        "text_position": "text-start",
+        "border_radius": "0",
+        "grid_gap": "30",
+        "enable_box_shadow": false,
+        "enable_heading_icons": false,
+        "faq_icon_size": "30",
+        "enable_segmented_layout": true,
+        "segmented_layout_gap": "15",
+        "faq_border_color": "",
+        "faq_heading_color": "",
+        "faq_heading_bg_color": "",
+        "faq_content_color": "",
+        "faq_content_bg_color": "",
+        "custom_class_name": ""
+      }
+    },
+    "1649163148c594fab2": {
+      "type": "faq-template-2",
+      "blocks": {
+        "6429be7a-33b7-4401-9930-9561bbc9ae73": {
+          "type": "text",
+          "settings": {
+            "question": "Why do we use it?",
+            "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+          }
+        },
+        "e16e8f2b-c892-435b-a0cc-939c271ea2c4": {
+          "type": "text",
+          "settings": {
+            "question": "What is Lorem Ipsum?",
+            "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+          }
+        },
+        "23e6b779-da9a-4a54-8120-121a5576ef69": {
+          "type": "text",
+          "settings": {
+            "question": "Why do we use it?",
+            "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+          }
+        },
+        "7195181a-a479-4371-9c16-f56ed637f62f": {
+          "type": "text",
+          "settings": {
+            "question": "What is Lorem Ipsum?",
+            "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+          }
+        },
+        "eabe99e2-0531-47b4-8a5c-b40bc6f2843a": {
+          "type": "text",
+          "settings": {
+            "question": "Why do we use it?",
+            "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+          }
+        },
+        "a9d2302b-67e1-4d4e-9c3d-11a7331ce5a7": {
+          "type": "text",
+          "settings": {
+            "question": "What is Lorem Ipsum?",
+            "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+          }
+        }
+      },
+      "block_order": [
+        "6429be7a-33b7-4401-9930-9561bbc9ae73",
+        "e16e8f2b-c892-435b-a0cc-939c271ea2c4",
+        "23e6b779-da9a-4a54-8120-121a5576ef69",
+        "7195181a-a479-4371-9c16-f56ed637f62f",
+        "eabe99e2-0531-47b4-8a5c-b40bc6f2843a",
+        "a9d2302b-67e1-4d4e-9c3d-11a7331ce5a7"
+      ],
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,100",
+        "margin": "0,0",
+        "show_background_image": false,
+        "background_style": "none",
+        "background_size": "auto",
+        "enable_overlay": false,
+        "background_color": "",
+        "overlay_transparency": "0.5",
+        "section_heading": "FAQ Block",
+        "section_sub_heading": "",
+        "section_description": "",
+        "section_button_text": "",
+        "section_button_link": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_button_bg_color": "",
+        "section_button_text_color": "",
+        "section_button_hover_bg_color": "",
+        "section_button_hover_text_color": "",
+        "heading_position": "text-center",
+        "grid": "3"
+      }
+    },
+    "1649164835caf1230f": {
+      "type": "faq-template-1",
+      "blocks": {
+        "1649164835cff35b37-2": {
+          "type": "icon",
+          "settings": {
+            "title": "Why do we use it?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+          }
+        },
+        "d0cffe7c-264d-4974-b10e-c1c7c99c3983": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "What is Lorem Ipsum?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+          }
+        },
+        "1649164835cff35b37-3": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "Why do we use it?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+          }
+        },
+        "46551883-7cd9-4dbb-a56e-af1819e29798": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "What is Lorem Ipsum?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+          }
+        },
+        "c7102f33-ab13-41e2-924a-aa88b084f003": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "Heading",
+            "desc": "Lorem ipsum dolor sit amet"
+          }
+        },
+        "1649164835cff35b37-4": {
+          "type": "icon",
+          "settings": {
+            "title": "Why do we use it?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+          }
+        },
+        "cfb66b0e-33fb-4117-9480-eebf30114007": {
+          "type": "icon",
+          "settings": {
+            "title": "Heading",
+            "desc": "Lorem ipsum dolor sit amet"
+          }
+        },
+        "5a8cb34b-f836-47dc-a22f-ad8e93cc5ca4": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "What is Lorem Ipsum?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+          }
+        },
+        "fc9d7720-b1bf-442a-846a-33d875142d29": {
+          "type": "icon",
+          "settings": {
+            "title": "Heading",
+            "desc": "Lorem ipsum dolor sit amet"
+          }
+        }
+      },
+      "block_order": [
+        "1649164835cff35b37-2",
+        "d0cffe7c-264d-4974-b10e-c1c7c99c3983",
+        "1649164835cff35b37-3",
+        "46551883-7cd9-4dbb-a56e-af1819e29798",
+        "c7102f33-ab13-41e2-924a-aa88b084f003",
+        "1649164835cff35b37-4",
+        "cfb66b0e-33fb-4117-9480-eebf30114007",
+        "5a8cb34b-f836-47dc-a22f-ad8e93cc5ca4",
+        "fc9d7720-b1bf-442a-846a-33d875142d29"
+      ],
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,100",
+        "margin": "0,0",
+        "show_background_image": false,
+        "background_style": "none",
+        "background_size": "auto",
+        "enable_overlay": false,
+        "background_color": "#f5f5f5",
+        "overlay_transparency": "0.5",
+        "section_heading": "Two Column FAQ Block",
+        "section_sub_heading": "",
+        "section_description": "",
+        "section_button_text": "",
+        "section_button_link": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_button_bg_color": "",
+        "section_button_text_color": "",
+        "section_button_hover_bg_color": "",
+        "section_button_hover_text_color": "",
+        "heading_position": "text-center",
+        "block_style": "style-4",
+        "text_position": "text-start",
+        "border_radius": "0",
+        "grid_gap": "30",
+        "enable_box_shadow": false,
+        "enable_heading_icons": false,
+        "faq_icon_size": "30",
+        "enable_segmented_layout": false,
+        "segmented_layout_gap": "15",
+        "faq_border_color": "",
+        "faq_heading_color": "",
+        "faq_heading_bg_color": "",
+        "faq_content_color": "",
+        "faq_content_bg_color": "",
+        "faq_image": "shopify://shop_images/Mask_Group_23_680x_1.png",
+        "custom_class_name": ""
+      }
+    },
+    "1649166102079f065e": {
+      "type": "faq-template-1",
+      "blocks": {
+        "164916610250132332-1": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "Why do we use it?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+          }
+        },
+        "416cf9b1-147b-4326-b253-513be99472e3": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "What is Lorem Ipsum?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+          }
+        },
+        "164916610250132332-3": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "Why do we use it?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+          }
+        },
+        "e1f24ede-da63-4534-9802-56037fe75491": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "What is Lorem Ipsum?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+          }
+        },
+        "6783367c-3064-4c60-bed6-93f4b07208d2": {
+          "type": "class",
+          "settings": {
+            "class": "fa fa-home",
+            "title": "Why do we use it?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+          }
+        }
+      },
+      "block_order": [
+        "164916610250132332-1",
+        "416cf9b1-147b-4326-b253-513be99472e3",
+        "164916610250132332-3",
+        "e1f24ede-da63-4534-9802-56037fe75491",
+        "6783367c-3064-4c60-bed6-93f4b07208d2"
+      ],
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,100",
+        "margin": "0,0",
+        "show_background_image": false,
+        "background_style": "none",
+        "background_size": "auto",
+        "enable_overlay": false,
+        "background_color": "#f5f5f5",
+        "overlay_transparency": "0.5",
+        "section_heading": "Icon With FAQ Block",
+        "section_sub_heading": "",
+        "section_description": "",
+        "section_button_text": "",
+        "section_button_link": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_button_bg_color": "",
+        "section_button_text_color": "",
+        "section_button_hover_bg_color": "",
+        "section_button_hover_text_color": "",
+        "heading_position": "text-center",
+        "block_style": "style-3",
+        "text_position": "text-start",
+        "border_radius": "0",
+        "grid_gap": "30",
+        "enable_box_shadow": false,
+        "enable_heading_icons": true,
+        "faq_icon_size": "30",
+        "enable_segmented_layout": false,
+        "segmented_layout_gap": "15",
+        "faq_border_color": "",
+        "faq_heading_color": "",
+        "faq_heading_bg_color": "",
+        "faq_content_color": "",
+        "faq_content_bg_color": "",
+        "custom_class_name": ""
+      }
+    },
+    "1649167032f428535c": {
+      "type": "faq-template-1",
+      "blocks": {
+        "1649167032abad79bc-0": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify://shop_images/play.png",
+            "title": "Where can I get some?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+          }
+        },
+        "b7a3fbb4-d377-4b35-baf4-fbe7a53065f4": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify://shop_images/play.png",
+            "title": "Where does it come from?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+          }
+        },
+        "1649167032abad79bc-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify://shop_images/play.png",
+            "title": "Where can I get some?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+          }
+        },
+        "5a3f9506-ddf1-46f1-9bd7-19cb0a7b892f": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify://shop_images/play.png",
+            "title": "Where does it come from?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+          }
+        },
+        "1649167032abad79bc-4": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify://shop_images/play.png",
+            "title": "Where can I get some?",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+          }
+        }
+      },
+      "block_order": [
+        "1649167032abad79bc-0",
+        "b7a3fbb4-d377-4b35-baf4-fbe7a53065f4",
+        "1649167032abad79bc-2",
+        "5a3f9506-ddf1-46f1-9bd7-19cb0a7b892f",
+        "1649167032abad79bc-4"
+      ],
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,0",
+        "margin": "0,0",
+        "show_background_image": false,
+        "background_style": "none",
+        "background_size": "auto",
+        "enable_overlay": false,
+        "background_color": "#f5f5f5",
+        "overlay_transparency": "0.5",
+        "section_heading": "Image With FAQ Heading",
+        "section_sub_heading": "",
+        "section_description": "",
+        "section_button_text": "",
+        "section_button_link": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_button_bg_color": "",
+        "section_button_text_color": "",
+        "section_button_hover_bg_color": "",
+        "section_button_hover_text_color": "",
+        "heading_position": "text-center",
+        "block_style": "default-style",
+        "text_position": "text-start",
+        "border_radius": "0",
+        "grid_gap": "30",
+        "enable_box_shadow": false,
+        "enable_heading_icons": true,
+        "faq_icon_size": "30",
+        "enable_segmented_layout": false,
+        "segmented_layout_gap": "15",
+        "faq_border_color": "#f3eeeb",
+        "faq_heading_color": "",
+        "faq_heading_bg_color": "",
+        "faq_content_color": "",
+        "faq_content_bg_color": "",
+        "custom_class_name": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "164916312412e1decb",
+    "1649166458f8791e56",
+    "16491665119c35e586",
+    "16491666679c3f5ba0",
+    "1649166737467d6664",
+    "1649163148c594fab2",
+    "1649164835caf1230f",
+    "1649166102079f065e",
+    "1649167032f428535c"
+  ]
+}

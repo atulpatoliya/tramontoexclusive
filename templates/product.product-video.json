@@ -1,0 +1,62 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "product-template-video",
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,0",
+        "margin": "0,0",
+        "gallery_type": "thumbnails_horizontal",
+        "vertical_style": "dt-sc-product-vertical-thumb-right",
+        "enable_zoom": true,
+        "enable_video_looping": true,
+        "meta-lable-style": "one-half",
+        "reviews": true,
+        "show_variants_swatches": true,
+        "show_product_quantity": true,
+        "display_back_in_stock": true,
+        "show_quantity_selector": true,
+        "show_checkout": true,
+        "hide_addtocart": false,
+        "show_wishlist": true,
+        "show_share_buttons": true,
+        "tab_position": "right",
+        "tab_style": "toggle",
+        "product_tab1": true,
+        "product_tab1_heading": "Description",
+        "product_tab2": true,
+        "product_tab2_heading": "Shipping Infomation",
+        "page_content": "additional-information",
+        "product_tab3": true,
+        "product_tab3_heading": "Reviews",
+        "enable_enquiry": true,
+        "enable_sticky_cart": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "full": true,
+        "spacing_both_ends": true,
+        "padding": "0,0",
+        "margin": "0,0",
+        "heading": "Recommended products",
+        "heading_position": "text-center"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations"
+  ]
+}

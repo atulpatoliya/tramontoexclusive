@@ -1,0 +1,135 @@
+<script src="{{ 'recently-stalked.js' | asset_url }}" defer="defer"></script>
+{% assign margin = section.settings.margin | split: ',' %}
+{% assign margin_top = margin[0] %}
+{% assign margin_bottom = margin[1] %} 
+{% assign padding = section.settings.padding | split: ',' %}
+{% assign padding_top = padding[0] %}
+{% assign padding_bottom = padding[1] %} 
+<div class="{% render 'container-settings' %}">
+    <h3 class="section-header__title {{ section.settings.heading_position}}">{{ section.settings.heading }}</h3>
+  <div class="row js-recently-viewed-product">
+<recently-viewed-products class="hidden product-recommendations "
+  data-product-id="{{ product.id }}" 
+  data-limit="4" 
+  section-id="{{ section.id }}" 
+  products-count="{{ section.settings.products_to_show }}"
+  data-section-type="section-recently-stalked"
+  data-section-id="recentlyStalkedSlider"
+  {% if request.page_type == 'product' %}
+      exclude-product-id="{{ product.id | escape }}"
+  {% endif %}>    
+    <div class="dt-sc-swiper-slider swiper-container {% if block.settings.dots %} {{ block.settings.carousel_pagination_alignment }} {% endif %} {% if block.settings.arrows %}  {{ block.settings.nav_arrow_position }} {{ block.settings.center_nav_arrow_alignment }} {% endif %}">
+      <div id="swiper-recentlyStalkedSlider-slider" class="dT_vDynamicPWrap-{{ section.id }}-block-{{ block.id}} dT_vProdWrap">         
+        <ul class="swiper-wrapper product-list-style js-grid-item--wrapper">
+          {%- for product in search.results -%}
+          {% include 'product-grid-item',  product: product, imageSize: 'large' %}
+          {% endfor %}
+        </ul>
+        <div class="swiper-recentlyStalkedSlider-arrows swiper-arrows">
+          <div id="swiper-recentlyStalkedSlider-next" class="swiper-button-next dt-sc-btn"></div>
+          <div id="swiper-recentlyStalkedSlider-prev" class="swiper-button-prev dt-sc-btn"></div>
+        </div>  
+        {% if block.settings.arrows %}                    
+        {% endif  %} 
+        {% if block.settings.dots %}
+        <div id="swiper-recentlyStalkedSlider-pagination" class="swiper-pagination"></div>
+        {% endif %}
+      </div>
+    </div>
+  {% comment %}
+      {%- if search.results.size > 0 -%}
+        <div class="button-row small-hide">
+          <button type="button" class="button--previous">Previous</button>
+          <button type="button" class="button--next">Next</button>
+        </div>
+      <div class="dT_VProdRecommendations">
+        <ul class="js-grid-item--wrapper grid product-collection dt-sc-column {% if section.settings.enable_list_view %}product-list-style{% endif %}">         
+          {%- for product in search.results -%}
+          {% include 'product-grid-item',  product: product, imageSize: 'large' %}
+          {%- endfor -%}
+        </ul>
+      </div>
+      {%- endif -%}
+  {% endcomment %}
+    </recently-viewed-products> 
+  </div>
+</div>
+
+<style>
+  .dT_VProdRecommendations{ margin-top:40px;}
+  @media only screen and (min-width: 1200px) { #shopify-section-{{section.id}} { margin-top:{{margin_top}}px; margin-bottom:{{margin_bottom}}px;padding-top:{{padding_top}}px; padding-bottom:{{padding_bottom}}px; } }
+  @media only screen and (max-width: 1199px) { #shopify-section-{{section.id}} { margin-top:{{margin_top | divided_by: 2 }}px; margin-bottom:{{margin_bottom | divided_by: 2}}px;padding-top:{{padding_top | divided_by: 2}}px; padding-bottom:{{padding_bottom | divided_by: 2}}px;} }
+</style>
+
+{% schema %}
+{
+"name": "Recently stalked",
+"settings": [
+{
+"type": "checkbox",
+"id": "full",
+"label": "Show Full width"
+},
+{
+"type": "checkbox",
+"id": "spacing_both_ends",
+"label": "Enable Right & Left Spacing (Works only on Fullwidth)",
+"default": false
+},
+{
+"type": "text",
+"id": "padding",
+"label": "Style value (Padding)",
+"default":"0,0",
+"info":"Top(px),Bottom(px)"
+},
+{
+"type": "text",
+"id": "margin",
+"label": "Style value (Margin)",
+"default":"0,0",
+"info":"Top(px),Bottom(px)"
+},
+{
+"type": "text",
+"id": "heading",
+"label": "Heading",
+"default": "Recently Stalked"
+},
+{
+"type": "range",
+"id": "products_to_show",
+"min": 2,
+"max": 10,
+"step": 1,
+"default": 4,
+"label": "Max. products to show"
+},
+{
+"type": "select",
+"id": "heading_position",
+"label": "Heading Position",
+"options": [
+{
+"value": "text-center",
+"label": "Center"
+},
+{
+"value": "text-start",
+"label": "Left"
+},
+{
+"value": "text-end",
+"label": "Right"
+}
+]
+}
+],
+"presets": [
+    {
+      "name": "Recently stalked"
+    }
+  ]
+}
+{% endschema %}
+

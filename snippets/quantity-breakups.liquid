@@ -1,0 +1,118 @@
+<div class="container">
+  <div class="row">
+    <h2>quantity-breakups</h2>          
+    <div class="fbt-wrapper">
+      {% for tag in product.tags %}
+      {% assign tag = tag | handleize  %}
+      {% if tag contains 'QTYB_' %}
+      {% assign QTYB = tag | remove: 'QTYB_' %}
+      {% assign menuSet = QTYB | downcase %}
+      {% for link in linklists[menuSet].links %}
+      {%- if  link.type == 'product_link' -%}
+      {%- assign pro =  link.title | handle  -%}
+      {%- assign product = all_products[pro] -%}
+
+      {% for variant in product.variants %}
+      <div class="fbt-product {% if variant == product.selected_or_first_available_variant %}active{% endif %}" id="dT_fbt-product-{{ variant.id }}" data-fbt-product-id="{{ variant.id }}" data-fbt-product-handle="{{ variant.title  }}">
+        {% assign featured_media = variant.featured_media %}
+        <div class="product-fbt__media"  data-media-id="{{ featured_media.id }}">
+          {{ featured_media | image_url: width: 250 | image_tag }}
+        </div> 
+        <div class="price">
+          <span class="price-reg">{{ variant.price | money }}</span>  
+        </div>
+      </div>
+      <button type="submit" id="add-frequently-bought" onclick="addAllItems('{{ variant.id }}'); return false;">{{ 'products.product.add_to_cart' | t }}</button>
+
+      {% endfor %}
+
+      {%- endif -%}
+      {% endfor %}
+      {% endif %}
+      {% endfor %}
+    </div>
+
+  
+  </div>
+</div>
+<style type="text/css">
+  form[class*=shopify-product]  .fbt-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 10px;
+    justify-content: flex-start;
+  }
+  form[class*=shopify-product]  .fbt-wrapper .select2  {display:none;}
+  
+  .fbt-wrapper .fbt-product {margin:5px;}
+</style>
+     
+
+<script type="text/javascript">
+
+  
+function addAllItems(array){
+	Shopify.queue = [];
+	  var quantity = 1 ;
+	  var newArray = array.split(',');
+	  for (var i = 0; i < newArray.length; i++) {
+	    product = newArray[i]
+	    Shopify.queue.push({
+	      variantId: product,
+	    });  
+      }
+  
+  
+	  Shopify.moveAlong = function() {	  
+	  if (Shopify.queue.length) {
+	    var request = Shopify.queue.shift();
+	    var data = 'id='+ request.variantId + '&quantity=1'       
+	    $.ajax({
+	      type: 'POST',
+          url: '/cart/add.js',
+	      dataType: 'json',
+	      data: data,
+	      success: function(res){            
+	        Shopify.moveAlong();
+		  quantity += 1;           
+	     },
+           error: function(){	    
+		  if (Shopify.queue.length){
+		    Shopify.moveAlong();             
+		  } else {		   
+             ajaxCart.init({
+               formSelector: '[data-product-form]',
+               cartContainer: '#CartContainer',
+               addToCartSelector: '.dT_AddToCart',
+               cartCountSelector: '.CartCount',
+               cartCostSelector: '.CartCost',
+               moneyFormat: DT_THEME.moneyFormat
+             });
+            $('.dT_MiniCartModelBtn').trigger('click');
+		  }
+	      }
+           });
+        }	 
+	else {
+	  quantity += 1;
+	  addToCartOk(quantity);
+	 }
+       };
+    Shopify.moveAlong();
+  };
+  
+  
+  
+function addToCartOk(quantity){  	
+  ajaxCart.init({
+    formSelector: '[data-product-form]',
+    cartContainer: '#CartContainer',
+    addToCartSelector: '.dT_AddToCart',
+    cartCountSelector: '.CartCount',
+    cartCostSelector: '.CartCost',
+    moneyFormat: DT_THEME.moneyFormat
+  });
+  $('.dT_MiniCartModelBtn').trigger('click');
+} 
+</script>

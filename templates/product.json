@@ -1,0 +1,143 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product-template",
+      "blocks": {
+        "bd5fe641-75f6-4c13-999c-d0be32e3bc87": {
+          "type": "title",
+          "settings": {}
+        },
+        "7c9c1efb-83bb-46b0-abe9-7c4951265cf4": {
+          "type": "price",
+          "settings": {}
+        },
+        "f14720d8-dc3c-44a3-8bfa-cea5cf644d9d": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}"
+          }
+        },
+        "19be33f4-40db-451a-b5c2-40daa748ac9a": {
+          "type": "fbt",
+          "settings": {}
+        },
+        "cb874c94-c1ed-44c9-a5d6-a12bc6093239": {
+          "type": "vendor",
+          "disabled": true,
+          "settings": {}
+        },
+        "c0548d06-402e-4234-9a58-03c52a7d6c74": {
+          "type": "type",
+          "disabled": true,
+          "settings": {}
+        },
+        "f9c96d80-5ab7-4354-839a-07c60d24aabc": {
+          "type": "badge",
+          "disabled": true,
+          "settings": {
+            "badge_label": "100% Secured Payment"
+          }
+        },
+        "cad3ad3e-6913-4865-a804-9c9d16146aca": {
+          "type": "social-sharing",
+          "settings": {}
+        },
+        "c5b6d248-2854-4c7d-b95d-83f1f01a6e56": {
+          "type": "CMS",
+          "settings": {
+            "title": "Details",
+            "page_content": ""
+          }
+        },
+        "ad89aa6a-8f54-4801-a6e4-af0ba415f4a5": {
+          "type": "CMS",
+          "settings": {
+            "title": "Size fit",
+            "page_content": ""
+          }
+        },
+        "96eaa1e0-bcd0-4d62-b8bd-369c69d215ac": {
+          "type": "CMS",
+          "settings": {
+            "title": "Size chart",
+            "page_content": "services"
+          }
+        }
+      },
+      "block_order": [
+        "bd5fe641-75f6-4c13-999c-d0be32e3bc87",
+        "7c9c1efb-83bb-46b0-abe9-7c4951265cf4",
+        "f14720d8-dc3c-44a3-8bfa-cea5cf644d9d",
+        "19be33f4-40db-451a-b5c2-40daa748ac9a",
+        "cb874c94-c1ed-44c9-a5d6-a12bc6093239",
+        "c0548d06-402e-4234-9a58-03c52a7d6c74",
+        "f9c96d80-5ab7-4354-839a-07c60d24aabc",
+        "cad3ad3e-6913-4865-a804-9c9d16146aca",
+        "c5b6d248-2854-4c7d-b95d-83f1f01a6e56",
+        "ad89aa6a-8f54-4801-a6e4-af0ba415f4a5",
+        "96eaa1e0-bcd0-4d62-b8bd-369c69d215ac"
+      ],
+      "settings": {
+        "full": true,
+        "spacing_both_ends": true,
+        "padding": "0,0",
+        "margin": "0,0",
+        "gallery_type": "thumbnails_horizontal",
+        "vertical_style": "dt-sc-product-vertical-thumb-right",
+        "enable_zoom": true,
+        "zoom_type": "inner",
+        "enable_video_looping": true,
+        "meta-lable-style": "full-width",
+        "reviews": false,
+        "show_variants_swatches": true,
+        "swatch_as": "color",
+        "show_product_quantity": true,
+        "display_back_in_stock": false,
+        "show_quantity_selector": true,
+        "show_checkout": true,
+        "hide_addtocart": false,
+        "show_wishlist": true,
+        "show_share_buttons": true,
+        "tab_position": "right",
+        "tab_style": "tab",
+        "product_tab1": true,
+        "product_tab1_heading": "Description",
+        "product_tab2": true,
+        "product_tab2_heading": "Shipping Information",
+        "page_content": "shipping-information",
+        "product_tab3": true,
+        "product_tab3_heading": "Reviews",
+        "enable_enquiry": false,
+        "enable_sticky_cart": true,
+        "show_adv_product": false,
+        "choose_label": "Choose style",
+        "collection": "advanced-product-tagging"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "full": true,
+        "spacing_both_ends": true,
+        "padding": "0,0",
+        "margin": "50,0",
+        "heading": "Recommended products",
+        "heading_position": "text-center"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations"
+  ]
+}
