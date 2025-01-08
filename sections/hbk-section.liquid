@@ -7,7 +7,7 @@
   {{ 'mask-blobs.css' | asset_url | stylesheet_tag }}
 {%- endif -%}
 
-<div class="color-{{ section.settings.color_scheme }} gradient js-recently-viewed-product">
+<div class="js-recently-viewed-product">
   <recently-viewed-products
     class="hidden related-products page-width section-{{ section.id }}-padding isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
     {% if request.page_type == 'product' %}
@@ -74,14 +74,10 @@
   "class": "section",
   "settings": [
     {
-      "type": "paragraph",
-      "content": "t:sections.related-products.settings.paragraph__1.content"
-    },
-    {
       "type": "inline_richtext",
       "id": "heading",
       "default": "You may also like",
-      "label": "t:sections.related-products.settings.heading.label"
+      "label": "Heading"
     },
     {
       "type": "select",
@@ -89,19 +85,19 @@
       "options": [
         {
           "value": "h2",
-          "label": "t:sections.all.heading_size.options__1.label"
+          "label": "H2"
         },
         {
           "value": "h1",
-          "label": "t:sections.all.heading_size.options__2.label"
+          "label": "H1"
         },
         {
           "value": "h0",
-          "label": "t:sections.all.heading_size.options__3.label"
+          "label": "H0"
         }
       ],
       "default": "h1",
-      "label": "t:sections.all.heading_size.label"
+      "label": "Heading size"
     },
     {
       "type": "range",
@@ -110,7 +106,7 @@
       "max": 10,
       "step": 1,
       "default": 4,
-      "label": "t:sections.related-products.settings.products_to_show.label"
+      "label": "Product per Show"
     },
     {
       "type": "range",
@@ -119,18 +115,7 @@
       "max": 6,
       "step": 1,
       "default": 4,
-      "label": "t:sections.related-products.settings.columns_desktop.label"
-    },
-    {
-      "type": "color_scheme",
-      "id": "color_scheme",
-      "label": "t:sections.all.colors.label",
-      "info": "t:sections.all.colors.has_cards_info",
-      "default": "scheme-1"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.related-products.settings.header__2.content"
+      "label": "Per column show"
     },
     {
       "type": "select",
@@ -138,19 +123,19 @@
       "options": [
         {
           "value": "adapt",
-          "label": "t:sections.related-products.settings.image_ratio.options__1.label"
+          "label": "Adapt"
         },
         {
           "value": "portrait",
-          "label": "t:sections.related-products.settings.image_ratio.options__2.label"
+          "label": "Portrait"
         },
         {
           "value": "square",
-          "label": "t:sections.related-products.settings.image_ratio.options__3.label"
+          "label": "Square"
         }
       ],
       "default": "adapt",
-      "label": "t:sections.related-products.settings.image_ratio.label"
+      "label": "Image Size"
     },
     {
       "type": "select",
