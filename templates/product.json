@@ -20,6 +20,20 @@
           "type": "price",
           "settings": {}
         },
+        "offer_content_iQKgPx": {
+          "type": "offer_content",
+          "settings": {
+            "icon": "offer",
+            "content": "<p>Get this for <strong>INR 1,259</strong></p><p>Flat 10% Off on your first app purchase.<br/>Code: <strong>APP10</strong></p>"
+          }
+        },
+        "offer_content_APt44C": {
+          "type": "offer_content",
+          "settings": {
+            "icon": "offer",
+            "content": "<p>Get this for <strong>INR 1,119</strong></p><p>Flat 20% Off on minimum purchase of 4599/-<br/>Code: <strong>FLAT20</strong></p>"
+          }
+        },
         "f14720d8-dc3c-44a3-8bfa-cea5cf644d9d": {
           "type": "text",
           "disabled": true,
@@ -77,6 +91,8 @@
       "block_order": [
         "bd5fe641-75f6-4c13-999c-d0be32e3bc87",
         "7c9c1efb-83bb-46b0-abe9-7c4951265cf4",
+        "offer_content_iQKgPx",
+        "offer_content_APt44C",
         "f14720d8-dc3c-44a3-8bfa-cea5cf644d9d",
         "19be33f4-40db-451a-b5c2-40daa748ac9a",
         "cb874c94-c1ed-44c9-a5d6-a12bc6093239",
