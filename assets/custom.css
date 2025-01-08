@@ -82,6 +82,18 @@
 
 /* =====================  */
 
+@media screen and (min-width:768px) {
+    .collection-header:after {
+        content: "";
+        position: absolute;
+        left: 10px;
+        right: 10px;
+        height: 1px;
+        bottom: 0;
+        background-color: var(--DTColor_Border);
+    }
+}
+
 @media screen and (max-width:767px) {
     .filter_design_new .has-sidebar:not(.open) .sidebar_btn+.sidebar {
         display: none;
@@ -106,4 +118,23 @@
     .collection-header .collection-view label {
         display: none;
     }
+}
+
+/* ===========================  */
+
+.product_offer_content_inner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.content_inner p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.product-description-product-template .product-meta-block .product_offer_content+.product_offer_content:not(:empty) {
+    margin-top: -10px;
 }
