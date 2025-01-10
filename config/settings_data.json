@@ -442,7 +442,7 @@
           "40cc8690-9f76-4648-82d9-1632b26486a0": {
             "type": "logo",
             "settings": {
-              "title": "Tramonto",
+              "title": "",
               "text": "Luxury fashion brand offering tailored, high-quality clothing that’s made for you. \nEvery piece is designed with precision, crafted from the finest fabrics, and tailored to fit your unique body shape. \nWe believe that clothing should not only fit perfectly, but also reflect your individual style. With a commitment to craftsmanship and exclusivity, Tramonto offers a one-of-a-kind fashion experience, from design to delivery.",
               "link_text": "",
               "url": "",
@@ -450,7 +450,8 @@
               "footer_btn_bg": "#565e41",
               "footer_btn_hover_color": "#565e41",
               "footer_btn_hover_bg": "#565e41",
-              "footer_logo_height": 200,
+              "logo": "shopify://shop_images/Tramonto_9_1.png",
+              "footer_logo_height": 52,
               "container_width": 47,
               "column_alignment": "text-start"
             }
