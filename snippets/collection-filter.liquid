@@ -39,7 +39,12 @@
                            >
                     <label class=" {% if value.count == 0 and value.active == false %}filter-value-disabled{% endif %}" id="Filter-{{ filter.label | escape }}-mobile-{{ forloop.index }}" 
                            for="Filter-{{ filter.label | escape }}-mobile-{{ forloop.index }}">
-                      {% if ColorExists != 'color' %}{{ value.label | escape }} <span class="count">({{ value.count }})</span>{% endif %}
+                      {% if ColorExists != 'color' %}
+                        <span class="label_text">
+                          {{ value.label | escape }} 
+                        </span>                        
+                      <span class="count">({{ value.count }})</span>
+                    {% endif %}
                     </label>
                   </div>
                   {% if ColorExists == 'color' %}

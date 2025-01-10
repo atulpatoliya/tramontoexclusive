@@ -99,10 +99,29 @@
         display: none;
     }
 
+    .dt-collection-filter .filter-custom-control label {
+        font-size: 14px;
+    }
+
+    .dt-collection-filter .count-bubble,
+    .sidebar .sidebar_title {
+        font-size: 15px;
+    }
+
     .filter_design_new .sidebar_btn {
         position: absolute;
         top: 0;
         left: 0;
+    }
+
+    .dt-collection-filter .count-bubble {
+        height: 25px;
+        width: 25px;
+    }
+
+    .widget-list.filter-body,
+    div[class*=sidebar] .sidebar .filter-panel {
+        padding: 7px 0px;
     }
 
     .filter_design_new .has-sidebar {
@@ -165,4 +184,12 @@ footer .footer__newsletter {
 .footer__newsletter .footer__newsletter-btn {
     margin-top: 0;
     white-space: nowrap;
+}
+
+.dt-collection-filter-cover .js-filter {
+    border-bottom: 1px solid #000;
+}
+
+.dt-collection-filter>div .sidebar-body .categories-list li {
+    width: 100%;
 }
