@@ -24,9 +24,9 @@
   
   {% endform %}
 
-  {% if section.settings.social_placement == 'with_newsletter' and section.settings.show_social %}   
+  {% comment %} {% if section.settings.social_placement == 'with_newsletter' and section.settings.show_social %}   
   {% include 'social-links' %}
-  {% endif %}
+  {% endif %} {% endcomment %}
   
   {% if section.settings.show_payment_icons  and  section.settings.payment_placement == 'with_newsletter' %}
   {% unless shop.enabled_payment_types == empty %}
