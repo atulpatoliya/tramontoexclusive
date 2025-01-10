@@ -479,7 +479,7 @@
             "type": "menu",
             "settings": {
               "title": "Social Share",
-              "menu": "",
+              "menu": "main-menu",
               "container_width": 15,
               "column_alignment": "text-start",
               "footer_menu_style": "vertical"
