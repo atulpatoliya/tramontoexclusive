@@ -474,12 +474,26 @@
               "column_alignment": "text-start",
               "footer_menu_style": "vertical"
             }
+          },
+          "newsletter_CFWigK": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Sign up and save",
+              "richtext": "<p>Sign up now and be the first to know about exclusive offers, latest fashion trends & style tips!</p>",
+              "newsletter_btn_color": "#565e41",
+              "newsletter_btn_bg": "#ffffff",
+              "newsletter_btn_hover_color": "#206469",
+              "newsletter_btn_hover_bg": "#206469",
+              "container_width": 50,
+              "column_alignment": "text-start"
+            }
           }
         },
         "block_order": [
           "40cc8690-9f76-4648-82d9-1632b26486a0",
           "28a557d9-cccb-40c8-a425-5693a91b930e",
-          "2728052a-adc8-4453-9719-d7c87f986506"
+          "2728052a-adc8-4453-9719-d7c87f986506",
+          "newsletter_CFWigK"
         ],
         "settings": {
           "full": true,
