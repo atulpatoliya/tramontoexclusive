@@ -451,7 +451,7 @@
               "footer_btn_hover_color": "#565e41",
               "footer_btn_hover_bg": "#565e41",
               "logo": "shopify://shop_images/Tramonto_9_1.png",
-              "footer_logo_height": 52,
+              "footer_logo_height": 30,
               "container_width": 47,
               "column_alignment": "text-start"
             }
