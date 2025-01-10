@@ -21,18 +21,5 @@
   {% if section.settings.social_placement == 'with_logo'  and section.settings.show_social %}
   {% include 'social-links' %}
   {% endif %}
-  {% if section.settings.show_payment_icons  and  section.settings.payment_placement == 'with_logo' %}
-  {% unless shop.enabled_payment_types == empty %}
-  <div class="footer__payment-icons grid__item wide--one-third post-large--one-third large--one-third medium--one-whole">
-    <ul class="dt-sc-list-inline payment-icons">
-      {% for type in shop.enabled_payment_types %}
-      <li class="icon--payment">
-        {{ type | payment_type_svg_tag }}
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-  {% endunless %}
-  {% endif %}
-
+  
 </div>
