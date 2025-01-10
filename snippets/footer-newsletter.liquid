@@ -2,6 +2,9 @@
   {% if block.settings.title != blank  and section.settings.show_footer_title %}        
   <h5 class="footer__title ">{{ block.settings.title }}</h5>
   {% endif %}
+  {% if block.settings.richtext != blank %}
+    {{ block.settings.richtext }}
+  {% endif %}
   {% form 'customer', id: 'newsletter-footer' %}
   {% if form.posted_successfully? %}
   <div class="note note--success">{{ 'general.newsletter_form.mailing_list_success_message' | t }}</div>
@@ -18,12 +21,10 @@
     <button type="submit" class="btn footer__newsletter-btn" name="commit">{{ 'general.newsletter_form.sign_up' | t }}</button>
   </div>
 
-  {% if block.settings.richtext != blank %}
-  {{ block.settings.richtext }}
-  {% endif %}
+  
   {% endform %}
 
-  {% if section.settings.social_placement == 'with_newsletter'  and section.settings.show_social %}   
+  {% if section.settings.social_placement == 'with_newsletter' and section.settings.show_social %}   
   {% include 'social-links' %}
   {% endif %}
   
