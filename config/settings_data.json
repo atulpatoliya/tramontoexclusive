@@ -451,7 +451,7 @@
               "footer_btn_hover_color": "#565e41",
               "footer_btn_hover_bg": "#565e41",
               "footer_logo_height": 200,
-              "container_width": 100,
+              "container_width": 47,
               "column_alignment": "text-start"
             }
           },
@@ -460,17 +460,7 @@
             "settings": {
               "title": "Information",
               "menu": "main-menu",
-              "container_width": 32,
-              "column_alignment": "text-start",
-              "footer_menu_style": "vertical"
-            }
-          },
-          "ff1cd180-8405-4c93-99c7-8f59c34d098f": {
-            "type": "menu",
-            "settings": {
-              "title": "Support",
-              "menu": "",
-              "container_width": 18,
+              "container_width": 25,
               "column_alignment": "text-start",
               "footer_menu_style": "vertical"
             }
@@ -480,17 +470,7 @@
             "settings": {
               "title": "Social Share",
               "menu": "main-menu",
-              "container_width": 15,
-              "column_alignment": "text-start",
-              "footer_menu_style": "vertical"
-            }
-          },
-          "18c7ada1-65d8-48dc-8bf1-a6498c2bd590": {
-            "type": "menu",
-            "settings": {
-              "title": "Help",
-              "menu": "",
-              "container_width": 16,
+              "container_width": 25,
               "column_alignment": "text-start",
               "footer_menu_style": "vertical"
             }
@@ -499,9 +479,7 @@
         "block_order": [
           "40cc8690-9f76-4648-82d9-1632b26486a0",
           "28a557d9-cccb-40c8-a425-5693a91b930e",
-          "ff1cd180-8405-4c93-99c7-8f59c34d098f",
-          "2728052a-adc8-4453-9719-d7c87f986506",
-          "18c7ada1-65d8-48dc-8bf1-a6498c2bd590"
+          "2728052a-adc8-4453-9719-d7c87f986506"
         ],
         "settings": {
           "full": true,
