@@ -193,3 +193,9 @@ footer .footer__newsletter {
 .dt-collection-filter>div .sidebar-body .categories-list li {
     width: 100%;
 }
+
+@media screen and (max-width:767px){
+  .template-collection .product-collection{
+    rid-template-columns: repeat(2, 1fr);
+  }
+}
