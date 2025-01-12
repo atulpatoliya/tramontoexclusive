@@ -198,4 +198,7 @@ footer .footer__newsletter {
   .template-collection .product-collection{
     grid-template-columns: repeat(2, 1fr);
   }
+  .products .product-detail.content-center .grid-link__title a{
+    font-size: 15px;
+  }
 }
