@@ -194,7 +194,7 @@ footer .footer__newsletter {
     width: 100%;
 }
 
-@media screen and (max-width:767px){
+@media screen and (max-width:576px){
   .template-collection .product-collection{
     rid-template-columns: repeat(2, 1fr);
   }
