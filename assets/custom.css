@@ -193,7 +193,9 @@ footer .footer__newsletter {
 .dt-collection-filter>div .sidebar-body .categories-list li {
     width: 100%;
 }
-
+.breadcrumb{
+  display:none;
+}
 @media screen and (max-width:576px){
   .template-collection .product-collection{
     grid-template-columns: repeat(2, 1fr);
