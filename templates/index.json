@@ -17,6 +17,7 @@
           "settings": {
             "slider_type": "image",
             "image": "shopify://shop_images/Tramo_Background_1.jpg",
+            "mobile_image": "shopify://shop_images/alex_2.jpg",
             "video_url": "https://storage.googleapis.com/coverr-main/mp4/Palm_Trees.mp4",
             "iframe_url": "",
             "mobile_bg_clr": "#e8e9e5",
