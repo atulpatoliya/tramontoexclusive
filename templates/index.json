@@ -388,398 +388,31 @@
         "collection_tttxaL": {
           "type": "collection",
           "settings": {
-            "tab_title": "All Product",
-            "collection": "all"
+            "tab_title": "GenZ collection",
+            "collection": "genz-collection"
           }
         },
-        "collection_fT9mWr": {
+        "collection_ctRG8k": {
           "type": "collection",
           "settings": {
-            "tab_title": "New Items",
+            "tab_title": "GenZ collection",
             "collection": "all"
           }
         }
       },
       "block_order": [
         "collection_tttxaL",
-        "collection_fT9mWr"
+        "collection_ctRG8k"
       ],
+      "custom_css": [],
       "settings": {
-        "section_heading": "Product Carousel",
-        "section_sub_heading": "Sub Heading",
+        "section_heading": "",
+        "section_sub_heading": "SUMMER TRENDS",
         "heading_position": "text-center",
         "margin_top_desktop": 50,
         "margin_bottom_desktop": 50,
         "margin_top_mobile": 50,
         "margin_bottom_mobile": 50
-      }
-    },
-    "16547599028525190f": {
-      "type": "home-product-carousel",
-      "disabled": true,
-      "settings": {
-        "full": true,
-        "spacing_both_ends": true,
-        "padding": "0,0",
-        "margin": "100,0",
-        "show_background_image": false,
-        "background_style": "none",
-        "background_size": "auto",
-        "enable_overlay": false,
-        "background_color": "",
-        "overlay_transparency": "0.5",
-        "section_heading": "New Arrivals",
-        "section_sub_heading": "Special Products",
-        "section_description": "",
-        "section_button_text": "",
-        "section_button_link": "",
-        "section_heading_color": "",
-        "section_sub_heading_color": "",
-        "section_description_color": "",
-        "section_button_bg_color": "",
-        "section_button_text_color": "",
-        "section_button_hover_bg_color": "",
-        "section_button_hover_text_color": "",
-        "heading_position": "text-center",
-        "grouped_content_bg": "",
-        "grouped_column_gap": "30",
-        "grouped_content_padding": "0",
-        "group_border_radius": "",
-        "enable_group_box_shadow": false,
-        "reverse_column": false,
-        "content_width": "30/70",
-        "lap_content_width": "35/65",
-        "additional_block_background_color": "",
-        "additional_block_box_shadow": false,
-        "additional_content_padding": "0",
-        "additional_block_border_radius": "0",
-        "enable_main_content": true,
-        "main_block_background_color": "",
-        "enable_main_block_box_shadow": false,
-        "main_block_border_radius": "0",
-        "main_content_padding": "0",
-        "collection": "all",
-        "column_gap": "30",
-        "border_radius": "0",
-        "enable_list_view": false,
-        "grid": "2",
-        "post_limit": 2,
-        "enable_slider": true,
-        "items_per_view": 4,
-        "items_laptop_view": 3,
-        "items_tablet_view": 2,
-        "items_mobile_view": 2,
-        "enable_center_mode": false,
-        "rows": 1,
-        "slider_autoplay": 4,
-        "enable_auto_height": false,
-        "dots": false,
-        "carousel_pagination_alignment": "center_pagination",
-        "carousel_pagination_bottom_alignment": "outside_element",
-        "arrows": true,
-        "nav_arrow_position": "navigation-top-center",
-        "center_nav_arrow_alignment": "inside_container",
-        "navigation_button_color": "",
-        "navigation_button_icon_color": "#000000",
-        "navigation_button_hover_color": "",
-        "navigation_button_hover_icon_color": "#000000",
-        "navigation_dot_color": "",
-        "navigation_dot_active_color": "",
-        "enable_section_collection_button_text": false,
-        "section_collection_button_text": "",
-        "section_collection_link": "",
-        "custom_class_name": "custom-product-carosual"
-      }
-    },
-    "home_product_deal_carousel_hMgUtq": {
-      "type": "home-product-deal-carousel",
-      "settings": {
-        "full": true,
-        "spacing_both_ends": false,
-        "padding": "0,0",
-        "margin": "0,0",
-        "show_background_image": false,
-        "background_style": "none",
-        "background_size": "auto",
-        "enable_overlay": false,
-        "background_color": "",
-        "overlay_transparency": "0.5",
-        "section_heading": "Product Carousel",
-        "section_sub_heading": "Sub Heading",
-        "section_description": "Use this text to share the information which you like!.",
-        "section_button_text": "",
-        "section_button_link": "",
-        "section_heading_color": "",
-        "section_sub_heading_color": "",
-        "section_description_color": "",
-        "section_button_bg_color": "",
-        "section_button_text_color": "",
-        "section_button_hover_bg_color": "",
-        "section_button_hover_text_color": "",
-        "heading_position": "text-center",
-        "grouped_content_bg": "",
-        "grouped_column_gap": "30",
-        "grouped_content_padding": "0",
-        "group_border_radius": "0",
-        "enable_group_box_shadow": false,
-        "reverse_column": false,
-        "content_width": "30/70",
-        "lap_content_width": "35/65",
-        "additional_block_background_color": "",
-        "additional_block_box_shadow": false,
-        "additional_content_padding": "0",
-        "additional_block_border_radius": "0",
-        "enable_main_content": true,
-        "main_block_background_color": "",
-        "enable_main_block_box_shadow": false,
-        "main_block_border_radius": "0",
-        "main_content_padding": "0",
-        "collection": "all",
-        "show_list_style": false,
-        "show_thumb_images": true,
-        "display_vendor": false,
-        "truncated_description": false,
-        "excerpt_count": "100",
-        "enable_add_cart": true,
-        "display_color_variant": false,
-        "display_item_size": false,
-        "product_review": false,
-        "enable_product_count": false,
-        "column_gap": "30",
-        "border_radius": "0",
-        "grid": "3",
-        "post_limit": 3,
-        "enable_slider": true,
-        "items_per_view": 3,
-        "items_laptop_view": 3,
-        "items_tablet_view": 2,
-        "items_mobile_view": 1,
-        "rows": 1,
-        "enable_center_mode": false,
-        "slider_autoplay": 0,
-        "enable_auto_height": false,
-        "dots": false,
-        "carousel_pagination_alignment": "center_pagination",
-        "carousel_pagination_bottom_alignment": "outside_element",
-        "arrows": false,
-        "nav_arrow_position": "navigation-top-right",
-        "center_nav_arrow_alignment": "inside_container",
-        "navigation_button_color": "",
-        "navigation_button_icon_color": "",
-        "navigation_button_hover_color": "",
-        "navigation_button_hover_icon_color": "",
-        "navigation_dot_color": "",
-        "navigation_dot_active_color": "",
-        "custom_class_name": ""
-      }
-    },
-    "1654777743997058a9": {
-      "type": "home-flex-banner",
-      "blocks": {
-        "8eb7c848-20bd-4154-b71c-5796df888c30": {
-          "type": "image_image",
-          "settings": {
-            "image": "shopify://shop_images/IG_7.jpg",
-            "icon_class": "",
-            "overlay_title": "Select Your Perfect Design",
-            "link": "shopify://collections/best-sellers-demo-3"
-          }
-        },
-        "9250db1b-f6fd-4bf3-a635-4a79ebc3fafd": {
-          "type": "image_image",
-          "settings": {
-            "image": "shopify://shop_images/body_size_3.jpg",
-            "icon_class": "",
-            "overlay_title": "Enter Your Measurements",
-            "link": "shopify://collections/hot-deals-demo-3"
-          }
-        },
-        "10e2c114-ceda-4c35-a6db-5f35a9e539b0": {
-          "type": "image_image",
-          "settings": {
-            "image": "shopify://shop_images/sewing-some-fabric-with-machine.jpg",
-            "icon_class": "",
-            "overlay_title": "Expertly Crafted, Perfect Fit",
-            "link": "shopify://collections/popular-products-demo-3"
-          }
-        }
-      },
-      "block_order": [
-        "8eb7c848-20bd-4154-b71c-5796df888c30",
-        "9250db1b-f6fd-4bf3-a635-4a79ebc3fafd",
-        "10e2c114-ceda-4c35-a6db-5f35a9e539b0"
-      ],
-      "settings": {
-        "full": true,
-        "spacing_both_ends": true,
-        "padding": "0,0",
-        "margin": "100,0",
-        "show_background_image": false,
-        "background_style": "none",
-        "background_size": "auto",
-        "enable_overlay": false,
-        "background_color": "",
-        "overlay_transparency": "0.5",
-        "section_heading": "",
-        "section_sub_heading": "",
-        "section_description": "",
-        "section_button_text": "",
-        "section_button_link": "",
-        "section_heading_color": "",
-        "section_sub_heading_color": "",
-        "section_description_color": "",
-        "section_button_bg_color": "",
-        "section_button_text_color": "",
-        "section_button_hover_bg_color": "",
-        "section_button_hover_text_color": "",
-        "heading_position": "text-start",
-        "content_position": "text-end",
-        "enable_overlay_content": true,
-        "item_height": 670,
-        "item_height_laptop": 550,
-        "item_height_tab": 500,
-        "item_height_mobile": 450,
-        "image_link_text_color": "#ffffff",
-        "image_link_hover_text_color": "#ffffff",
-        "image_overlay_icon_color": "",
-        "image_overlay_color": "#000000",
-        "custom_class_name": "custom-flex-banner"
-      }
-    },
-    "1654676858d946e20b": {
-      "type": "home-image-gallery",
-      "blocks": {
-        "165467685865eb3b00-0": {
-          "type": "image_image",
-          "settings": {
-            "image": "shopify://shop_images/IG_10.jpg",
-            "icon_class": "fa fa-instagram",
-            "overlay_title": "",
-            "link": "/"
-          }
-        },
-        "165467685865eb3b00-1": {
-          "type": "image_image",
-          "settings": {
-            "image": "shopify://shop_images/IG_5.jpg",
-            "icon_class": "fa fa-instagram",
-            "overlay_title": "",
-            "link": "/"
-          }
-        },
-        "image_image_Czj3gM": {
-          "type": "image_image",
-          "settings": {
-            "image": "shopify://shop_images/IG_6.jpg",
-            "icon_class": "fa fa-instagram",
-            "overlay_title": "Shop the Look",
-            "link": ""
-          }
-        },
-        "165467685865eb3b00-2": {
-          "type": "image_image",
-          "settings": {
-            "image": "shopify://shop_images/IG_7.jpg",
-            "icon_class": "fa fa-instagram",
-            "overlay_title": "",
-            "link": "/"
-          }
-        },
-        "165467685865eb3b00-3": {
-          "type": "image_image",
-          "settings": {
-            "image": "shopify://shop_images/IG_1.png",
-            "icon_class": "fa fa-instagram",
-            "overlay_title": "",
-            "link": "/"
-          }
-        },
-        "165467685865eb3b00-4": {
-          "type": "image_image",
-          "settings": {
-            "image": "shopify://shop_images/IG_8.jpg",
-            "icon_class": "fa fa-instagram",
-            "overlay_title": "",
-            "link": "/"
-          }
-        },
-        "898e5675-ad3d-4041-a449-b43062312c5e": {
-          "type": "image_image",
-          "settings": {
-            "image": "shopify://shop_images/IG_3.jpg",
-            "icon_class": "fa fa-instagram",
-            "overlay_title": "",
-            "link": "/"
-          }
-        }
-      },
-      "block_order": [
-        "165467685865eb3b00-0",
-        "165467685865eb3b00-1",
-        "image_image_Czj3gM",
-        "165467685865eb3b00-2",
-        "165467685865eb3b00-3",
-        "165467685865eb3b00-4",
-        "898e5675-ad3d-4041-a449-b43062312c5e"
-      ],
-      "settings": {
-        "full": true,
-        "spacing_both_ends": true,
-        "padding": "0,0",
-        "margin": "100,64",
-        "show_background_image": false,
-        "background_style": "none",
-        "background_size": "auto",
-        "enable_overlay": false,
-        "background_color": "",
-        "overlay_transparency": "0.5",
-        "section_heading": "Join Instagram",
-        "section_sub_heading": "Follow our post",
-        "section_description": "",
-        "section_button_text": "",
-        "section_button_link": "",
-        "section_heading_color": "",
-        "section_sub_heading_color": "",
-        "section_description_color": "",
-        "section_button_bg_color": "",
-        "section_button_text_color": "",
-        "section_button_hover_bg_color": "",
-        "section_button_hover_text_color": "",
-        "heading_position": "text-center",
-        "grid": "5",
-        "column_gap": "15",
-        "image_list_text": "Insta Feed",
-        "enable_overlay_content": true,
-        "item_height": 310,
-        "item_height_laptop": 310,
-        "item_height_tab": 310,
-        "item_height_mobile": 310,
-        "image_link_text_color": "#e6e6e6",
-        "image_link_hover_text_color": "",
-        "image_overlay_icon_color": "",
-        "image_overlay_color": "",
-        "icon_size": "24",
-        "enable_slider": true,
-        "remove_button_space": false,
-        "enable_auto_height": true,
-        "items_per_view": 5,
-        "items_laptop_view": 4,
-        "items_tablet_view": 3,
-        "items_mobile_view": 1,
-        "enable_center_mode": false,
-        "slider_autoplay": 5,
-        "dots": false,
-        "carousel_pagination_alignment": "center_pagination",
-        "arrows": false,
-        "nav_arrow_position": "center-navigation",
-        "center_nav_arrow_alignment": "along_with_container",
-        "navigation_button_color": "#ffffff",
-        "navigation_button_icon_color": "#000000",
-        "navigation_button_hover_color": "#000000",
-        "navigation_button_hover_icon_color": "#ffffff",
-        "navigation_dot_color": "",
-        "navigation_dot_active_color": "",
-        "custom_class_name": "custom-image-list"
       }
     },
     "recently_stalked_new_XLtgjk": {
@@ -857,6 +490,206 @@
         "section_collection_link": "",
         "custom_class_name": "custom-product-carosual"
       }
+    },
+    "1654777743997058a9": {
+      "type": "home-flex-banner",
+      "blocks": {
+        "8eb7c848-20bd-4154-b71c-5796df888c30": {
+          "type": "image_image",
+          "settings": {
+            "image": "shopify://shop_images/IG_7.jpg",
+            "icon_class": "",
+            "overlay_title": "Select Your Perfect Design",
+            "link": "shopify://collections/best-sellers-demo-3"
+          }
+        },
+        "9250db1b-f6fd-4bf3-a635-4a79ebc3fafd": {
+          "type": "image_image",
+          "settings": {
+            "image": "shopify://shop_images/body_size_3.jpg",
+            "icon_class": "",
+            "overlay_title": "Enter Your Measurements",
+            "link": "shopify://collections/hot-deals-demo-3"
+          }
+        },
+        "10e2c114-ceda-4c35-a6db-5f35a9e539b0": {
+          "type": "image_image",
+          "settings": {
+            "image": "shopify://shop_images/sewing-some-fabric-with-machine.jpg",
+            "icon_class": "",
+            "overlay_title": "Expertly Crafted, Perfect Fit",
+            "link": "shopify://collections/popular-products-demo-3"
+          }
+        }
+      },
+      "block_order": [
+        "8eb7c848-20bd-4154-b71c-5796df888c30",
+        "9250db1b-f6fd-4bf3-a635-4a79ebc3fafd",
+        "10e2c114-ceda-4c35-a6db-5f35a9e539b0"
+      ],
+      "disabled": true,
+      "settings": {
+        "full": true,
+        "spacing_both_ends": true,
+        "padding": "0,0",
+        "margin": "100,0",
+        "show_background_image": false,
+        "background_style": "none",
+        "background_size": "auto",
+        "enable_overlay": false,
+        "background_color": "",
+        "overlay_transparency": "0.5",
+        "section_heading": "",
+        "section_sub_heading": "",
+        "section_description": "",
+        "section_button_text": "",
+        "section_button_link": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_button_bg_color": "",
+        "section_button_text_color": "",
+        "section_button_hover_bg_color": "",
+        "section_button_hover_text_color": "",
+        "heading_position": "text-start",
+        "content_position": "text-end",
+        "enable_overlay_content": true,
+        "item_height": 670,
+        "item_height_laptop": 550,
+        "item_height_tab": 500,
+        "item_height_mobile": 450,
+        "image_link_text_color": "#ffffff",
+        "image_link_hover_text_color": "#ffffff",
+        "image_overlay_icon_color": "",
+        "image_overlay_color": "#000000",
+        "custom_class_name": "custom-flex-banner"
+      }
+    },
+    "1654676858d946e20b": {
+      "type": "home-image-gallery",
+      "blocks": {
+        "165467685865eb3b00-0": {
+          "type": "image_image",
+          "settings": {
+            "image": "shopify://shop_images/COLORBLOCKPATCHSHIRT1.jpg",
+            "icon_class": "fa fa-instagram",
+            "overlay_title": "",
+            "link": "shopify://products/100-linen-shirt"
+          }
+        },
+        "165467685865eb3b00-1": {
+          "type": "image_image",
+          "settings": {
+            "image": "shopify://shop_images/IG_5.jpg",
+            "icon_class": "fa fa-instagram",
+            "overlay_title": "",
+            "link": "/"
+          }
+        },
+        "image_image_Czj3gM": {
+          "type": "image_image",
+          "settings": {
+            "image": "shopify://shop_images/IG_6.jpg",
+            "icon_class": "fa fa-instagram",
+            "overlay_title": "Shop the Look",
+            "link": ""
+          }
+        },
+        "165467685865eb3b00-2": {
+          "type": "image_image",
+          "settings": {
+            "image": "shopify://shop_images/IG_7.jpg",
+            "icon_class": "fa fa-instagram",
+            "overlay_title": "",
+            "link": "/"
+          }
+        },
+        "165467685865eb3b00-3": {
+          "type": "image_image",
+          "settings": {
+            "image": "shopify://shop_images/IG_1.png",
+            "icon_class": "fa fa-instagram",
+            "overlay_title": "",
+            "link": "/"
+          }
+        },
+        "898e5675-ad3d-4041-a449-b43062312c5e": {
+          "type": "image_image",
+          "settings": {
+            "image": "shopify://shop_images/IG_3.jpg",
+            "icon_class": "fa fa-instagram",
+            "overlay_title": "",
+            "link": "/"
+          }
+        }
+      },
+      "block_order": [
+        "165467685865eb3b00-0",
+        "165467685865eb3b00-1",
+        "image_image_Czj3gM",
+        "165467685865eb3b00-2",
+        "165467685865eb3b00-3",
+        "898e5675-ad3d-4041-a449-b43062312c5e"
+      ],
+      "settings": {
+        "full": true,
+        "spacing_both_ends": true,
+        "padding": "0,0",
+        "margin": "100,64",
+        "show_background_image": false,
+        "background_style": "none",
+        "background_size": "auto",
+        "enable_overlay": false,
+        "background_color": "",
+        "overlay_transparency": "0.5",
+        "section_heading": "Join Instagram",
+        "section_sub_heading": "Follow our post",
+        "section_description": "",
+        "section_button_text": "",
+        "section_button_link": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_button_bg_color": "",
+        "section_button_text_color": "",
+        "section_button_hover_bg_color": "",
+        "section_button_hover_text_color": "",
+        "heading_position": "text-center",
+        "grid": "5",
+        "column_gap": "15",
+        "image_list_text": "Insta Feed",
+        "enable_overlay_content": true,
+        "item_height": 310,
+        "item_height_laptop": 310,
+        "item_height_tab": 310,
+        "item_height_mobile": 310,
+        "image_link_text_color": "#e6e6e6",
+        "image_link_hover_text_color": "",
+        "image_overlay_icon_color": "",
+        "image_overlay_color": "",
+        "icon_size": "24",
+        "enable_slider": true,
+        "remove_button_space": false,
+        "enable_auto_height": true,
+        "items_per_view": 5,
+        "items_laptop_view": 4,
+        "items_tablet_view": 3,
+        "items_mobile_view": 1,
+        "enable_center_mode": false,
+        "slider_autoplay": 5,
+        "dots": false,
+        "carousel_pagination_alignment": "center_pagination",
+        "arrows": false,
+        "nav_arrow_position": "center-navigation",
+        "center_nav_arrow_alignment": "along_with_container",
+        "navigation_button_color": "#ffffff",
+        "navigation_button_icon_color": "#000000",
+        "navigation_button_hover_color": "#000000",
+        "navigation_button_hover_icon_color": "#ffffff",
+        "navigation_dot_color": "",
+        "navigation_dot_active_color": "",
+        "custom_class_name": "custom-image-list"
+      }
     }
   },
   "order": [
@@ -864,10 +697,8 @@
     "165536235109a83790",
     "1655702862eb9388c2",
     "tab_featured_collection_qTc9ei",
-    "16547599028525190f",
-    "home_product_deal_carousel_hMgUtq",
+    "recently_stalked_new_XLtgjk",
     "1654777743997058a9",
-    "1654676858d946e20b",
-    "recently_stalked_new_XLtgjk"
+    "1654676858d946e20b"
   ]
 }

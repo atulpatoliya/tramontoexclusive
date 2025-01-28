@@ -78,6 +78,7 @@
         },
         "cad3ad3e-6913-4865-a804-9c9d16146aca": {
           "type": "social-sharing",
+          "disabled": true,
           "settings": {}
         },
         "c5b6d248-2854-4c7d-b95d-83f1f01a6e56": {
@@ -89,6 +90,7 @@
         },
         "ad89aa6a-8f54-4801-a6e4-af0ba415f4a5": {
           "type": "CMS",
+          "disabled": true,
           "settings": {
             "title": "Size fit",
             "page_content": ""
@@ -96,6 +98,7 @@
         },
         "96eaa1e0-bcd0-4d62-b8bd-369c69d215ac": {
           "type": "CMS",
+          "disabled": true,
           "settings": {
             "title": "Size chart",
             "page_content": "services"
