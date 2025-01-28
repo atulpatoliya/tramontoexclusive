@@ -33,18 +33,18 @@
               <div
                 data-section-id="{{ section.id }}"
                 data-section-type="home-product-carousel-section"
-                data-item-per-view="{{section.settings.items_per_view}}"
-                data-laptop-screen-items="{{section.settings.items_laptop_view}}"
-                data-tablet-screen-items="{{section.settings.items_tablet_view}}"
-                data-small-screen-items="{{section.settings.items_mobile_view}}"
-                data-center-mode="{{section.settings.enable_center_mode }}"
-                data-autoplay="{{section.settings.slider_autoplay}}"
-                data-blocks-limit="{{section.blocks.size}}"
-                data-item-space="{{section.settings.column_gap}}"
+                data-item-per-view="{{ section.settings.items_per_view }}"
+                data-laptop-screen-items="4"
+                data-tablet-screen-items="3"
+                data-small-screen-items="2"
+                data-center-mode="{{ section.settings.enable_center_mode }}"
+                data-autoplay="{{ section.settings.slider_autoplay }}"
+                data-blocks-limit="{{ section.blocks.size }}"
+                data-item-space="{{ section.settings.column_gap }}"
                 data-item-row="{{ section.settings.rows }}"
               >
                 <div class="dt-sc-swiper-slider swiper-container {% if section.settings.dots %} {{ section.settings.carousel_pagination_bottom_alignment }} {{ section.settings.carousel_pagination_alignment }} {% endif %} {% if section.settings.arrows %}  {{ section.settings.nav_arrow_position }} {{ section.settings.center_nav_arrow_alignment }} {% endif %}">
-                  <div id="swiper-{{section.id}}-slider" class="dT_vDynamicPWrap-{{ section.id }} dT_vProdWrap">
+                  <div id="swiper-{{section.id}}-slider" class="swiper_slider_item dT_vDynamicPWrap-{{ section.id }} dT_vProdWrap">
                     <ul class="swiper-wrapper {% if section.settings.enable_list_view %}product-list-style{% endif %}">
                       {% for product in block.settings.collection.products %}
                         {% include 'product-grid-item', product: product, swiperSlideClass: 'swiper-slide' %}
