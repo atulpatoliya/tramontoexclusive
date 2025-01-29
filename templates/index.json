@@ -400,11 +400,20 @@
             "collection": "all",
             "btn_text": "View all"
           }
+        },
+        "collection_RXPAWk": {
+          "type": "collection",
+          "settings": {
+            "tab_title": "GenZ collection",
+            "collection": "all",
+            "btn_text": "View all"
+          }
         }
       },
       "block_order": [
         "collection_tttxaL",
-        "collection_ctRG8k"
+        "collection_ctRG8k",
+        "collection_RXPAWk"
       ],
       "custom_css": [],
       "settings": {
