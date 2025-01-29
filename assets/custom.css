@@ -132,7 +132,7 @@
     }
 
     .dt-collection-filter .filter-custom-control label {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .dt-collection-filter .count-bubble,
@@ -250,10 +250,34 @@ footer .footer__newsletter {
 @media screen and (max-width:767px) {
     :root {
         --DTPadding_Btn: 10px 10px 10px 10px;
+        --DTFontSize_H6:14px;
+        --DTFontSize_H1:45px;
+        --DTFontSizeBase:14px;
     }
 
     .dt-sc-heading {
         margin-bottom: 20px;
+    }
+
+    .dt-sc-heading .dt-sc-main-heading {
+        font-size: 20px;
+    }
+
+    .products.dt-sc_button .product-detail {
+        padding-top: 10px;
+    }
+
+    h5,
+    .h5,
+    h5 a,
+    .products .product-detail button.dT_AddToCart.dt-sc-btn,
+    .products .product-detail.content-center .grid-link__title a {
+        font-size: 12px;
+    }
+
+    .products .product-detail button.dT_AddToCart.dt-sc-btn span.add-to-cart-icon {
+        width: 20px;
+        height: 20px;
     }
 }
 
