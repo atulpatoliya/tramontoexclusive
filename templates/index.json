@@ -554,7 +554,7 @@
         "full": true,
         "spacing_both_ends": true,
         "padding": "0,0",
-        "margin": "100,0",
+        "margin": "50,0",
         "show_background_image": false,
         "background_style": "none",
         "background_size": "auto",
