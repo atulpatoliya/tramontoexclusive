@@ -408,12 +408,21 @@
             "collection": "all",
             "btn_text": "View all"
           }
+        },
+        "collection_4VARiC": {
+          "type": "collection",
+          "settings": {
+            "tab_title": "GenZ collection",
+            "collection": "all",
+            "btn_text": "View all"
+          }
         }
       },
       "block_order": [
         "collection_tttxaL",
         "collection_ctRG8k",
-        "collection_RXPAWk"
+        "collection_RXPAWk",
+        "collection_4VARiC"
       ],
       "custom_css": [],
       "settings": {
