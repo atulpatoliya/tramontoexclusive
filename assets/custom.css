@@ -244,4 +244,40 @@ footer .footer__newsletter {
     :root {
         --DTPadding_Btn: 10px 10px 10px 10px;
     }
+
+    .dt-sc-heading {
+        margin-bottom: 20px;
+    }
+}
+
+@media (hover: hover) {
+    .products.dt-sc_button:hover .product-detail form {
+        border-color: var(--DTTertiaryColor);
+        padding-bottom: 20px;
+        background: var(--DT_product_bg_color);
+    }
+
+    .product-list-style .products.dt-sc_button:hover .product-detail form {
+        border-color: transparent;
+    }
+
+
+}
+
+@media (hover: none) {
+
+    .products .product-detail button.dT_AddToCart.dt-sc-btn,
+    .products:hover .product-detail button.dT_AddToCart.dt-sc-btn {
+        opacity: 1;
+    }
+
+    .product-grid-item.sold-out .products.dt-sc_button .product-detail,
+    .products .product-detail {
+        border-color: var(--DTTertiaryColor);
+    }
+
+    .products.dt-sc_button .product-detail form {
+        border-color: var(--DTTertiaryColor);
+        background: var(--DT_product_bg_color);
+    }
 }
