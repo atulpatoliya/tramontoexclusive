@@ -389,14 +389,16 @@
           "type": "collection",
           "settings": {
             "tab_title": "GenZ collection",
-            "collection": "all"
+            "collection": "all",
+            "btn_text": "View all"
           }
         },
         "collection_ctRG8k": {
           "type": "collection",
           "settings": {
             "tab_title": "GenZ collection",
-            "collection": "all"
+            "collection": "all",
+            "btn_text": "View all"
           }
         }
       },
@@ -409,6 +411,9 @@
         "section_heading": "",
         "section_sub_heading": "SUMMER TRENDS",
         "heading_position": "text-center",
+        "desktop_view_item": 4,
+        "tablet_view_item": 3,
+        "mobile_view_item": 2,
         "margin_top_desktop": 50,
         "margin_bottom_desktop": 50,
         "margin_top_mobile": 50,
@@ -635,7 +640,7 @@
         "full": true,
         "spacing_both_ends": true,
         "padding": "0,0",
-        "margin": "100,64",
+        "margin": "50,64",
         "show_background_image": false,
         "background_style": "none",
         "background_size": "auto",
