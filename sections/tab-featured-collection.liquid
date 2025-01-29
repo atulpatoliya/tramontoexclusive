@@ -24,17 +24,19 @@
         {% render 'section-heading', class: section.id %}
       </div>
       <div class="tab_featued_collection_content">
-        <div class="tabs">
-          {% for block in section.blocks %}
-            {% if block.settings.tab_title != blank %}
-              <button
-                data-tab="tab_{{ forloop.index }}"
-                class="slide-button dt-sc-btn tab secondary {% if forloop.index == 1 %} active {% endif %} "
-              >
-                {{ block.settings.tab_title }}
-              </button>
-            {% endif %}
-          {% endfor %}
+        <div class="tab_outer">
+          <div class="tabs">
+            {% for block in section.blocks %}
+              {% if block.settings.tab_title != blank %}
+                <button
+                  data-tab="tab_{{ forloop.index }}"
+                  class="slide-button dt-sc-btn tab secondary {% if forloop.index == 1 %} active {% endif %} "
+                >
+                  {{ block.settings.tab_title }}
+                </button>
+              {% endif %}
+            {% endfor %}
+          </div>
         </div>
         <div class="content">
           {% for block in section.blocks %}
@@ -60,7 +62,9 @@
                 </div>
                 {% if block.settings.btn_text != blank %}
                   <div class="view_all_btn">
-                    <a href="{{ block.settings.collection.url }}" class="slide-button dt-sc-btn secondary">{{ block.settings.btn_text }}</a>
+                    <a href="{{ block.settings.collection.url }}" class="slide-button dt-sc-btn secondary">
+                      {{- block.settings.btn_text -}}
+                    </a>
                   </div>
                 {% endif %}
               </div>
@@ -186,30 +190,30 @@
     },
     {
       "type": "range",
-      "id":"desktop_view_item",
-      "label":"Product view (Desktop)",
+      "id": "desktop_view_item",
+      "label": "Product view (Desktop)",
       "min": 1,
       "max": 10,
       "step": 1,
-      "default":4
+      "default": 4
     },
     {
       "type": "range",
-      "id":"tablet_view_item",
-      "label":"Product view (Tablet)",
+      "id": "tablet_view_item",
+      "label": "Product view (Tablet)",
       "min": 1,
       "max": 10,
       "step": 1,
-      "default":3
+      "default": 3
     },
     {
       "type": "range",
-      "id":"mobile_view_item",
-      "label":"Product view (Mobile)",
+      "id": "mobile_view_item",
+      "label": "Product view (Mobile)",
       "min": 1,
       "max": 10,
       "step": 1,
-      "default":2
+      "default": 2
     },
     {
       "type": "header",
@@ -265,7 +269,7 @@
           "type": "text",
           "id": "tab_title",
           "label": "Tab Title",
-          "default":"GenZ collection"
+          "default": "GenZ collection"
         },
         {
           "type": "collection",
@@ -273,10 +277,10 @@
           "label": "Collection"
         },
         {
-          "type":"text",
-          "label":"View all button text",
-          "id":"btn_text",
-          "default":"View all"
+          "type": "text",
+          "label": "View all button text",
+          "id": "btn_text",
+          "default": "View all"
         }
       ]
     }

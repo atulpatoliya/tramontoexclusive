@@ -39,6 +39,8 @@
 
 .tab_featued_collection_content .tabs {
     margin-bottom: 30px;
+    overflow: auto;
+    padding-bottom: 10px;
 }
 
 .tab_featued_collection_content .products.dt-sc_button .product-detail form {
@@ -226,6 +228,11 @@ footer .footer__newsletter {
 
 .breadcrumb {
     display: none;
+}
+
+.tab_outer button {
+    width: max-content;
+    min-width: fit-content;
 }
 
 @media screen and (max-width:576px) {
