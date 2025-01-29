@@ -43,21 +43,22 @@
             {% if block.settings.collection != blank %}
               <div id="tab_{{ forloop.index }}" class="tab-content {% if forloop.index == 1 %} active {% endif %} ">
                 <div class="dt-sc-swiper-slider swiper-container {% if section.settings.dots %} {{ section.settings.carousel_pagination_bottom_alignment }} {{ section.settings.carousel_pagination_alignment }} {% endif %} {% if section.settings.arrows %}  {{ section.settings.nav_arrow_position }} {{ section.settings.center_nav_arrow_alignment }} {% endif %}">
-                  <div id="swiper-{{section.id}}-slider--{{ block.id }}-{{ forloop.index }}" class="swiper_slider_tab--{{ block.id }}">
+                  <div id="swiper-{{section.id}}-slider--{{ block.id }}-{{ forloop.index }}" class="swiper_slider_tab">
                     <ul class="swiper-wrapper {% if section.settings.enable_list_view %}product-list-style{% endif %}">
                       {% for product in block.settings.collection.products %}
                         {% include 'product-grid-item', product: product, swiperSlideClass: 'swiper-slide' %}
                       {% endfor %}
                     </ul>
                   </div>
-                  
+                  {% if section.settings.arrows %}
                     <div class="swiper-{{ section.id}}-arrows swiper-arrows">
                       <div id="swiper-{{ section.id}}-next" class="swiper-button-next dt-sc-btn"></div>
                       <div id="swiper-{{ section.id}}-prev" class="swiper-button-prev dt-sc-btn"></div>
                     </div>
-
+                  {% endif %}
+                  {% if section.settings.dots %}
                     <div id="swiper-{{ section.id}}-pagination" class="swiper-pagination"></div>
-
+                  {% endif %}
                 </div>
                 {% if block.settings.btn_text != blank %}
                   <div class="view_all_btn">
@@ -74,8 +75,81 @@
     </div>
   </div>
 </div>
-
 <script>
+  function Tabs() {
+    var swipers = {}; // Object to hold Swiper instances for each tab
+
+    var bindAll = function () {
+      var menuElements = document.querySelectorAll('[data-tab]');
+      menuElements.forEach(function (element) {
+        element.addEventListener('click', change, false);
+      });
+    };
+
+    var clear = function () {
+      var menuElements = document.querySelectorAll('[data-tab]');
+      menuElements.forEach(function (element) {
+        element.classList.remove('active');
+        var id = element.getAttribute('data-tab');
+        document.getElementById(id).classList.remove('active');
+      });
+    };
+
+    var change = function (e) {
+      clear();
+      e.target.classList.add('active');
+      var id = e.currentTarget.getAttribute('data-tab');
+      var activeTab = document.getElementById(id);
+      activeTab.classList.add('active');
+
+      // Destroy existing Swiper instance for the current tab if it exists
+      if (swipers[id]) {
+        swipers[id].destroy();
+      }
+
+      // Reinitialize Swiper for the active tab
+      initializeSwiper(id);
+    };
+
+    var initializeSwiper = function (tabId = null) {
+      var sliders = tabId
+        ? [document.querySelector(`#${tabId} .swiper_slider_tab`)]
+        : document.querySelectorAll('.swiper_slider_tab');
+
+      sliders.forEach((slider) => {
+        if (slider) {
+          var swiperInstance = new Swiper(slider, {
+            slidesPerView: 'auto',
+            spaceBetween: 25,
+            autoHeight: true,
+            pagination: {
+              el: '.swiper-pagination',
+              clickable: true,
+            },
+            navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            },
+          });
+
+          // Store Swiper instance for tab management
+          if (tabId) {
+            swipers[tabId] = swiperInstance;
+          }
+        }
+      });
+    };
+
+    bindAll();
+    initializeSwiper(); // Initialize Swiper on page load
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    new Tabs();
+  });
+</script>
+
+<!-- <script>
   function Tabs() {
     var swiper; // Declare swiper variable to access it across functions
 
@@ -107,8 +181,8 @@
       }
     }
 
-    var initializeSwiper = function() {
-      swiper = new Swiper('.swiper_slider_tab--{{ block.id }}', {
+    {% comment %} var initializeSwiper = function() {
+      swiper = new Swiper('.swiper_slider_tab', {
         slidesPerView: 'auto',
         autoHeight: true,
         centeredSlides: false,
@@ -118,7 +192,7 @@
           clickable: true,
         },
       });
-    }
+    } {% endcomment %}
 
     bindAll();
     initializeSwiper(); // Initialize Swiper
@@ -147,7 +221,7 @@
         contents[tabIndex].classList.add('activeContent');
       }
     });
-</script>
+</script> -->
 {% schema %}
 {
   "name": "Tab featured collection",
