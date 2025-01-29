@@ -104,7 +104,7 @@
 
       // Destroy existing Swiper instance for the current tab if it exists
       if (swipers[id]) {
-        swipers[id].destroy();
+        swipers[id].destroy(true, true);
       }
 
       // Reinitialize Swiper for the active tab
@@ -118,17 +118,22 @@
 
       sliders.forEach((slider) => {
         if (slider) {
+          var swiperContainer = slider.closest('.dt-sc-swiper-slider');
+          var nextArrow = swiperContainer.querySelector('.swiper-button-next');
+          var prevArrow = swiperContainer.querySelector('.swiper-button-prev');
+          var pagination = swiperContainer.querySelector('.swiper-pagination');
+
           var swiperInstance = new Swiper(slider, {
             slidesPerView: 'auto',
             spaceBetween: 25,
             autoHeight: true,
             pagination: {
-              el: '.swiper-pagination',
+              el: pagination,
               clickable: true,
             },
             navigation: {
-              nextEl: '.swiper-button-next',
-              prevEl: '.swiper-button-prev',
+              nextEl: nextArrow,
+              prevEl: prevArrow,
             },
           });
 
