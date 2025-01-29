@@ -154,79 +154,7 @@
   });
 </script>
 
-<!-- <script>
-  function Tabs() {
-    var swiper; // Declare swiper variable to access it across functions
 
-    var bindAll = function() {
-      var menuElements = document.querySelectorAll('[data-tab]');
-      for (var i = 0; i < menuElements.length; i++) {
-        menuElements[i].addEventListener('click', change, false);
-      }
-    }
-
-    var clear = function() {
-      var menuElements = document.querySelectorAll('[data-tab]');
-      for (var i = 0; i < menuElements.length; i++) {
-        menuElements[i].classList.remove('active');
-        var id = menuElements[i].getAttribute('data-tab');
-        document.getElementById(id).classList.remove('active');
-      }
-    }
-
-    var change = function(e) {
-      clear();
-      e.target.classList.add('active');
-      var id = e.currentTarget.getAttribute('data-tab');
-      document.getElementById(id).classList.add('active');
-
-      // Ensure Swiper is updated when the active tab changes
-      if (swiper) {
-        swiper.update();
-      }
-    }
-
-    {% comment %} var initializeSwiper = function() {
-      swiper = new Swiper('.swiper_slider_tab', {
-        slidesPerView: 'auto',
-        autoHeight: true,
-        centeredSlides: false,
-        spaceBetween: 25,
-        pagination: {
-          el: '.swiper-pagination',
-          clickable: true,
-        },
-      });
-    } {% endcomment %}
-
-    bindAll();
-    initializeSwiper(); // Initialize Swiper
-  }
-
-  var connectTabs = new Tabs();
-
-    document.body.addEventListener('click', function (e) {
-      if (e.target.tagName === 'BUTTON' && e.target.classList.contains('tab')) {
-        const tabs = document.querySelectorAll('.tab');
-        const tabIndex = Array.from(tabs).indexOf(e.target);
-
-        const contents = document.querySelectorAll('.tab-content');
-
-        //Работа с таб
-        tabs.forEach(function (tab) {
-          tab.classList.remove('active');
-        });
-
-        e.target.classList.add('active');
-
-        //Работа с контентом
-        contents.forEach(function (content) {
-          content.classList.remove('activeContent');
-        });
-        contents[tabIndex].classList.add('activeContent');
-      }
-    });
-</script> -->
 {% schema %}
 {
   "name": "Tab featured collection",
