@@ -50,15 +50,14 @@
                       {% endfor %}
                     </ul>
                   </div>
-                  {% if section.settings.arrows %}
+                  
                     <div class="swiper-{{ section.id}}-arrows swiper-arrows">
                       <div id="swiper-{{ section.id}}-next" class="swiper-button-next dt-sc-btn"></div>
                       <div id="swiper-{{ section.id}}-prev" class="swiper-button-prev dt-sc-btn"></div>
                     </div>
-                  {% endif %}
-                  {% if section.settings.dots %}
+
                     <div id="swiper-{{ section.id}}-pagination" class="swiper-pagination"></div>
-                  {% endif %}
+
                 </div>
                 {% if block.settings.btn_text != blank %}
                   <div class="view_all_btn">
