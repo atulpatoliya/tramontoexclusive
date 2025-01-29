@@ -43,7 +43,7 @@
             {% if block.settings.collection != blank %}
               <div id="tab_{{ forloop.index }}" class="tab-content {% if forloop.index == 1 %} active {% endif %} ">
                 <div class="dt-sc-swiper-slider swiper-container {% if section.settings.dots %} {{ section.settings.carousel_pagination_bottom_alignment }} {{ section.settings.carousel_pagination_alignment }} {% endif %} {% if section.settings.arrows %}  {{ section.settings.nav_arrow_position }} {{ section.settings.center_nav_arrow_alignment }} {% endif %}">
-                  <div id="swiper-{{section.id}}-slider--{{ block.id }}-{{ forloop.index }}" class="swiper_slider_tab">
+                  <div id="swiper-{{section.id}}-slider--{{ block.id }}-{{ forloop.index }}" class="swiper_slider_tab--{{ block.id }}">
                     <ul class="swiper-wrapper {% if section.settings.enable_list_view %}product-list-style{% endif %}">
                       {% for product in block.settings.collection.products %}
                         {% include 'product-grid-item', product: product, swiperSlideClass: 'swiper-slide' %}
@@ -108,8 +108,8 @@
       }
     }
 
-    {% comment %} var initializeSwiper = function() {
-      swiper = new Swiper('.swiper_slider_tab', {
+    var initializeSwiper = function() {
+      swiper = new Swiper('.swiper_slider_tab--{{ block.id }}', {
         slidesPerView: 'auto',
         autoHeight: true,
         centeredSlides: false,
@@ -119,7 +119,7 @@
           clickable: true,
         },
       });
-    } {% endcomment %}
+    }
 
     bindAll();
     initializeSwiper(); // Initialize Swiper
