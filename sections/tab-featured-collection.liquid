@@ -127,7 +127,7 @@
 
   var connectTabs = new Tabs();
 
-    {% comment %} document.body.addEventListener('click', function (e) {
+    document.body.addEventListener('click', function (e) {
       if (e.target.tagName === 'BUTTON' && e.target.classList.contains('tab')) {
         const tabs = document.querySelectorAll('.tab');
         const tabIndex = Array.from(tabs).indexOf(e.target);
@@ -147,7 +147,7 @@
         });
         contents[tabIndex].classList.add('activeContent');
       }
-    }); {% endcomment %}
+    });
 </script>
 {% schema %}
 {
