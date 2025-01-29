@@ -75,6 +75,84 @@
     </div>
   </div>
 </div>
+<script>
+  function Tabs() {
+    var swipers = {}; // Object to hold Swiper instances for each tab
+
+    var bindAll = function () {
+      var menuElements = document.querySelectorAll('[data-tab]');
+      menuElements.forEach(function (element) {
+        element.addEventListener('click', change, false);
+      });
+    };
+
+    var clear = function () {
+      var menuElements = document.querySelectorAll('[data-tab]');
+      menuElements.forEach(function (element) {
+        element.classList.remove('active');
+        var id = element.getAttribute('data-tab');
+        document.getElementById(id).classList.remove('active');
+      });
+    };
+
+    var change = function (e) {
+      clear();
+      e.target.classList.add('active');
+      var id = e.currentTarget.getAttribute('data-tab');
+      var activeTab = document.getElementById(id);
+      activeTab.classList.add('active');
+
+      // Destroy existing Swiper instance for the current tab if it exists
+      if (swipers[id]) {
+        swipers[id].destroy(true, true);
+      }
+
+      // Reinitialize Swiper for the active tab
+      initializeSwiper(id);
+    };
+
+    var initializeSwiper = function (tabId = null) {
+      var sliders = tabId
+        ? [document.querySelector(`#${tabId} .swiper_slider_tab`)]
+        : document.querySelectorAll('.swiper_slider_tab');
+
+      sliders.forEach((slider) => {
+        if (slider) {
+          var swiperContainer = slider.closest('.dt-sc-swiper-slider');
+          var nextArrow = swiperContainer.querySelector('.swiper-button-next');
+          var prevArrow = swiperContainer.querySelector('.swiper-button-prev');
+          var pagination = swiperContainer.querySelector('.swiper-pagination');
+
+          var swiperInstance = new Swiper(slider, {
+            slidesPerView: 'auto',
+            spaceBetween: 25,
+            autoHeight: true,
+            pagination: {
+              el: pagination,
+              clickable: true,
+            },
+            navigation: {
+              nextEl: nextArrow,
+              prevEl: prevArrow,
+            },
+          });
+
+          // Store Swiper instance for tab management
+          if (tabId) {
+            swipers[tabId] = swiperInstance;
+          }
+        }
+      });
+    };
+
+    bindAll();
+    initializeSwiper(); // Initialize Swiper on page load
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    new Tabs();
+  });
+</script>
 
 <!-- <script>
   function Tabs() {
