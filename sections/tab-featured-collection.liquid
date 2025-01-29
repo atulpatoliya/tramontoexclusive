@@ -127,6 +127,11 @@
             slidesPerView: 'auto',
             spaceBetween: 25,
             autoHeight: true,
+            loop: true, // Enables infinite scrolling
+            autoplay: {
+              delay: 2000, // Autoplay delay set to 2 seconds
+              disableOnInteraction: false, // Keeps autoplay running even after user interaction
+            },
             pagination: {
               el: pagination,
               clickable: true,
@@ -153,6 +158,7 @@
     new Tabs();
   });
 </script>
+
 
 
 {% schema %}
