@@ -493,7 +493,7 @@
         "items_per_view": 4,
         "items_laptop_view": 3,
         "items_tablet_view": 2,
-        "items_mobile_view": 1,
+        "items_mobile_view": 3,
         "enable_center_mode": false,
         "rows": 1,
         "slider_autoplay": 4,
