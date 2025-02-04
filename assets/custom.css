@@ -56,7 +56,7 @@
 .view_all_btn {
     display: flex;
     justify-content: center;
-  margin-top:50px;
+  margin-top:25px;
 }
 
 .swiper_slider_tab:not(.swiper-container-initialized) .swiper-wrapper,
