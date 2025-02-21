@@ -24,6 +24,7 @@
       "blocks": {
         "image_image_RPiraP": {
           "type": "image_image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/justin2.jpg",
             "icon_class": "fa fa-instagram",
@@ -33,6 +34,7 @@
         },
         "image_image_F9VJrn": {
           "type": "image_image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/alex_3.jpg",
             "icon_class": "fa fa-instagram",
@@ -42,6 +44,7 @@
         },
         "image_image_bGkPGW": {
           "type": "image_image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/justin1.jpg",
             "icon_class": "fa fa-instagram",
@@ -51,6 +54,7 @@
         },
         "image_image_f4Q7zJ": {
           "type": "image_image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/alex_2.jpg",
             "icon_class": "fa fa-instagram",
@@ -60,6 +64,7 @@
         },
         "image_image_h6EP48": {
           "type": "image_image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/alex_4.jpg",
             "icon_class": "fa fa-instagram",
@@ -86,7 +91,7 @@
         "enable_overlay": false,
         "background_color": "",
         "overlay_transparency": "0.5",
-        "section_heading": "Trends For Summer",
+        "section_heading": "Exclusive Membership",
         "section_sub_heading": "Be Extraordinary",
         "section_description": "Confidence For Life",
         "section_button_text": "",
@@ -112,55 +117,103 @@
         "custom_class_name": ""
       }
     },
-    "home_brand_logos_B3Jyj3": {
-      "type": "home-brand-logos",
+    "home_pricing_table_cXHHV3": {
+      "type": "home-pricing-table",
       "blocks": {
-        "image_cnMRUw": {
-          "type": "Image",
+        "text_JwgXmB": {
+          "type": "text",
           "settings": {
-            "title": "Brand Name",
-            "link": ""
+            "icon_image": "shopify://shop_images/alex_2.jpg",
+            "title": "The Tailored Elite",
+            "duration": "",
+            "desc_title": "$2500 / Month",
+            "link_txt": "Sign up today",
+            "link": "",
+            "linklist_1": "Personalized Stylist",
+            "linklist_1_color": "",
+            "take_time_1": "",
+            "take_time_1_color": "",
+            "linklist_2": "5-8 Customized Items Monthly",
+            "linklist_2_color": "",
+            "take_time_2": "",
+            "take_time_2_color": "",
+            "linklist_3": "Style-Forward Design",
+            "linklist_3_color": "",
+            "take_time_3": "",
+            "take_time_3_color": "",
+            "linklist_4": "Body-Specific Tailoring",
+            "linklist_4_color": "",
+            "take_time_4": "",
+            "take_time_4_color": "",
+            "linklist_5": "All Clothing Sourced",
+            "linklist_5_color": "",
+            "take_time_5": "",
+            "take_time_5_color": "",
+            "linklist_6": "Convenient Monthly Service",
+            "linklist_6_color": "",
+            "take_time_6": "",
+            "take_time_6_color": "",
+            "linklist_7": "Exclusive Client Access",
+            "linklist_7_color": "",
+            "take_time_7": "",
+            "take_time_7_color": "",
+            "linklist_8": "",
+            "linklist_8_color": "",
+            "take_time_8": "",
+            "take_time_8_color": ""
           }
         },
-        "image_tCF8UR": {
-          "type": "Image",
+        "text_6gVjeb": {
+          "type": "text",
           "settings": {
-            "title": "Brand Name",
-            "link": ""
-          }
-        },
-        "image_te43mD": {
-          "type": "Image",
-          "settings": {
-            "title": "Brand Name",
-            "link": ""
-          }
-        },
-        "image_6FFV73": {
-          "type": "Image",
-          "settings": {
-            "title": "Brand Name",
-            "link": ""
-          }
-        },
-        "image_GFmLLD": {
-          "type": "Image",
-          "settings": {
-            "title": "Brand Name",
-            "link": ""
+            "icon_image": "shopify://shop_images/alex_1.jpg",
+            "title": "The Ultimate Luxe",
+            "duration": "",
+            "desc_title": "$5999 / Month",
+            "link_txt": "",
+            "link": "",
+            "linklist_1": "Personalized Stylist",
+            "linklist_1_color": "",
+            "take_time_1": "",
+            "take_time_1_color": "",
+            "linklist_2": "10-16 High-end Custom Pieces",
+            "linklist_2_color": "",
+            "take_time_2": "",
+            "take_time_2_color": "",
+            "linklist_3": "Complete Customization",
+            "linklist_3_color": "",
+            "take_time_3": "",
+            "take_time_3_color": "",
+            "linklist_4": "Fashion-Forward & Body-Tailored Designs",
+            "linklist_4_color": "",
+            "take_time_4": "",
+            "take_time_4_color": "",
+            "linklist_5": "Exclusive Fabric Selection",
+            "linklist_5_color": "",
+            "take_time_5": "",
+            "take_time_5_color": "",
+            "linklist_6": "Full Luxury Experience",
+            "linklist_6_color": "",
+            "take_time_6": "",
+            "take_time_6_color": "",
+            "linklist_7": "Seasonal Style Refresh",
+            "linklist_7_color": "",
+            "take_time_7": "",
+            "take_time_7_color": "",
+            "linklist_8": "",
+            "linklist_8_color": "",
+            "take_time_8": "",
+            "take_time_8_color": ""
           }
         }
       },
       "block_order": [
-        "image_cnMRUw",
-        "image_tCF8UR",
-        "image_te43mD",
-        "image_6FFV73",
-        "image_GFmLLD"
+        "text_JwgXmB",
+        "text_6gVjeb"
       ],
       "settings": {
-        "full": true,
-        "spacing_both_ends": false,
+        "full": false,
+        "spacing_both_ends": true,
         "padding": "0,0",
         "margin": "0,0",
         "show_background_image": false,
@@ -182,35 +235,26 @@
         "section_button_hover_bg_color": "",
         "section_button_hover_text_color": "",
         "heading_position": "text-center",
-        "grid": "3",
-        "block_style": "style-1",
+        "block_style": "style-3",
+        "text_position": "text-center",
+        "grid": "2",
+        "price_table_style": "style1",
+        "border_radius": "0px",
+        "image_border_radius": "0px",
         "enable_box_shadow": false,
-        "column_gap": "30",
-        "border_radius": "0",
+        "enable_image_box_shadow": false,
         "block_border_color": "",
-        "block_background_color": "",
-        "block_hover_background_color": "",
-        "block_icon_color": "",
-        "block_hover_icon_color": "",
-        "enable_slider": true,
-        "enable_auto_height": true,
-        "items_per_view": 4,
-        "items_laptop_view": 3,
-        "items_tablet_view": 2,
-        "items_mobile_view": 1,
-        "enable_center_mode": false,
-        "slider_autoplay": 0,
-        "dots": false,
-        "carousel_pagination_alignment": "center_pagination",
-        "arrows": false,
-        "nav_arrow_position": "navigation-bottom-center",
-        "center_nav_arrow_alignment": "outside_container",
-        "navigation_button_color": "",
-        "navigation_button_icon_color": "",
-        "navigation_button_hover_color": "",
-        "navigation_button_hover_icon_color": "",
-        "navigation_dot_color": "",
-        "navigation_dot_active_color": "",
+        "block_bg": "",
+        "block_heading_color": "",
+        "block_description_color": "",
+        "block_sub_heading_color": "",
+        "block_heading_bg_color": "",
+        "block_seperator_color": "",
+        "block_button_section_bg_color": "",
+        "block_button_bg_color": "",
+        "block_button_text_color": "",
+        "block_button_hover_bg_color": "",
+        "block_button_hover_text_color": "",
         "custom_class_name": ""
       }
     }
@@ -218,6 +262,6 @@
   "order": [
     "main",
     "home_flex_banner_GEcrGg",
-    "home_brand_logos_B3Jyj3"
+    "home_pricing_table_cXHHV3"
   ]
 }
