@@ -569,6 +569,7 @@
         },
         "9250db1b-f6fd-4bf3-a635-4a79ebc3fafd": {
           "type": "image_image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/body_size_3.jpg",
             "icon_class": "",
@@ -591,6 +592,7 @@
         "9250db1b-f6fd-4bf3-a635-4a79ebc3fafd",
         "10e2c114-ceda-4c35-a6db-5f35a9e539b0"
       ],
+      "disabled": true,
       "settings": {
         "full": true,
         "spacing_both_ends": true,
