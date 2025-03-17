@@ -456,26 +456,6 @@
               "column_alignment": "text-start"
             }
           },
-          "28a557d9-cccb-40c8-a425-5693a91b930e": {
-            "type": "menu",
-            "settings": {
-              "title": "Information",
-              "menu": "main-menu",
-              "container_width": 25,
-              "column_alignment": "text-start",
-              "footer_menu_style": "vertical"
-            }
-          },
-          "2728052a-adc8-4453-9719-d7c87f986506": {
-            "type": "menu",
-            "settings": {
-              "title": "Social Share",
-              "menu": "main-menu",
-              "container_width": 25,
-              "column_alignment": "text-start",
-              "footer_menu_style": "vertical"
-            }
-          },
           "newsletter_CFWigK": {
             "type": "newsletter",
             "settings": {
@@ -492,8 +472,6 @@
         },
         "block_order": [
           "40cc8690-9f76-4648-82d9-1632b26486a0",
-          "28a557d9-cccb-40c8-a425-5693a91b930e",
-          "2728052a-adc8-4453-9719-d7c87f986506",
           "newsletter_CFWigK"
         ],
         "settings": {
