@@ -9,36 +9,6 @@
  */
 {
   "sections": {
-    "1648123372889e06c9": {
-      "type": "home-html-text",
-      "settings": {
-        "full": true,
-        "spacing_both_ends": false,
-        "padding": "0,0",
-        "margin": "0,0",
-        "show_background_image": false,
-        "background_style": "none",
-        "background_size": "auto",
-        "enable_overlay": false,
-        "background_color": "",
-        "overlay_transparency": "0.5",
-        "section_heading": "",
-        "section_sub_heading": "",
-        "section_description": "",
-        "section_button_text": "",
-        "section_button_link": "",
-        "section_heading_color": "",
-        "section_sub_heading_color": "",
-        "section_description_color": "",
-        "section_button_bg_color": "",
-        "section_button_text_color": "",
-        "section_button_hover_bg_color": "",
-        "section_button_hover_text_color": "",
-        "heading_position": "text-center",
-        "html": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d535824.851074982!2d-79.75849494069716!3d42.10656967042161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8832aa91bb8a60f7%3A0xd25ae10c2b29727!2s1083%20Blockville-Watts%20Flats%20Rd%2C%20Ashville%2C%20NY%2014710%2C%20USA!5e0!3m2!1sen!2sin!4v1644999816805!5m2!1sen!2sin\" width=\"100%\" height=\"700\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>",
-        "custom_class_name": ""
-      }
-    },
     "main": {
       "type": "contact-layout-3",
       "settings": {
@@ -68,7 +38,7 @@
         "enable_contact_info": true,
         "contact_detail_title": true,
         "contact_det_title": "Contact With Us",
-        "contact_det_description": "Dolor sit amet consectetur adipiscing faucibus purus in massa",
+        "contact_det_description": "",
         "contact_det_title_color": "#000000",
         "contact_det_description_color": "#000000",
         "contact_heading_position": "left",
@@ -86,16 +56,16 @@
         "for_title_decrip": "#000000",
         "contact_module_address": true,
         "contact_module_address_title": "Address",
-        "contact_module_address1": "No: 58 A, East Madison Street,",
-        "contact_module_address2": "Baltimore, MD, USA 4508",
+        "contact_module_address1": "Oceanside,",
+        "contact_module_address2": "CA 92058, United States",
         "contact_phone": true,
         "contact_module_contact_phonetitle": "Phone",
-        "contact_phone1": "<b>Toll-Free: </b> 0000 - 123 - 456789",
-        "contact_phone2": "<b>Toll-Free: </b> 0000 - 123 - 456789",
+        "contact_phone1": "+1 (510)-279-3417",
+        "contact_phone2": "",
         "contact_module_email": true,
         "contact_module_contact_title": "Email",
-        "contact_module_email1": "info@example.com",
-        "contact_module_email2": "support@example.com",
+        "contact_module_email1": "info@tramontoexclusive.com",
+        "contact_module_email2": "",
         "mail_color": "#1a1a1a",
         "mail_hover_color": "#7d583b",
         "contact_opening_hours": false,
@@ -103,7 +73,7 @@
         "contact_opening_hours1": "Mon - Fri: 6am - 8pm <br>\nSaturday: 8am - 4pm <br>\nSunday: 8am - 12pm",
         "enable_contact_form": true,
         "contact_form_title": "Contact Form",
-        "title_description": "Urna duis convallis convallis tellus id interdum",
+        "title_description": "",
         "form_title_color": "#000000",
         "form_description_color": "#1a1a1a",
         "form_heading_position": "left",
@@ -114,7 +84,6 @@
     }
   },
   "order": [
-    "1648123372889e06c9",
     "main"
   ]
 }
