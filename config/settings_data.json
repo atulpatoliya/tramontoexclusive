@@ -164,8 +164,8 @@
     "max_count": 100,
     "fake_heading": "People are viewing this right now",
     "enable_fake_sales": true,
-    "minqty": 10,
-    "maxqty": 100,
+    "minqty": 1,
+    "maxqty": 10,
     "shipping_calculator": "Disabled",
     "password_bg_color": "#d9ddcf",
     "password_logo": "shopify://shop_images/Tramonto_Logo.png",
@@ -570,6 +570,7 @@
           },
           "230b0ecb-020f-4c39-bf47-52b587056412": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "product": "ribbed-knit-shirt",
               "time": "19 minutes ago"
@@ -577,6 +578,7 @@
           },
           "8dbb4b4f-d9ca-4553-b804-4271607154ff": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "product": "satin-effect-contrast-shirt",
               "time": "27 minutes ago"
@@ -591,7 +593,7 @@
         ],
         "settings": {
           "display_recent_purchase": false,
-          "placement": "left",
+          "placement": "right",
           "text": "Someone recently bought"
         }
       },
