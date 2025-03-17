@@ -22,6 +22,7 @@
         },
         "offer_content_iQKgPx": {
           "type": "offer_content",
+          "disabled": true,
           "settings": {
             "icon": "offer",
             "content": "<p>Get this for <strong>INR 1,259</strong></p><p>Flat 10% Off on your first app purchase.<br/>Code: <strong>APP10</strong></p>"
@@ -29,6 +30,7 @@
         },
         "offer_content_APt44C": {
           "type": "offer_content",
+          "disabled": true,
           "settings": {
             "icon": "offer",
             "content": "<p>Get this for <strong>INR 1,119</strong></p><p>Flat 20% Off on minimum purchase of 4599/-<br/>Code: <strong>FLAT20</strong></p>"
@@ -36,6 +38,7 @@
         },
         "offer_content_z8TXeG": {
           "type": "offer_content",
+          "disabled": true,
           "settings": {
             "icon": "offer",
             "content": "<p>Get this for <strong>INR 1,189</strong></p><p>Flat 15% Off on minimum purchase of 2999/-<br/>Code: <strong>FLAT15</strong></p>"
@@ -44,8 +47,8 @@
         "offer_content_pLkE4T": {
           "type": "offer_content",
           "settings": {
-            "icon": "offer",
-            "content": "<p>Get this for <strong>INR 1,259</strong></p><p>Flat 10% Off on minimum purchase of 1999/-<br/>Code: <strong>FLAT10</strong></p>"
+            "icon": "wishlist",
+            "content": "<p>Get <strong>25% Off</strong></p><p>On minimum purchase of $150</p>"
           }
         },
         "f14720d8-dc3c-44a3-8bfa-cea5cf644d9d": {
@@ -136,13 +139,13 @@
         "reviews": false,
         "show_variants_swatches": true,
         "swatch_as": "color",
-        "show_product_quantity": true,
+        "show_product_quantity": false,
         "display_back_in_stock": false,
         "show_quantity_selector": true,
         "show_checkout": true,
         "hide_addtocart": false,
-        "show_wishlist": true,
-        "show_share_buttons": true,
+        "show_wishlist": false,
+        "show_share_buttons": false,
         "tab_position": "right",
         "tab_style": "tab",
         "product_tab1": true,
