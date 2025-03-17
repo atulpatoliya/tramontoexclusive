@@ -2607,6 +2607,7 @@
           },
           "menu_cjhBkD": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "link": "/",
               "text": "Wishlist",
@@ -2615,6 +2616,7 @@
           },
           "menu_TcrxCN": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "link": "/cart",
               "text": "Cart",
