@@ -424,6 +424,14 @@
     "tab_featured_collection_qTc9ei": {
       "type": "tab-featured-collection",
       "blocks": {
+        "collection_bQ9P8P": {
+          "type": "collection",
+          "settings": {
+            "tab_title": "Resort Collection",
+            "collection": "resort-collection",
+            "btn_text": "View all"
+          }
+        },
         "collection_tttxaL": {
           "type": "collection",
           "settings": {
@@ -460,6 +468,7 @@
         }
       },
       "block_order": [
+        "collection_bQ9P8P",
         "collection_tttxaL",
         "collection_ctRG8k",
         "collection_RXPAWk",
