@@ -434,6 +434,7 @@
         },
         "collection_tttxaL": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "tab_title": "GenZ collection",
             "collection": "genz-collection",
