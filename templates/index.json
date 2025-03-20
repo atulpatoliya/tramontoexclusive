@@ -12,12 +12,12 @@
     "16558964709262d5a3": {
       "type": "slideshow",
       "blocks": {
-        "slider_gq8haX": {
+        "edeeb4b2-5aeb-443e-90e0-13c708adfd29": {
           "type": "Slider",
           "settings": {
             "slider_type": "image",
             "image": "shopify://shop_images/Tramo_Background_1.jpg",
-            "mobile_image": "shopify://shop_images/Test.jpg",
+            "mobile_image": "shopify://shop_images/ImportedPhoto.764146020.915207.jpg",
             "video_url": "https://storage.googleapis.com/coverr-main/mp4/Palm_Trees.mp4",
             "iframe_url": "",
             "mobile_bg_clr": "rgba(0,0,0,0)",
@@ -50,12 +50,12 @@
             "slide_bg": "rgba(0,0,0,0)"
           }
         },
-        "edeeb4b2-5aeb-443e-90e0-13c708adfd29": {
+        "slider_gq8haX": {
           "type": "Slider",
           "settings": {
             "slider_type": "image",
             "image": "shopify://shop_images/Tramo_Background_1.jpg",
-            "mobile_image": "shopify://shop_images/ImportedPhoto.764146020.915207.jpg",
+            "mobile_image": "shopify://shop_images/Test.jpg",
             "video_url": "https://storage.googleapis.com/coverr-main/mp4/Palm_Trees.mp4",
             "iframe_url": "",
             "mobile_bg_clr": "rgba(0,0,0,0)",
@@ -164,8 +164,8 @@
         }
       },
       "block_order": [
-        "slider_gq8haX",
         "edeeb4b2-5aeb-443e-90e0-13c708adfd29",
+        "slider_gq8haX",
         "1f1a71ec-81f1-40dc-b63d-24749cf41abf",
         "78fb3562-6812-4608-8360-07477ec4d8c8"
       ],
