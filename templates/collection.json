@@ -71,7 +71,7 @@
         "collections_view_enable": true,
         "enable_items_per_page": false,
         "collections_custom_cols": false,
-        "pagination": "loadmore_btn",
+        "pagination": "infinit_scroll",
         "grid": "4",
         "rows": "4",
         "filter_type": "vertical"
