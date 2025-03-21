@@ -432,15 +432,6 @@
             "btn_text": "View all"
           }
         },
-        "collection_tttxaL": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "tab_title": "GenZ collection",
-            "collection": "genz-collection",
-            "btn_text": "View all"
-          }
-        },
         "collection_ctRG8k": {
           "type": "collection",
           "settings": {
@@ -448,37 +439,53 @@
             "collection": "millennials",
             "btn_text": "View all"
           }
-        },
-        "collection_RXPAWk": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "tab_title": "GenZ collection",
-            "collection": "all",
-            "btn_text": "View all"
-          }
-        },
-        "collection_4VARiC": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "tab_title": "GenZ collection",
-            "collection": "all",
-            "btn_text": "View all"
-          }
         }
       },
       "block_order": [
         "collection_bQ9P8P",
-        "collection_tttxaL",
-        "collection_ctRG8k",
-        "collection_RXPAWk",
-        "collection_4VARiC"
+        "collection_ctRG8k"
       ],
       "custom_css": [],
       "settings": {
         "section_heading": "",
         "section_sub_heading": "SUMMER TRENDS",
+        "heading_position": "text-center",
+        "desktop_view_item": 4,
+        "tablet_view_item": 3,
+        "mobile_view_item": 2,
+        "margin_top_desktop": 50,
+        "margin_bottom_desktop": 50,
+        "margin_top_mobile": 50,
+        "margin_bottom_mobile": 50
+      }
+    },
+    "tab_featured_collection_AAikRz": {
+      "type": "tab-featured-collection",
+      "blocks": {
+        "collection_wCXLiT": {
+          "type": "collection",
+          "settings": {
+            "tab_title": "GenZ Collection",
+            "collection": "genz-collection",
+            "btn_text": "View all"
+          }
+        },
+        "collection_QLyJmf": {
+          "type": "collection",
+          "settings": {
+            "tab_title": "Exclusive Collection",
+            "collection": "new-exclusive-designs",
+            "btn_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_wCXLiT",
+        "collection_QLyJmf"
+      ],
+      "settings": {
+        "section_heading": "",
+        "section_sub_heading": "",
         "heading_position": "text-center",
         "desktop_view_item": 4,
         "tablet_view_item": 3,
@@ -772,6 +779,7 @@
     "165536235109a83790",
     "1655702862eb9388c2",
     "tab_featured_collection_qTc9ei",
+    "tab_featured_collection_AAikRz",
     "recently_stalked_new_XLtgjk",
     "1654777743997058a9",
     "1654676858d946e20b"
