@@ -429,7 +429,7 @@
           "settings": {
             "tab_title": "Resort Collection",
             "collection": "resort-collection",
-            "btn_text": "View all"
+            "btn_text": ""
           }
         },
         "collection_ctRG8k": {
@@ -437,7 +437,7 @@
           "settings": {
             "tab_title": "Millennials Collection",
             "collection": "millennials",
-            "btn_text": "View all"
+            "btn_text": ""
           }
         }
       },
@@ -467,21 +467,40 @@
           "settings": {
             "tab_title": "GenZ Collection",
             "collection": "genz-collection",
-            "btn_text": "View all"
-          }
-        },
-        "collection_QLyJmf": {
-          "type": "collection",
-          "settings": {
-            "tab_title": "Exclusive Collection",
-            "collection": "new-exclusive-designs",
-            "btn_text": "View all"
+            "btn_text": ""
           }
         }
       },
       "block_order": [
-        "collection_wCXLiT",
-        "collection_QLyJmf"
+        "collection_wCXLiT"
+      ],
+      "settings": {
+        "section_heading": "",
+        "section_sub_heading": "",
+        "heading_position": "text-center",
+        "desktop_view_item": 4,
+        "tablet_view_item": 3,
+        "mobile_view_item": 2,
+        "margin_top_desktop": 50,
+        "margin_bottom_desktop": 50,
+        "margin_top_mobile": 50,
+        "margin_bottom_mobile": 50
+      }
+    },
+    "tab_featured_collection_WXeCY3": {
+      "type": "tab-featured-collection",
+      "blocks": {
+        "collection_jNWTjp": {
+          "type": "collection",
+          "settings": {
+            "tab_title": "Exclusive Collection",
+            "collection": "summer-collection",
+            "btn_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_jNWTjp"
       ],
       "settings": {
         "section_heading": "",
@@ -780,6 +799,7 @@
     "1655702862eb9388c2",
     "tab_featured_collection_qTc9ei",
     "tab_featured_collection_AAikRz",
+    "tab_featured_collection_WXeCY3",
     "recently_stalked_new_XLtgjk",
     "1654777743997058a9",
     "1654676858d946e20b"
