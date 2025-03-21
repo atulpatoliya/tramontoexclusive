@@ -145,7 +145,7 @@
         "enable_box_shadow": false,
         "border_radius": "0",
         "content_border_radius": "0",
-        "autoplay": false,
+        "autoplay": true,
         "slideshow_speed": "5000",
         "dots": false,
         "carousel_pagination_alignment": "center_pagination",
