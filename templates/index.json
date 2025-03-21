@@ -17,7 +17,7 @@
           "settings": {
             "slider_type": "image",
             "image": "shopify://shop_images/ONE_DESIGN_-_ONE_SIZE_4.jpg",
-            "mobile_image": "shopify://shop_images/5_1.jpg",
+            "mobile_image": "shopify://shop_images/ONE_DESIGN_-_ONE_SIZE_2.png",
             "video_url": "https://storage.googleapis.com/coverr-main/mp4/Palm_Trees.mp4",
             "iframe_url": "",
             "mobile_bg_clr": "rgba(0,0,0,0)",
