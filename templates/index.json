@@ -87,11 +87,50 @@
             "slide_content_bg": "rgba(0,0,0,0)",
             "slide_bg": "rgba(0,0,0,0)"
           }
+        },
+        "slider_6racaK": {
+          "type": "Slider",
+          "settings": {
+            "slider_type": "image",
+            "image": "shopify://shop_images/ONE_DESIGN_-_ONE_SIZE_4.jpg",
+            "mobile_image": "shopify://shop_images/ONE_DESIGN_-_ONE_SIZE_4.png",
+            "video_url": "https://storage.googleapis.com/coverr-main/mp4/Palm_Trees.mp4",
+            "iframe_url": "",
+            "mobile_bg_clr": "rgba(0,0,0,0)",
+            "text_alignment": "text-center",
+            "content_position": "dt-sc-flex-center",
+            "show_image": false,
+            "show_content": false,
+            "title_2": "ONE STYLE - ONE DESIGN",
+            "subheading_color": "#000000",
+            "subheading_size": "18",
+            "title": "Trending Fashion",
+            "heading_color": "#000000",
+            "heading_size": "50",
+            "desc": "A new era of luxury and exclusivity in men’s fashion. Each piece is tailored to perfection, made from the finest fabrics, and designed to give you the perfect fit.",
+            "desc_color": "#000000",
+            "desc_size": "16",
+            "button": "Shop Now",
+            "link": "shopify://collections/all",
+            "btn_bg_color": "#d9ddcf",
+            "btn_txt_color": "#000000",
+            "btn_hoverbg_color": "#000000",
+            "btn_hovertxt_color": "#ffffff",
+            "button_2": "New Arrivals",
+            "link_2": "shopify://collections",
+            "btn_bg_color_2": "",
+            "btn_txt_color_2": "",
+            "btn_hoverbg_color_2": "",
+            "btn_hovertxt_color_2": "",
+            "slide_content_bg": "rgba(0,0,0,0)",
+            "slide_bg": "rgba(0,0,0,0)"
+          }
         }
       },
       "block_order": [
         "edeeb4b2-5aeb-443e-90e0-13c708adfd29",
-        "slider_3n4Mdm"
+        "slider_3n4Mdm",
+        "slider_6racaK"
       ],
       "settings": {
         "full": true,
