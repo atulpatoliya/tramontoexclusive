@@ -468,11 +468,24 @@
               "container_width": 50,
               "column_alignment": "text-start"
             }
+          },
+          "address_yWLWLj": {
+            "type": "address",
+            "settings": {
+              "title": "Contact us",
+              "footer_address": "Oceanside, CA 92058, United States",
+              "footer_contact_no": "+1 (510)-279-3417",
+              "office_hours": "9 AM - 5 PM (Mon-Fri)",
+              "footer_contact_id": "info@tramontoexclusive.com",
+              "container_width": 20,
+              "column_alignment": "text-start"
+            }
           }
         },
         "block_order": [
           "40cc8690-9f76-4648-82d9-1632b26486a0",
-          "newsletter_CFWigK"
+          "newsletter_CFWigK",
+          "address_yWLWLj"
         ],
         "settings": {
           "full": true,
@@ -510,7 +523,7 @@
       "gdpr-cookies": {
         "type": "gdpr-cookies",
         "settings": {
-          "show_gdpr": true,
+          "show_gdpr": false,
           "style": "left",
           "enable_box_shadow": false,
           "text": "Please click Accept Cookies to continue to use the site.",
