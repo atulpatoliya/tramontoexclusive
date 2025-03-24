@@ -390,7 +390,7 @@
         "collection_bQ9P8P": {
           "type": "collection",
           "settings": {
-            "tab_title": "Resort Collection",
+            "tab_title": "Resort",
             "collection": "resort-collection",
             "btn_text": ""
           }
@@ -398,7 +398,7 @@
         "collection_ctRG8k": {
           "type": "collection",
           "settings": {
-            "tab_title": "Millennials Collection",
+            "tab_title": "Millennials",
             "collection": "millennials",
             "btn_text": ""
           }
@@ -422,13 +422,73 @@
         "margin_bottom_mobile": 50
       }
     },
+    "custom_content_gMBzAq": {
+      "type": "custom-content",
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,0",
+        "margin": "-50,0",
+        "show_background_image": false,
+        "background_style": "none",
+        "background_size": "auto",
+        "enable_overlay": false,
+        "background_color": "",
+        "overlay_transparency": "0.5",
+        "section_heading": "",
+        "section_sub_heading": "",
+        "section_description": "",
+        "section_button_text": "VIEW All",
+        "section_button_link": "shopify://collections/all",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_button_bg_color": "",
+        "section_button_text_color": "",
+        "section_button_hover_bg_color": "",
+        "section_button_hover_text_color": "",
+        "heading_position": "text-center",
+        "html": "<!--<div id='insta-feed'></div>-->",
+        "custom_class_name": ""
+      }
+    },
+    "custom_content_Cikigp": {
+      "type": "custom-content",
+      "settings": {
+        "full": false,
+        "spacing_both_ends": false,
+        "padding": "0,0",
+        "margin": "-50,0",
+        "show_background_image": false,
+        "background_style": "none",
+        "background_size": "auto",
+        "enable_overlay": false,
+        "background_color": "",
+        "overlay_transparency": "0.5",
+        "section_heading": "",
+        "section_sub_heading": "",
+        "section_description": "",
+        "section_button_text": "VIEW All",
+        "section_button_link": "shopify://collections/all",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_button_bg_color": "",
+        "section_button_text_color": "",
+        "section_button_hover_bg_color": "",
+        "section_button_hover_text_color": "",
+        "heading_position": "text-center",
+        "html": "<!--<div id='insta-feed'></div>-->",
+        "custom_class_name": ""
+      }
+    },
     "tab_featured_collection_AAikRz": {
       "type": "tab-featured-collection",
       "blocks": {
         "collection_wCXLiT": {
           "type": "collection",
           "settings": {
-            "tab_title": "GenZ Collection",
+            "tab_title": "",
             "collection": "genz-collection",
             "btn_text": ""
           }
@@ -444,9 +504,9 @@
         "desktop_view_item": 4,
         "tablet_view_item": 3,
         "mobile_view_item": 2,
-        "margin_top_desktop": 50,
+        "margin_top_desktop": 0,
         "margin_bottom_desktop": 50,
-        "margin_top_mobile": 50,
+        "margin_top_mobile": 0,
         "margin_bottom_mobile": 50
       }
     },
@@ -632,15 +692,6 @@
     "1654676858d946e20b": {
       "type": "home-image-gallery",
       "blocks": {
-        "165467685865eb3b00-0": {
-          "type": "image_image",
-          "settings": {
-            "image": "shopify://shop_images/COLORBLOCKPATCHSHIRT1.jpg",
-            "icon_class": "fa fa-instagram",
-            "overlay_title": "",
-            "link": "shopify://products/100-linen-shirt"
-          }
-        },
         "165467685865eb3b00-1": {
           "type": "image_image",
           "settings": {
@@ -688,7 +739,6 @@
         }
       },
       "block_order": [
-        "165467685865eb3b00-0",
         "165467685865eb3b00-1",
         "image_image_Czj3gM",
         "165467685865eb3b00-2",
@@ -761,8 +811,10 @@
     "165536235109a83790",
     "1655702862eb9388c2",
     "tab_featured_collection_qTc9ei",
+    "custom_content_gMBzAq",
     "tab_featured_collection_AAikRz",
     "tab_featured_collection_WXeCY3",
+    "custom_content_Cikigp",
     "recently_stalked_new_XLtgjk",
     "1654777743997058a9",
     "1654676858d946e20b"
