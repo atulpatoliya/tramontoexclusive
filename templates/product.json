@@ -46,6 +46,7 @@
         },
         "offer_content_pLkE4T": {
           "type": "offer_content",
+          "disabled": true,
           "settings": {
             "icon": "wishlist",
             "content": "<p>Get <strong>25% Off</strong></p><p>On minimum purchase of $150</p>"
