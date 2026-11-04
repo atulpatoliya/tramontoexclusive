@@ -11,7 +11,7 @@
 {%- assign column = 'three-column' -%}              
 {% endcase %} 
 
-{% case section.settings.boxed_styles == 'overall_boxed' %}
+{% case section.settings.boxed_styles %}
 {% when 'overall_boxed' %}
 {%- assign boxed_styles = 'overall_boxed' %}
 {% when 'content_boxed' %}
@@ -1488,4 +1488,13 @@
 }
 ]
 }
-{% endschema %}
+{% endschema %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% case section.settings.boxed_styles == 'overall_boxed' %}"
+  to: "{% case section.settings.boxed_styles %}"
+  position: 349..389
+{%- endcomment -%}

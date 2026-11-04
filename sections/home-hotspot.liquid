@@ -22,7 +22,7 @@
 {%- assign column = 'three-column' -%}
 {% endcase %}
 
-{% case section.settings.icon_format == 'numbered' %}
+{% case section.settings.icon_format %}
 {% when 'numbered' %}
 {%- assign icon_format = 'numbered' %}
 {% when 'alphabets' %}
@@ -1115,4 +1115,13 @@
 }
 ]
 }
-{% endschema %}
+{% endschema %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% case section.settings.icon_format == 'numbered' %}"
+  to: "{% case section.settings.icon_format %}"
+  position: 687..726
+{%- endcomment -%}
